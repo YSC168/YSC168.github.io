@@ -8,21 +8,28 @@
     
     <url>
         <loc>http://yscblog.top/about/</loc>
-        <lastmod>2018-05-13T11:43:22.000Z</lastmod>
+        <lastmod>2018-05-16T05:20:40.172Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://yscblog.top/photos/</loc>
+        <lastmod>2018-05-16T04:23:26.760Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://yscblog.top/categories/</loc>
-        <lastmod>2018-05-13T02:24:56.847Z</lastmod>
+        <lastmod>2018-05-13T02:24:58.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://yscblog.top/tags/</loc>
-        <lastmod>2018-05-13T02:24:51.647Z</lastmod>
+        <lastmod>2018-05-13T02:24:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

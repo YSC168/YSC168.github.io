@@ -80,17 +80,17 @@
 
 
 
-<meta name="description" content="关于我一只学习前端的小菜鸟，欢迎分享知识。 From YSC QQ：1643671159Email: 1643671159@qq.com">
+<meta name="description" content="关于我一只学习前端的小菜鸟，欢迎分享知识。 From YSC   QQ：1643671159Email: 1643671159@qq.com">
 <meta property="og:type" content="website">
 <meta property="og:title" content="微博客">
 <meta property="og:url" content="http://yscblog.top/about/index.html">
 <meta property="og:site_name" content="微博客">
-<meta property="og:description" content="关于我一只学习前端的小菜鸟，欢迎分享知识。 From YSC QQ：1643671159Email: 1643671159@qq.com">
+<meta property="og:description" content="关于我一只学习前端的小菜鸟，欢迎分享知识。 From YSC   QQ：1643671159Email: 1643671159@qq.com">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-13T11:43:22.000Z">
+<meta property="og:updated_time" content="2018-05-16T05:20:40.172Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微博客">
-<meta name="twitter:description" content="关于我一只学习前端的小菜鸟，欢迎分享知识。 From YSC QQ：1643671159Email: 1643671159@qq.com">
+<meta name="twitter:description" content="关于我一只学习前端的小菜鸟，欢迎分享知识。 From YSC   QQ：1643671159Email: 1643671159@qq.com">
 
 
 
@@ -235,6 +235,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-相册">
+          <a href="/photos/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            相册
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -309,6 +319,8 @@
         
           <h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>一只学习前端的小菜鸟，欢迎分享知识。</p>
 <p>From YSC</p>
+<embed src="//music.163.com/style/swf/widget.swf?sid=461525011&type=2&auto=0&width=320&height=66" width="340" height="86" allownetworking="all">
+
 <p>QQ：1643671159<br>Email: <a href="mailto:1643671159@qq.com" target="_blank" rel="noopener">1643671159@qq.com</a></p>
 
         
@@ -490,15 +502,15 @@
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">YSC</span>
-
+<span id="busuanzi_container_site_uv">
+      &nbsp&nbsp&nbsp&nbsp你是第<span id="busuanzi_value_site_uv"></span>位小伙伴
+</span>
   
 </div>
 
 
 <div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
+
 </div>
   <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
@@ -512,7 +524,24 @@
 
 
 
-
+<br>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("01/18/2018 12:00:00");//此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
         
 
 
@@ -992,7 +1021,7 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":"wanko","bottom":-30,"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></body>
 </html>
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>

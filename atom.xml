@@ -44,7 +44,7 @@
     <link href="http://yscblog.top/2018/05/08/Github-Hexo%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yscblog.top/2018/05/08/Github-Hexo制作个人博客/</id>
     <published>2018-05-08T12:38:42.000Z</published>
-    <updated>2018-05-13T02:18:50.075Z</updated>
+    <updated>2018-05-13T02:18:52.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一<a id="more"></a></h2><p><a href="https://www.jianshu.com/p/e6662ca7e283" target="_blank" rel="noopener">github+hexo 搭建属于自己的博客网站</a></p><h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p><a href="https://www.jianshu.com/p/469e985288b3" target="_blank" rel="noopener">GITHUB+HEXO博客轻松更换主题外观</a></p><h2 id="如果提示-ERROR-Deployer-not-found-git"><a href="#如果提示-ERROR-Deployer-not-found-git" class="headerlink" title="如果提示 ERROR Deployer not found: git"></a>如果提示 ERROR Deployer not found: git</h2><p>则输入 npm install –save hexo-deployer-git</p>]]></content>
     
