@@ -14,7 +14,16 @@
 
 
 
-
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -52,16 +61,16 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/lovebig.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/32love.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/16love.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/lovelogo.svg?v=5.1.4" color="#222">
 
 
 
@@ -88,7 +97,7 @@
 <meta property="og:site_name" content="微博客">
 <meta property="og:description" content="步骤一">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-13T02:18:52.000Z">
+<meta property="og:updated_time" content="2018-07-05T10:50:20.091Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github+Hexo制作个人博客">
 <meta name="twitter:description" content="步骤一">
@@ -145,7 +154,7 @@
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
-
+ 
   
   
     
@@ -396,7 +405,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  49
+                  134
                 </span>
               
 
@@ -435,8 +444,15 @@
 
       
         <h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一<a id="more"></a></h2><p><a href="https://www.jianshu.com/p/e6662ca7e283" target="_blank" rel="noopener">github+hexo 搭建属于自己的博客网站</a></p>
+<h3 id="在高大上一点"><a href="#在高大上一点" class="headerlink" title="在高大上一点"></a>在高大上一点</h3><p><a href="https://www.zybuluo.com/ysc168/note/1130772" target="_blank" rel="noopener">让 GITHUB 的链接跳向自己设置的域名</a></p>
 <h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p><a href="https://www.jianshu.com/p/469e985288b3" target="_blank" rel="noopener">GITHUB+HEXO博客轻松更换主题外观</a></p>
-<h2 id="如果提示-ERROR-Deployer-not-found-git"><a href="#如果提示-ERROR-Deployer-not-found-git" class="headerlink" title="如果提示 ERROR Deployer not found: git"></a>如果提示 ERROR Deployer not found: git</h2><p>则输入 npm install –save hexo-deployer-git</p>
+<h2 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h2><p><a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">32种主题个性化教程</a></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><strong>如果提示 ERROR Deployer not found: git</strong></p>
+<p>则输入 npm install –save hexo-deployer-git</p>
+<p><strong>修改博客字体大小</strong></p>
+<p>打开hexo\themes\next\source\css\ _variables\custom.styl文件，将$font-size-base改成15px，如下所示：</p>
+<pre><code>$font-size-base            =15px
+</code></pre><p><strong>最后 hexo的英文冒号后要空格，不然会出错！</strong></p>
 
       
     </div>
@@ -478,6 +494,10 @@
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/01/2018大年初二/" rel="next" title="2018大年初二">
+                <i class="fa fa-chevron-left"></i> 2018大年初二
+              </a>
             
           </div>
 
@@ -594,7 +614,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -654,6 +674,12 @@ var jiathis_config={
                         <i class="fa fa-fw fa-google"></i>Google</a>
                   </span>
                 
+                  <span class="links-of-author-item">
+                    <a href="https://twitter.com/yourname" target="_blank" title="Twitter">
+                      
+                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                  </span>
+                
             </div>
           
 
@@ -678,7 +704,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤一"><span class="nav-number">1.</span> <span class="nav-text">步骤一</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤二"><span class="nav-number">2.</span> <span class="nav-text">步骤二</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如果提示-ERROR-Deployer-not-found-git"><span class="nav-number">3.</span> <span class="nav-text">如果提示 ERROR Deployer not found: git</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤一"><span class="nav-number">1.</span> <span class="nav-text">步骤一</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#在高大上一点"><span class="nav-number">1.1.</span> <span class="nav-text">在高大上一点</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤二"><span class="nav-number">2.</span> <span class="nav-text">步骤二</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤三"><span class="nav-number">3.</span> <span class="nav-text">步骤三</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他"><span class="nav-number">4.</span> <span class="nav-text">其他</span></a></li></ol></div>
             
 
           </div>
@@ -700,7 +726,7 @@ var jiathis_config={
       <div class="footer-inner">
         <div class="copyright">&copy; <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">YSC</span>
 <span id="busuanzi_container_site_uv">
