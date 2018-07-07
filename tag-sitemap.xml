@@ -9,13 +9,6 @@
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/github/</loc>
-        <lastmod>2018-07-05T10:50:20.091Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yscblog.top/tags/npm/</loc>
         <lastmod>2018-07-05T10:50:20.091Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,6 +17,13 @@
 
     <url>
         <loc>http://yscblog.top/tags/hexo/</loc>
+        <lastmod>2018-07-05T10:50:20.091Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yscblog.top/tags/github/</loc>
         <lastmod>2018-07-05T10:50:20.091Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
