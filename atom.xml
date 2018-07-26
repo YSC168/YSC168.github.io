@@ -159,7 +159,7 @@
     <link href="http://yscblog.top/2018/05/08/Github-Hexo%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yscblog.top/2018/05/08/Github-Hexo制作个人博客/</id>
     <published>2018-05-08T12:38:42.000Z</published>
-    <updated>2018-07-26T14:58:30.762Z</updated>
+    <updated>2018-07-26T15:34:07.616Z</updated>
     
     <content type="html"><![CDATA[<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一<a id="more"></a></h2><p><a href="https://www.jianshu.com/p/e6662ca7e283" target="_blank" rel="noopener">github+hexo 搭建属于自己的博客网站</a></p><h3 id="在高大上一点"><a href="#在高大上一点" class="headerlink" title="在高大上一点"></a>在高大上一点</h3><p><a href="https://www.zybuluo.com/ysc168/note/1130772" target="_blank" rel="noopener">让 GITHUB 的链接跳向自己设置的域名</a></p><h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p><a href="https://www.jianshu.com/p/469e985288b3" target="_blank" rel="noopener">GITHUB+HEXO博客轻松更换主题外观</a></p><h2 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h2><p><a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">32种主题个性化教程</a></p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><strong>如果提示 ERROR Deployer not found: git</strong></p><p>则输入 npm install –save hexo-deployer-git</p><p><strong>修改博客字体大小</strong></p><p>打开hexo\themes\next\source\css\ _variables\custom.styl文件，将$font-size-base改成15px，如下所示：</p><pre><code>$font-size-base            =15px</code></pre><p>看到FATAL、error就表明呵呵了。建议关掉本地预览页面(<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>) （我也不懂为什么，但是这样做有时候确实有效），然后hexo clean一下，重新生成静态文件，再次部署。<br>部署成功之后，打开yourusername.github.io看看是否已经有blog了？</p><p><strong>最后 hexo的英文冒号后要空格，不然会出错！</strong></p>]]></content>
     
@@ -172,11 +172,11 @@
       <category term="搭建博客" scheme="http://yscblog.top/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="github" scheme="http://yscblog.top/tags/github/"/>
-    
       <category term="npm" scheme="http://yscblog.top/tags/npm/"/>
     
       <category term="hexo" scheme="http://yscblog.top/tags/hexo/"/>
+    
+      <category term="github" scheme="http://yscblog.top/tags/github/"/>
     
   </entry>
   
