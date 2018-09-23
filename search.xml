@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[一次旅行]]></title>
+    <url>%2F2018%2F09%2F23%2F%E4%B8%80%E6%AC%A1%E6%97%85%E8%A1%8C%2F</url>
+    <content type="text"><![CDATA[【前言】其实想要充实人生，要么旅行要么看书。不是人在路上就是心在路上。 在学校没课的日子里我选择了旅行，时间是9月12日~9月17日。这次的目的地有西安，洛阳，郑州。其中景点去了兵马俑博物馆，鸿门宴，西安鼓楼，大雁塔，龙门石窟，洛邑古城（其中文峰塔），二七广场，顺带去看了下黄河。 先说坐火车吧。我坐火车的次数是很少的，但是这次补了很多。时长最长是17小时多，还是返程。回来至少要两天适应。当然高铁很快，但价格高啊！ 北方地区地势平缓，一望无垠。玉米矮小，种植是大批量的。西安是一个历史文化凝重的城市，许多重要的历史事件都在这里上演。也是一个信佛的地方，因此吸引了大量的游客。但是发展不快，公交车上还有售票员。307路公交车几乎包含了所有景点。郑州是一个极现代的城市，有最大的火车站，四开门公交，两个公交拼接等。 秦始皇兵马俑博物馆这是我出行游览量最大的景点，你会发现这个世界真的真的很大，大得无法想象。我们只买了门票，没有买讲解的，也就呵呵了。确实没有讲解（三分看风景，七分听讲解）你只能看看看，拍拍拍，游览完没有半点收获。作为世界八大奇迹，更是吸引了很多外国人，包括老人和小孩。外国人普遍比中国人高，壮。许多人有备而来，带来了许多专业的相机，单反，自拍杆，三脚架。把最美好的镜头带回去。 鼓楼的夜景很好看，很有古代的建筑风格。可是在一个交通要塞真的好吗？ 回民街——繁华的小吃街，晚上人口量暴多。 龙门石窟 这是一个文化景点，也是我走的最累的景点。其中奉先寺是最有名气的石像。 洛邑古城 这是最像古建筑的景点。一首《杨柳依依》的音乐配上古风的表演也是精彩绝伦。灯光汇演也很有特色（也许就是投影）。 到了北方，饮食自然是以面食为主。biangbiang面、肉夹馍、担担面、胡辣汤（记不得啦），面条普遍宽，厚，粗。碗也是相当的大，我只知道我吃不完！！！有一次午餐我终于吃了米饭，那感觉像是回到了家一样。 当然，每个晚上还要出去骑共享单车，单车种类可以说很多了。其中最让我惊奇的是哈罗单车（助力车），蹬一圈可以走很远。很享受这种骑车不累和速度较快的感觉。速度再快就要共享汽车了（盼达OK）。 黄河 相信在南方的我们很少看见黄河，在郑州的黄河边看见了它的壮阔。 不写了不写了]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>开心</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Android更换全局字体]]></title>
     <url>%2F2018%2F09%2F20%2FAndroid%E6%9B%B4%E6%8D%A2%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93%2F</url>
-    <content type="text"><![CDATA[Android O 推出了一项新的功能 Fonts in XML，借助这项功能，我们能比较方便地实现App全局字体的替换。Android Studio操作 右键单击项目的 app / res 文件夹，然后选择 New &gt; Android resource directory。 打开下拉菜单并选择 font，输入 font 作为File name，点击OK。 将字体文件拖放到新的 res / font 文件夹中。Android O支持 .otf（OpenType） 和 .ttf（TrueType） 两种格式的字体文件。 创建Font family在Android Studio中创建Font family 右键单击项目的 res / font 文件夹，然后选择 New &gt; Font resource file 。 输入文件名，然后点击 OK . 打开此XML文件并定义该字体的所有不同版本，以及其样式和权重属性，例如： 1234567891011&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;font-family xmlns:android="http://schemas.android.com/apk/res/android"&gt; &lt;font android:fontStyle="normal" android:fontWeight="400" android:font="@font/lobster_regular" /&gt; &lt;font android:fontStyle="italic" android:fontWeight="400" android:font="@font/lobster_italic" /&gt;&lt;/font-family&gt; 添加字体至style 打开 style.xml 文件，将fontFamily属性设置为你想要访问的字体文件。 123&lt;style name="customfontstyle" parent="@android:style/TextAppearance.Small"&gt; &lt;item name="android:fontFamily"&gt;@font/lobster&lt;/item&gt;&lt;/style&gt; 在XML布局中使用字体资源给TextView添加字体 在XML布局文件中，将fontFamily设置为你想要的访问的字体文件： 1234&lt;TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lobster"/&gt; 在你的App的Theme中配置此属性即可实现整个App的字体替换。 使用代码控制字体12Typeface typeface = getResources().getFont(R.font.myfont);textView.setTypeface(typeface); 内容来自Android Developer官网，做了简单的翻译https://developer.android.com/preview/features/fonts-in-xml.html]]></content>
+    <content type="text"><![CDATA[Android O 推出了一项新的功能 Fonts in XML，借助这项功能，我们能比较方便地实现App全局字体的替换。Android Studio操作 右键单击项目的 app / res 文件夹，然后选择 New &gt; Android resource directory。 打开下拉菜单并选择 font，输入 font 作为File name，点击OK。 将字体文件拖放到新的 res / font 文件夹中。Android O支持 .otf（OpenType） 和 .ttf（TrueType） 两种格式的字体文件。 创建Font family在Android Studio中创建Font family 右键单击项目的 res / font 文件夹，然后选择 New &gt; Font resource file 。 输入文件名，然后点击 OK . 打开此XML文件并定义该字体的所有不同版本，以及其样式和权重属性，例如： 1234567891011&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;font-family xmlns:android="http://schemas.android.com/apk/res/android"&gt; &lt;font android:fontStyle="normal" android:fontWeight="400" android:font="@font/lobster_regular" /&gt; &lt;font android:fontStyle="italic" android:fontWeight="400" android:font="@font/lobster_italic" /&gt;&lt;/font-family&gt; 添加字体至style 打开 style.xml 文件，将fontFamily属性设置为你想要访问的字体文件。 123&lt;style name="customfontstyle" parent="@android:style/TextAppearance.Small"&gt; &lt;item name="android:fontFamily"&gt;@font/lobster&lt;/item&gt;&lt;/style&gt; 在XML布局中使用字体资源给TextView添加字体 在XML布局文件中，将fontFamily设置为你想要的访问的字体文件： 1234&lt;TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lobster"/&gt; 在你的App的Theme中配置此属性即可实现整个App的字体替换。 使用代码控制字体12Typeface typeface = getResources().getFont(R.font.myfont);textView.setTypeface(typeface); 内容来自Android Developer官网，做了简单的翻译https://developer.android.com/preview/features/fonts-in-xml.html DEMO下载]]></content>
       <categories>
         <category>安卓</category>
       </categories>
@@ -30,7 +41,7 @@
   <entry>
     <title><![CDATA[安利软件]]></title>
     <url>%2F2018%2F07%2F07%2F%E5%AE%89%E5%88%A9%E8%BD%AF%E4%BB%B6%2F</url>
-    <content type="text"><![CDATA[推荐项 酷安（发现各种神奇的软件） NFC卡模拟（刷门禁）需支持NFC和Root手机 Nova Launcher（桌面，酷安有各种主题包） 简书（看些小文章和趣事） 一个木塔（各种小工具集合） 藏书馆（看书的经典） 欧陆词典（！！！） 使用项 QQ 微信 支付宝 AIDE Chrome 百度网盘 哔哩哔哩 MT管理器 网易云音乐 百度输入法 游戏项 炉石传说 英雄联盟 王者荣耀 直播项 没有 小众软件 LEARN·软件 下载地址自制软件。界面显丑，功能较多 星座·软件 下载地址没什么用的星座指南 MD浏览器·软件 下载地址功能很多的小体积浏览器 美美播放器·软件 下载地址体积很小的本地音乐播放器 Boo！·软件 下载地址利用前摄像头做的有趣软件]]></content>
+    <content type="text"><![CDATA[我们在日常的手机使用中总有一些值得推荐的软件，下面我来推荐几个 酷安（发现各种神奇的软件） NFC卡模拟（刷门禁）需支持NFC和Root手机 Nova Launcher（桌面，酷安有各种主题包） 简书（看些小文章和趣事） 一个木塔（各种小工具集合） 藏书馆（看书的经典） 欧陆词典（！！！） 使用项 QQ 微信 支付宝 AIDE Chrome 百度网盘 哔哩哔哩 MT管理器 网易云音乐 百度输入法 游戏项 炉石传说 英雄联盟 王者荣耀 直播项 没有 小众软件 LEARN·软件 下载地址自制软件。界面显丑，功能较多 星座·软件 下载地址没什么用的星座指南 MD浏览器·软件 下载地址功能很多的小体积浏览器 美美播放器·软件 下载地址体积很小的本地音乐播放器 Boo！·软件 下载地址利用前摄像头做的有趣软件 屏幕特效·软件 下载地址悬浮飘动的气泡真的很好看]]></content>
       <categories>
         <category>安卓</category>
       </categories>

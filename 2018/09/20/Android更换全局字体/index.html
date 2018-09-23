@@ -97,7 +97,7 @@
 <meta property="og:site_name" content="微博客">
 <meta property="og:description" content="Android O 推出了一项新的功能 Fonts in XML，借助这项功能，我们能比较方便地实现App全局字体的替换。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-20T08:04:58.398Z">
+<meta property="og:updated_time" content="2018-09-23T01:11:29.530Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android更换全局字体">
 <meta name="twitter:description" content="Android O 推出了一项新的功能 Fonts in XML，借助这项功能，我们能比较方便地实现App全局字体的替换。">
@@ -405,7 +405,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  417
+                  420
                 </span>
               
 
@@ -459,9 +459,9 @@
 <li><p>输入文件名，然后点击 <code>OK</code> .</p>
 </li>
 <li><p>打开此XML文件并定义该字体的所有不同版本，以及其样式和权重属性，例如：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">font-family</span> <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">font</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontStyle</span>=<span class="string">"normal"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontWeight</span>=<span class="string">"400"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:font</span>=<span class="string">"@font/lobster_regular"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">font</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontStyle</span>=<span class="string">"italic"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontWeight</span>=<span class="string">"400"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:font</span>=<span class="string">"@font/lobster_italic"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">font-family</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">font-family</span> <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">font</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontStyle</span>=<span class="string">"normal"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontWeight</span>=<span class="string">"400"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:font</span>=<span class="string">"@font/lobster_regular"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">font</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontStyle</span>=<span class="string">"italic"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:fontWeight</span>=<span class="string">"400"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:font</span>=<span class="string">"@font/lobster_italic"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">font-family</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p><strong>添加字体至style</strong></p>
 <p>打开 <code>style.xml</code> 文件，将fontFamily属性设置为你想要访问的字体文件。</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">name</span>=<span class="string">"customfontstyle"</span> <span class="attr">parent</span>=<span class="string">"@android:style/TextAppearance.Small"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">item</span> <span class="attr">name</span>=<span class="string">"android:fontFamily"</span>&gt;</span>@font/lobster<span class="tag">&lt;/<span class="name">item</span>&gt;</span></span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -474,6 +474,7 @@
 <p>在你的App的Theme中配置此属性即可实现整个App的字体替换。</p>
 <h3 id="使用代码控制字体"><a href="#使用代码控制字体" class="headerlink" title="使用代码控制字体"></a>使用代码控制字体</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Typeface typeface = getResources().getFont(R.font.myfont);</span><br><span class="line">textView.setTypeface(typeface);</span><br></pre></td></tr></table></figure>
 <p>内容来自Android Developer官网，做了简单的翻译<br><a href="https://developer.android.com/preview/features/fonts-in-xml.html" target="_blank" rel="noopener">https://developer.android.com/preview/features/fonts-in-xml.html</a></p>
+<p><a href="https://raw.githubusercontent.com/YSC168/eee/master/demo.apk" target="_blank" rel="noopener">DEMO下载</a></p>
 
       
     </div>
@@ -553,6 +554,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/09/23/一次旅行/" rel="prev" title="一次旅行">
+                一次旅行 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -659,7 +664,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -670,7 +675,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -681,7 +686,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
