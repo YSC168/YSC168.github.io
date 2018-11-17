@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ADB的使用]]></title>
+    <url>%2F2018%2F11%2F18%2FADB%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[手机要进入设置-&gt;开发人员选项-&gt;USB调试输入 adb services 显示有一串数字就OK了 打开根目录/data/misc/wifi/wpa_supplicant.conf的文件可以查看连过的WIFI密码 一、配置android的adb环境变量 建议百度 二、常用的adb代码 1、重启有关 关机先输入adb shell,然后reboot -p 重启设备 adb reboot 重启到bootloader界面 adb reboot bootloader 重启到Recovery界面 adb reboot recovery 2、APK操作（手机应用不需要ROOT权限） 卸载软件 adb shell pm uninstall -k 包名 使用-k参数：保留安装包的数据和缓存目录。 常用包名（不要干坏事！！！）QQ：com.tencent.mobileqq微信：com.tencent.mm微博：com.sina.weibo支付宝：com.eg.android.AlipayGphone 安装软件 没有]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[科学上网，蓝灯必备]]></title>
     <url>%2F2018%2F09%2F30%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
     <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
@@ -122,9 +127,9 @@
         <category>搭建博客</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>npm</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
