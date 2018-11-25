@@ -3,6 +3,12 @@ const ap = new APlayer({
     fixed: true,
     audio: [
        
+         {
+        name: 'Horizon',
+        artist: 'Janji',
+        url: 'https://link.hhtjim.com/163/546948647.mp3',
+        cover: 'https://raw.githubusercontent.com/YSC168/eee/master/horizon.jpg',
+      },
         {
         name: 'Sugar',
         artist: 'Maroon 5',
@@ -10,21 +16,10 @@ const ap = new APlayer({
         cover: 'https://raw.githubusercontent.com/YSC168/eee/master/sugar.jpg',
       },
       {
-            name: '前前前世',
-            artist: 'RADWIMPS',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.jpg',
-            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.lrc',
-            theme: '#505d6b'
-        }, 
-         {
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
-            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
-            theme: '#ebd0c2'
-        }
-
+        name: "咖喱咖喱",
+        artist: '牛奶咖啡',
+        url: 'https://link.hhtjim.com/163/476987525.mp3',
+        cover: 'https://raw.githubusercontent.com/YSC168/eee/master/glgl.jpg',
+      },
     ]
 });
