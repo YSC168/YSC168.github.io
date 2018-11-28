@@ -21,5 +21,11 @@ const ap = new APlayer({
         url: 'https://link.hhtjim.com/163/476987525.mp3',
         cover: 'https://raw.githubusercontent.com/YSC168/eee/master/glgl.jpg',
       },
+        {
+        name: "理想三旬（Cover 陈鸿宇）",
+        artist: '刘安琪',
+        url: 'https://link.hhtjim.com/163/434070771.mp3',
+        cover: '',
+      },
     ]
 });
