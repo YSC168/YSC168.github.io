@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2018-11-29T16:48:48.351Z</updated>
+  <updated>2018-12-12T12:43:19.797Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>adb的使用</title>
+    <link href="http://yscblog.top/2018/12/12/adb%E7%9A%84%E4%BD%BF%E7%94%A8-0/"/>
+    <id>http://yscblog.top/2018/12/12/adb的使用-0/</id>
+    <published>2018-12-12T12:37:49.000Z</published>
+    <updated>2018-12-12T12:43:19.797Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="手机要进入设置-gt-开发人员选项-gt-USB调试"><a href="#手机要进入设置-gt-开发人员选项-gt-USB调试" class="headerlink" title="手机要进入设置-&gt;开发人员选项-&gt;USB调试"></a><strong>手机要进入设置-&gt;开发人员选项-&gt;USB调试</strong></h3><p><strong>打开<code>根目录/data/misc/wifi/wpa_supplicant.conf</code>的文件可以查看连过的WIFI密码</strong><br><a id="more"></a></p><h4 id="一、配置android的adb环境变量"><a href="#一、配置android的adb环境变量" class="headerlink" title="一、配置android的adb环境变量"></a>一、配置android的adb环境变量</h4><blockquote><p>建议百度</p></blockquote><p>在cmd输入 <code>adb services</code> 显示有一串数字就OK了</p><hr><h4 id="二、常用的adb代码"><a href="#二、常用的adb代码" class="headerlink" title="二、常用的adb代码"></a>二、常用的adb代码</h4><blockquote><p>1、重启有关</p></blockquote><ul><li><p>关机<br>先输入<code>adb shell</code>,然后<code>reboot -p</code></p></li><li><p>重启设备<br> <code>adb reboot</code></p></li><li><p>重启到bootloader界面<br> <code>adb reboot bootloader</code></p></li><li><p>重启到Recovery界面<br> <code>adb reboot recovery</code></p></li></ul><blockquote><p>2、APK操作（手机应用不需要ROOT权限）</p></blockquote><ul><li>卸载软件<br> <code>adb shell pm uninstall -k 包名</code></li></ul><p>使用-k参数：保留安装包的数据和缓存目录。</p><hr><blockquote><p> <strong>常用包名（不要干坏事！！！）</strong><br>QQ：<code>com.tencent.mobileqq</code><br>微信：<code>com.tencent.mm</code><br>微博：<code>com.sina.weibo</code><br>支付宝：<code>com.eg.android.AlipayGphone</code></p></blockquote><ul><li>安装软件 </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;手机要进入设置-gt-开发人员选项-gt-USB调试&quot;&gt;&lt;a href=&quot;#手机要进入设置-gt-开发人员选项-gt-USB调试&quot; class=&quot;headerlink&quot; title=&quot;手机要进入设置-&amp;gt;开发人员选项-&amp;gt;USB调试&quot;&gt;&lt;/a&gt;&lt;strong&gt;手机要进入设置-&amp;gt;开发人员选项-&amp;gt;USB调试&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;打开&lt;code&gt;根目录/data/misc/wifi/wpa_supplicant.conf&lt;/code&gt;的文件可以查看连过的WIFI密码&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>多合一收款二维码原理及实现</title>
+    <link href="http://yscblog.top/2018/12/12/%E5%A4%9A%E5%90%88%E4%B8%80%E6%94%B6%E6%AC%BE%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://yscblog.top/2018/12/12/多合一收款二维码原理及实现/</id>
+    <published>2018-12-12T12:34:09.000Z</published>
+    <updated>2018-12-12T12:34:52.500Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><a href="https://yscblog.top/pay/">DEMO</a></p></blockquote><p>无论是支付宝还是微信的收款码，其本质上是一个包含了收款链接的二维码。所以我们的思路是：检测如果是支付宝浏览页面，就给出支付宝的付款链接、如果是微信，就给出微信链接……</p><p>那么问题来了，如何进行判定呢？<br><a id="more"></a><br>很好办，根据 UA 就能进行判定了！不懂什么是 UA？请参照 浏览器野史 – UserAgent列传 这篇博文。</p><p>这是部分的代码如下：</p><pre><code>if(navigator.userAgent.match(/Alipay/i)) {// 支付宝} else if(navigator.userAgent.match(/MicroMessenger\//i)) {// 微信} else if(navigator.userAgent.match(/QQ\//i)) {// QQ} else {// 其它}</code></pre><p>理论上来说，进行判定后直接给跳转到对应的收款页面就行了，然而实际测试发现在QQ和微信中并不能直接调用付款功能，只有支付宝能直接进行付款。</p><p>这里就只能用一个折中的办法：如果是QQ或微信扫的码，就再放出一个二维码的界面，让用户通过长按识别二维码进入支付流程。</p><p>最终完成的效果如下：</p><p><img src="http://img01.sogoucdn.com/app/a/100520146/36985a89ae4844235be98b668dfb1d5a" alt="此处输入图片的描述"></p><p>你可以用 <strong>QQ</strong> 或是<strong>微信</strong>或是<strong>支付宝</strong>中的任意一个扫描这个二维码进行测试(当然如果还打个款就再好不过了，哈哈哈哈……  )</p><p>成品源码下载(单文件纯 html 实现，需上传至网站空间使用)：</p><p><a href="https://pan.baidu.com/s/1BEkI7BQpVNH37ZlYf77vDg" target="_blank" rel="noopener">百度网盘</a></p><blockquote><p>收款链接获取方法</p></blockquote><ul><li>打开微信，点击右上角&gt;收付款</li><li>找到“二维码收款”</li><li>将得到的收款二维码保存(截图)</li><li>用二维码识别工具(如 <a href="https://cli.im/deqr/" target="_blank" rel="noopener">https://cli.im/deqr/</a>) 上传二维码图片并获取到二维码中的收款链接。</li></ul><p>本文转载至<a href="https://mkblog.cn/922/" target="_blank" rel="noopener">mengkun</a>。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://yscblog.top/pay/&quot;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;无论是支付宝还是微信的收款码，其本质上是一个包含了收款链接的二维码。所以我们的思路是：检测如果是支付宝浏览页面，就给出支付宝的付款链接、如果是微信，就给出微信链接……&lt;/p&gt;
+&lt;p&gt;那么问题来了，如何进行判定呢？&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>人生苦短_我用python</title>
+    <link href="http://yscblog.top/2018/12/12/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD-%E6%88%91%E7%94%A8Python/"/>
+    <id>http://yscblog.top/2018/12/12/人生苦短-我用Python/</id>
+    <published>2018-12-12T12:26:15.000Z</published>
+    <updated>2018-12-12T12:28:27.731Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="python下载及运行环境"><a href="#python下载及运行环境" class="headerlink" title="python下载及运行环境"></a>python下载及运行环境</h3><p><a href="https://www.bilibili.com/video/av10280485/?p=1" target="_blank" rel="noopener">安装教程</a><br>软件试用30天<br>o(╥﹏╥)o</p><ul><li>注意 python下载的文件后缀是<strong>.msi</strong><h3 id="关于运行报错"><a href="#关于运行报错" class="headerlink" title="关于运行报错"></a>关于运行报错</h3>先<code>Alt+Ent</code>修改部分错误<br>找不到module（模块）时<br><code>File&gt;&gt;settings&gt;&gt;Project&gt;&gt;Project Interpreter</code><br>双击pip，搜索要安装的插件在Install Package</li></ul><p>亲测运行mzt  joker  资源太多</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;python下载及运行环境&quot;&gt;&lt;a href=&quot;#python下载及运行环境&quot; class=&quot;headerlink&quot; title=&quot;python下载及运行环境&quot;&gt;&lt;/a&gt;python下载及运行环境&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.bilib
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://yscblog.top/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>NexT主题中添加网页音乐播放器功能</title>
@@ -198,9 +261,9 @@
     <link href="http://yscblog.top/2018/07/07/%E5%AE%89%E5%88%A9%E8%BD%AF%E4%BB%B6/"/>
     <id>http://yscblog.top/2018/07/07/安利软件/</id>
     <published>2018-07-07T13:45:07.000Z</published>
-    <updated>2018-11-05T09:30:32.000Z</updated>
+    <updated>2018-12-12T12:19:20.107Z</updated>
     
-    <content type="html"><![CDATA[<p>我们在日常的手机使用中总有一些值得推荐的软件，下面我来推荐几个</p><ol><li><strong>酷安</strong><a id="more"></a>（发现各种神奇的软件）</li><li>NFC卡模拟（刷门禁）需支持NFC和Root手机</li><li>Nova Launcher（桌面，酷安有各种主题包）</li><li>简书（看些小文章和趣事）</li><li>一个木塔（各种小工具集合）</li><li>藏书馆（看书的经典）</li><li>欧陆词典（！！！）</li></ol><blockquote><p><strong>使用项</strong></p></blockquote><ol><li>QQ</li><li>微信</li><li>支付宝</li><li>AIDE</li><li>Chrome</li><li>百度网盘</li><li>哔哩哔哩</li><li>MT管理器</li><li>网易云音乐</li><li>百度输入法</li></ol><blockquote><p><strong>游戏项</strong></p></blockquote><ol><li>炉石传说</li><li>英雄联盟</li><li>王者荣耀</li></ol><blockquote><p><strong>直播项</strong></p></blockquote><p>  没有</p><blockquote><p><strong>小众软件</strong></p></blockquote><ol><li><p>LEARN·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/learn.apk" target="_blank" rel="noopener">下载地址</a><br><strong>自制软件。界面显丑，功能较多</strong></p></li><li><p>星座·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/xz.apk" target="_blank" rel="noopener">下载地址</a><br><strong>没什么用的星座指南</strong></p></li><li><p>MD浏览器·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/llq.apk" target="_blank" rel="noopener">下载地址</a><br><strong>功能很多的小体积浏览器</strong></p></li><li><p>美美播放器·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/meimei.apk" target="_blank" rel="noopener">下载地址</a><br>体积很小的本地音乐播放器</p></li><li><p>Boo！·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/boo.apk" target="_blank" rel="noopener">下载地址</a><br>利用前摄像头做的有趣软件</p></li><li><p>屏幕特效·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/pmtx.apk" target="_blank" rel="noopener">下载地址</a><br>悬浮飘动的气泡真的很好看</p></li><li><p>取色器·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/colorpick.apk" target="_blank" rel="noopener">下载地址</a><br>可以从图片或摄像中获取颜色</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>我们在日常的手机使用中总有一些值得推荐的软件，下面我来推荐几个</p><ol><li><strong>酷安</strong><a id="more"></a>（发现各种神奇的软件）</li><li>NFC卡模拟（刷门禁）需支持NFC和Root手机</li><li>Nova Launcher（桌面，酷安有各种主题包）</li><li>简书（看些小文章和趣事）</li><li>一个木塔（各种小工具集合）</li><li>藏书馆（看书的经典）</li><li>欧陆词典（！！！）</li></ol><blockquote><p><strong>使用项</strong></p></blockquote><ol><li>QQ</li><li>微信</li><li>支付宝</li><li>AIDE</li><li>Chrome</li><li>百度网盘</li><li>哔哩哔哩</li><li>MT管理器</li><li>网易云音乐</li><li>百度输入法</li></ol><blockquote><p><strong>游戏项</strong></p></blockquote><ol><li>炉石传说</li><li>英雄联盟</li><li>王者荣耀</li></ol><blockquote><p><strong>直播项</strong></p></blockquote><p>  没有</p><blockquote><p><strong>小众软件</strong></p></blockquote><ol><li><p>LEARN·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/learn.apk" target="_blank" rel="noopener">下载地址</a><br><strong>自制软件。界面显丑，功能较多</strong></p></li><li><p>星座·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/xz.apk" target="_blank" rel="noopener">下载地址</a><br><strong>没什么用的星座指南</strong></p></li><li><p>MD浏览器·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/llq.apk" target="_blank" rel="noopener">下载地址</a><br><strong>功能很多的小体积浏览器</strong></p></li><li><p>美美播放器·软件   <a href="https://raw.githubusercontent.com/YSC168/eee/master/meimei.apk" target="_blank" rel="noopener">下载地址</a><br>体积很小的本地音乐播放器</p></li><li><p>Boo！·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/boo.apk" target="_blank" rel="noopener">下载地址</a><br>利用前摄像头做的有趣软件</p></li><li><p>屏幕特效·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/pmtx.apk" target="_blank" rel="noopener">下载地址</a><br>悬浮飘动的气泡真的很好看</p></li><li><p>取色器·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/colorpick.apk" target="_blank" rel="noopener">下载地址</a><br>可以从图片或摄像中获取颜色</p></li><li><p>手机屏保·软件  <a href="https://raw.githubusercontent.com/YSC168/eee/master/sjpb.apk" target="_blank" rel="noopener">下载地址</a><br>用渐变色组成的手机屏保</p></li></ol>]]></content>
     
     <summary type="html">
     
@@ -354,11 +417,11 @@
       <category term="搭建博客" scheme="http://yscblog.top/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="github" scheme="http://yscblog.top/tags/github/"/>
+    
       <category term="npm" scheme="http://yscblog.top/tags/npm/"/>
     
       <category term="hexo" scheme="http://yscblog.top/tags/hexo/"/>
-    
-      <category term="github" scheme="http://yscblog.top/tags/github/"/>
     
   </entry>
   
