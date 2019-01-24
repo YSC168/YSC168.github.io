@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2018-12-29T14:12:16.372Z</updated>
+  <updated>2019-01-24T13:38:42.600Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>追剧神器Neets</title>
+    <link href="http://yscblog.top/2019/01/24/%E8%BF%BD%E5%89%A7%E7%A5%9E%E5%99%A8Neets/"/>
+    <id>http://yscblog.top/2019/01/24/追剧神器Neets/</id>
+    <published>2019-01-24T13:28:29.000Z</published>
+    <updated>2019-01-24T13:38:42.600Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong><a href="https://neets.cc/" target="_blank" rel="noopener">Neets</a>——你的私人追剧专家</strong></p></blockquote><p>追剧一直是各位上班族，学生党，社会人士的一大生活需求，有时候你可能都会自己忘记你看到哪一集了，那一段了，<br>或者还需要重新找资源，花时间去记住今天看了几集，或者是因为工作今天没看，明天又忘记了，<br>这里推荐给大家一个追剧的网站Neets——你的私人追剧专家！<a id="more"></a><br>网站极力推荐给各位喜欢看电视剧的朋友们。<br>网站Neets上收集美剧、日剧、韩剧、泰剧、动漫等多个分类，比如：<br>《人民的名义》、《权利的游戏》、《越狱》、《西部世界》、《进击的巨人》、《春风十里不如你》这些比较热播的电视剧都有。<br>网站会自动收集电视剧的播放地址或下载地址，同时提示播放网站中是否有广告。<br>因为Neets只是搜集的播放地址，所以不会不涉及版权问题。<br>比如《权利的游戏》，现在可观看到第七季第二集，而且是中文字幕。<br>登陆账号后可以在下方分级列表总标记观看进度，最重要的是完美支持手机。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://neets.cc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Neets&lt;/a&gt;——你的私人追剧专家&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;追剧一直是各位上班族，学生党，社会人士的一大生活需求，有时候你可能都会自己忘记你看到哪一集了，那一段了，&lt;br&gt;或者还需要重新找资源，花时间去记住今天看了几集，或者是因为工作今天没看，明天又忘记了，&lt;br&gt;这里推荐给大家一个追剧的网站Neets——你的私人追剧专家！
+    
+    </summary>
+    
+    
+      <category term="分享" scheme="http://yscblog.top/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>2019_加油</title>
@@ -108,14 +131,13 @@
     <link href="http://yscblog.top/2018/11/18/ADB%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>http://yscblog.top/2018/11/18/ADB的使用/</id>
     <published>2018-11-17T16:07:43.000Z</published>
-    <updated>2018-11-18T15:39:03.408Z</updated>
+    <updated>2019-01-24T13:48:26.787Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="手机要进入设置-gt-开发人员选项-gt-USB调试"><a href="#手机要进入设置-gt-开发人员选项-gt-USB调试" class="headerlink" title="手机要进入设置-&gt;开发人员选项-&gt;USB调试"></a><strong>手机要进入设置-&gt;开发人员选项-&gt;USB调试</strong></h3><p>输入 <code>adb services</code> 显示有一串数字就OK了</p><p><strong>打开<code>根目录/data/misc/wifi/wpa_supplicant.conf</code>的文件可以查看连过的WIFI密码</strong></p><h4 id="一、配置android的adb环境变量"><a href="#一、配置android的adb环境变量" class="headerlink" title="一、配置android的adb环境变量"></a>一、配置android的adb环境变量</h4><blockquote><p>建议百度</p></blockquote><hr><a id="more"></a><h4 id="二、常用的adb代码"><a href="#二、常用的adb代码" class="headerlink" title="二、常用的adb代码"></a>二、常用的adb代码</h4><blockquote><p>1、重启有关</p></blockquote><ul><li><p>关机<br>先输入<code>adb shell</code>,然后<code>reboot -p</code></p></li><li><p>重启设备</p><p> <code>adb reboot</code></p></li><li><p>重启到bootloader界面</p><p> <code>adb reboot bootloader</code></p></li><li><p>重启到Recovery界面</p><p> <code>adb reboot recovery</code></p></li></ul><blockquote><p>2、APK操作（手机应用不需要ROOT权限）</p></blockquote><ul><li><p>卸载软件</p><p> <code>adb shell pm uninstall -k 包名</code></p></li></ul><p>使用-k参数：保留安装包的数据和缓存目录。</p><hr><blockquote><p> <strong>常用包名（不要干坏事！！！）</strong><br>QQ：<code>com.tencent.mobileqq</code><br>微信：<code>com.tencent.mm</code><br>微博：<code>com.sina.weibo</code><br>支付宝：<code>com.eg.android.AlipayGphone</code></p></blockquote><ul><li><p>安装软件</p><p>没有</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="手机要进入设置-gt-开发人员选项-gt-打开USB调试"><a href="#手机要进入设置-gt-开发人员选项-gt-打开USB调试" class="headerlink" title="手机要进入设置-&gt;开发人员选项-&gt;打开USB调试"></a><strong>手机要进入设置-&gt;开发人员选项-&gt;打开USB调试</strong></h3><p>在电脑上进入cmd输入 <code>adb services</code> 显示有一串数字就OK了<br><strong>打开<code>根目录/data/misc/wifi/wpa_supplicant.conf</code>的文件可以查看连过的WIFI密码</strong></p><h4 id="一、配置android的adb环境变量"><a href="#一、配置android的adb环境变量" class="headerlink" title="一、配置android的adb环境变量"></a>一、配置android的adb环境变量</h4><blockquote><p>建议百度</p></blockquote><hr><a id="more"></a><h4 id="二、常用的adb代码"><a href="#二、常用的adb代码" class="headerlink" title="二、常用的adb代码"></a>二、常用的adb代码</h4><blockquote><p>1、重启有关</p></blockquote><ul><li><p>关机<br>先输入<code>adb shell</code>,然后<code>reboot -p</code></p></li><li><p>重启设备</p><p> <code>adb reboot</code></p></li><li><p>重启到bootloader界面</p><p> <code>adb reboot bootloader</code></p></li><li><p>重启到Recovery界面</p><p> <code>adb reboot recovery</code></p></li></ul><blockquote><p>2、APK操作（手机应用不需要ROOT权限）</p></blockquote><ul><li><p>卸载软件</p><p> <code>adb shell pm uninstall -k 包名</code></p></li></ul><p>使用-k参数：保留安装包的数据和缓存目录。</p><hr><blockquote><p> <strong>常用包名（不要干坏事！！！）</strong><br>QQ：<code>com.tencent.mobileqq</code><br>微信：<code>com.tencent.mm</code><br>微博：<code>com.sina.weibo</code><br>支付宝：<code>com.eg.android.AlipayGphone</code></p></blockquote><ul><li><p>安装软件</p><p>没有</p></li></ul><h4 id="三、其他"><a href="#三、其他" class="headerlink" title="三、其他"></a>三、其他</h4><p> <strong>在命令行中先输入<code>adb shell</code></strong><br> 在输入以下代码:<br>创建文件夹 <code>mkdir /sdcard/tmp</code><br>删除文件 <code>rm -f /sdcard/test.txt</code><br>移动文件  <code>mv /sdcard/tmp /sdcard/test</code><br>锁屏 <code>input keyevent 223</code><br>返回 <code>input keyevent 3</code><br>已安装第三方应用  <code>pm list packages -3</code><br>已安装应用 <code>pm list packages</code><br>手机电量 <code>dumpsys battery</code><br>手机型号 <code>getprop ro.product.model</code><br>清除apk数据 <code>pm clear com.test.abc</code><br>截屏 <code>creencap /sdcard/screen.png</code><br>DNS <code>etprop net.dns1</code><br>IP地址 <code>fconfig</code><br>或者 <code>ip -f inet addr show wlan0</code> </p>]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;手机要进入设置-gt-开发人员选项-gt-USB调试&quot;&gt;&lt;a href=&quot;#手机要进入设置-gt-开发人员选项-gt-USB调试&quot; class=&quot;headerlink&quot; title=&quot;手机要进入设置-&amp;gt;开发人员选项-&amp;gt;USB调试&quot;&gt;&lt;/a&gt;&lt;strong&gt;手机要进入设置-&amp;gt;开发人员选项-&amp;gt;USB调试&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;输入 &lt;code&gt;adb services&lt;/code&gt; 显示有一串数字就OK了&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;打开&lt;code&gt;根目录/data/misc/wifi/wpa_supplicant.conf&lt;/code&gt;的文件可以查看连过的WIFI密码&lt;/strong&gt;&lt;/p&gt;
+      &lt;h3 id=&quot;手机要进入设置-gt-开发人员选项-gt-打开USB调试&quot;&gt;&lt;a href=&quot;#手机要进入设置-gt-开发人员选项-gt-打开USB调试&quot; class=&quot;headerlink&quot; title=&quot;手机要进入设置-&amp;gt;开发人员选项-&amp;gt;打开USB调试&quot;&gt;&lt;/a&gt;&lt;strong&gt;手机要进入设置-&amp;gt;开发人员选项-&amp;gt;打开USB调试&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;在电脑上进入cmd输入 &lt;code&gt;adb services&lt;/code&gt; 显示有一串数字就OK了&lt;br&gt;&lt;strong&gt;打开&lt;code&gt;根目录/data/misc/wifi/wpa_supplicant.conf&lt;/code&gt;的文件可以查看连过的WIFI密码&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 id=&quot;一、配置android的adb环境变量&quot;&gt;&lt;a href=&quot;#一、配置android的adb环境变量&quot; class=&quot;headerlink&quot; title=&quot;一、配置android的adb环境变量&quot;&gt;&lt;/a&gt;一、配置android的adb环境变量&lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;建议百度&lt;/p&gt;
 &lt;/blockquote&gt;
