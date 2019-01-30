@@ -4,10 +4,10 @@ const ap = new APlayer({
     audio: [
        
          {
-        name: 'Horizon',
-        artist: 'Janji',
-        url: 'https://link.hhtjim.com/163/546948647.mp3',
-        cover: 'https://raw.githubusercontent.com/YSC168/eee/master/horizon.jpg',
+        name: 'Sakura Tears',
+        artist: '櫻花淚',
+        url: 'https://link.hhtjim.com/163/509313150.mp3',
+        cover: 'https://raw.githubusercontent.com/YSC168/eee/master/head.jpg',
       },
         {
         name: 'Sugar',
