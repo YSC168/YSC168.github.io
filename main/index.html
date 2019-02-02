@@ -3,7 +3,7 @@
 	<head>
 		<title>YSC·主页</title>
 		
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favi.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /><!--可以确保它能正确呈现在不同设备上-->
 		<link rel="stylesheet" href="css/main.css" />
@@ -21,13 +21,13 @@
 							<font size="8">诗</font>						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>爱你</h1>
+								<h1>恋恋不忘，必有回响</h1>
 								<p>YSCBLOG.TOP</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="https://yscblog.top/" target="_blank"><i class="fa fa-home"></i>首页</a></li>
+								<li><a href="https://yscblog.top/" target="_blank"><i class="fa fa-home"></i>博客</a></li>
 								<li><a href="http://wpa.qq.com/msgrd?v=3&uin=1643671159&site=qq&menu=yes" target="_blank"><i class="fa fa-qq"></i>QQ</a></li>
 								
 								<li><a href="https://github.com/ysc168" target="_blank"><i class="fa fa-github"></i>github</a></li>
@@ -71,5 +71,16 @@
 });
 </script>
 	<audio id="mom" src="https://raw.githubusercontent.com/YSC168/eee/master/bgmusic.mp3" autoplay="autoplay" loop="-1" preload="auto" type="audio/mp3"></audio>
+
+	<script> 
+//--创建页面监听，等待微信端页面加载完毕 触发音频播放
+		 document.addEventListener('WeixinJSBridgeReady', function() {
+        document.getElementById('audios').play()
+    });
+		 //--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
+    document.addEventListener('touchstart', function() {
+        document.getElementById('audios').play()
+    });
+	</script>
 	</body>
 </html>
