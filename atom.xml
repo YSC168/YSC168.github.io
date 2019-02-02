@@ -439,9 +439,9 @@
       <category term="搭建博客" scheme="http://yscblog.top/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="hexo" scheme="http://yscblog.top/tags/hexo/"/>
-    
       <category term="npm" scheme="http://yscblog.top/tags/npm/"/>
+    
+      <category term="hexo" scheme="http://yscblog.top/tags/hexo/"/>
     
       <category term="github" scheme="http://yscblog.top/tags/github/"/>
     
