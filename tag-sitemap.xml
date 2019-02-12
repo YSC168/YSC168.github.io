@@ -58,13 +58,6 @@
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/hexo/</loc>
-        <lastmod>2019-01-30T14:52:36.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yscblog.top/tags/%E9%85%B7%E5%AE%89/</loc>
         <lastmod>2019-01-30T14:52:40.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -74,6 +67,13 @@
     <url>
         <loc>http://yscblog.top/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%9B%BE/</loc>
         <lastmod>2019-02-02T09:51:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yscblog.top/tags/hexo/</loc>
+        <lastmod>2019-02-12T12:57:05.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
