@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2019-02-18T13:11:15.992Z</updated>
+  <updated>2019-02-19T12:07:01.613Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -21,19 +21,15 @@
     <link href="http://yscblog.top/2019/02/16/Good_Day/"/>
     <id>http://yscblog.top/2019/02/16/Good_Day/</id>
     <published>2019-02-16T14:13:14.000Z</published>
-    <updated>2019-02-18T13:11:15.992Z</updated>
+    <updated>2019-02-19T12:07:01.613Z</updated>
     
-    <content type="html"><![CDATA[<p><div id="binft"></div></p><script>    var binft = function (r) {      function t() {        return b[Math.floor(Math.random() * b.length)]      }        function e() {        return String.fromCharCode(94 * Math.random() + 33)      }      function n(r) {        for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {          var l = document.createElement("span");          l.textContent = e(), l.style.color = t(), n.appendChild(l)        }        return n      }      function i() {        var t = o[c.skillI];        c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)      }      var l = "",      o = ["青青陵上柏，磊磊涧中石。", "人生天地间，忽如远行客。","斗酒相娱乐，聊厚不为薄。", "驱车策驽马，游戏宛与洛。","洛中何郁郁，冠带自相索。","长衢罗夹巷，王侯多第宅。","两宫遥相望，双阙百余尺。","极宴娱心意，戚戚何所迫？"].map(function (r) {      return r + ""      }),      a = 2,      g = 1,      s = 5,      d = 75,      b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],      c = {        text: "",        prefixP: -s,        skillI: 0,        skillP: 0,        direction: "forward",        delay: a,        step: g      };      i()      };      binft(document.getElementById('binft'));</script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><div id="binft"></div></p><script>    var binft = function (r) {      function t() {        return b[Math.floor(Math.random() * b.length)]      }        function e() {        return String.fromCharCode(94 * Math.random() + 33)      }      function n(r) {        for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {          var l = document.createElement("span");          l.textContent = e(), l.style.color = t(), n.appendChild(l)        }        return n      }      function i() {        var t = o[c.skillI];        c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)      }      var l = "",      o = ["春江潮水连海平，海上明月共潮生。", "滟滟随波千万里，何处春江无月明！","江流宛转绕芳甸，月照花林皆似霰。", "空里流霜不觉飞，汀上白沙看不见。","江天一色无纤尘，皎皎空中孤月轮。","江畔何人初见月？江月何年初照人？","人生代代无穷已，江月年年望相似。","不知江月待何人，但见长江送流水。"].map(function (r) {      return r + ""      }),      a = 2,      g = 1,      s = 5,      d = 75,      b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],      c = {        text: "",        prefixP: -s,        skillI: 0,        skillP: 0,        direction: "forward",        delay: a,        step: g      };      i()      };      binft(document.getElementById('binft'));</script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;div id=&quot;binft&quot;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;script&gt;
-    var binft = function (r) {
-      function t() {
-        return b[Math.floor(Math.random() * b.len
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -68,15 +64,15 @@
     <link href="http://yscblog.top/2019/02/12/2019%E2%80%94-%E5%8A%A0%E6%B2%B9/"/>
     <id>http://yscblog.top/2019/02/12/2019—-加油/</id>
     <published>2019-02-12T12:46:58.759Z</published>
-    <updated>2019-02-14T14:10:16.418Z</updated>
+    <updated>2019-02-19T10:51:00.945Z</updated>
     
-    <content type="html"><![CDATA[<html><br><div style="text-align:center">人生的每一个阶段，<br>都会有这个阶段该做的事，<br>遇上了就要勇敢面对，<br>而不是一味逃避，<br>逃避未必能幸免，<br><b>再次遇到时，</b><br><b>慌乱、不会处理的还是你。</b></div><br></html>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center"><p>人生的每一个阶段，<br>都会有这个阶段该做的事，<br>遇上了就要勇敢面对，<br>而不是一味逃避，<br>逃避未必能幸免，<br><strong>再次遇到时，<br>慌乱、不会处理的还是你。</strong></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;html&gt;&lt;br&gt;&lt;div style=&quot;text-align:center&quot;&gt;人生的每一个阶段，&lt;br&gt;都会有这个阶段该做的事，&lt;br&gt;遇上了就要勇敢面对，&lt;br&gt;而不是一味逃避，&lt;br&gt;逃避未必能幸免，&lt;br&gt;&lt;b&gt;再次遇到时，&lt;/b&gt;&lt;br&gt;&lt;b&gt;慌乱、不会处理的还是你。
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -355,16 +351,13 @@
     <link href="http://yscblog.top/2018/07/05/new/"/>
     <id>http://yscblog.top/2018/07/05/new/</id>
     <published>2018-07-05T12:52:55.000Z</published>
-    <updated>2019-02-19T09:59:24.525Z</updated>
+    <updated>2019-02-19T11:53:01.647Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="不剪指甲"><a href="#不剪指甲" class="headerlink" title="不剪指甲"></a><strong>不</strong>剪指甲</h3><p><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script><br><strong><span id="jinrishici-sentence">正在加载今日诗词….</span></strong></p><pre>                   //       \\         //        \\       //  ##DDDDDDDDDDDDDDDDDDDDDD##  ## DDDDDDDDDDDDDDDDDDDD ##   ________   ___   ___        ___   ________   ___   ___        ___  ## hh                hh ##   |\   __  \ |\  \ |\  \      |\  \ |\   __  \ |\  \ |\  \      |\  \  ## hh    //    \\    hh ##   \ \  \|\ /_\ \  \\ \  \     \ \  \\ \  \|\ /_\ \  \\ \  \     \ \  \  ## hh   //      \\   hh ##    \ \   __  \\ \  \\ \  \     \ \  \\ \   __  \\ \  \\ \  \     \ \  \  ## hh                hh ##     \ \  \|\  \\ \  \\ \  \____ \ \  \\ \  \|\  \\ \  \\ \  \____ \ \  \  ## hh      wwww      hh ##      \ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\  ## hh                hh ##       \|_______| \|__| \|_______| \|__| \|_______| \|__| \|_______| \|__|  ## MMMMMMMMMMMMMMMMMMMM ##  ##MMMMMMMMMMMMMMMMMMMMMM##        \/            \/</pre>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="不剪指甲"><a href="#不剪指甲" class="headerlink" title="不剪指甲"></a><strong>不</strong>剪指甲</h3><p><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script><br><strong><span id="jinrishici-sentence">正在加载今日诗词….</span></strong></p><a id="more"></a><pre>                   //       \\         //        \\       //  ##DDDDDDDDDDDDDDDDDDDDDD##  ## DDDDDDDDDDDDDDDDDDDD ##   ________   ___   ___        ___   ________   ___   ___        ___  ## hh                hh ##   |\   __  \ |\  \ |\  \      |\  \ |\   __  \ |\  \ |\  \      |\  \  ## hh    //    \\    hh ##   \ \  \|\ /_\ \  \\ \  \     \ \  \\ \  \|\ /_\ \  \\ \  \     \ \  \  ## hh   //      \\   hh ##    \ \   __  \\ \  \\ \  \     \ \  \\ \   __  \\ \  \\ \  \     \ \  \  ## hh                hh ##     \ \  \|\  \\ \  \\ \  \____ \ \  \\ \  \|\  \\ \  \\ \  \____ \ \  \  ## hh      wwww      hh ##      \ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\  ## hh                hh ##       \|_______| \|__| \|_______| \|__| \|_______| \|__| \|_______| \|__|  ## MMMMMMMMMMMMMMMMMMMM ##  ##MMMMMMMMMMMMMMMMMMMMMM##        \/            \/</pre><ol><li><i class="fa fa-pencil"></i> 支持 Markdown<br><i>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</i></li><li><i class="fa fa-cloud-upload"></i> 一件部署<br><i>只需一条指令即可部署到 GitHub Pages，或其他网站。</i></li><li><i class="fa fa-cog"></i> 丰富的插件<br><i>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。</i><div class="note default"><p>default</p></div><br><div class="note primary"><p>primary</p></div><br><div class="note success"><p>success</p></div><br><div class="note info"><p>info</p></div><br><div class="note warning"><p>warning</p></div><br><div class="note danger"><p>danger</p></div></li></ol><div class="note danger no-icon"><p>danger no-icon</p></div><div class="tabs" id="选项卡"><ul class="nav-tabs"><li class="tab"><a href="#选项卡-1">选项卡 1</a></li><li class="tab active"><a href="#选项卡-2">选项卡 2</a></li><li class="tab"><a href="#选项卡-3">选项卡 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="选项卡-1"><p><strong>这是选项卡 1</strong> 呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈……</p></div><div class="tab-pane active" id="选项卡-2"><p><strong>这是选项卡 2</strong></p></div><div class="tab-pane" id="选项卡-3"><p><strong>这是选项卡 3</strong> 哇，你找到我了！φ(≧ω≦*)♪～</p></div></div></div><a class="btn" href="https://www.baidu.com" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>点击下载百度</a><p><span id="inline-toc">1.</span></p><blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里没有你</blockquote><p>来来必力  心知天气</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;不剪指甲&quot;&gt;&lt;a href=&quot;#不剪指甲&quot; class=&quot;headerlink&quot; title=&quot;不剪指甲&quot;&gt;&lt;/a&gt;&lt;strong&gt;不&lt;/strong&gt;剪指甲&lt;/h3&gt;&lt;p&gt;&lt;script src=&quot;https://sdk.jinrishici.com/v2/br
-      
+      &lt;h3 id=&quot;不剪指甲&quot;&gt;&lt;a href=&quot;#不剪指甲&quot; class=&quot;headerlink&quot; title=&quot;不剪指甲&quot;&gt;&lt;/a&gt;&lt;strong&gt;不&lt;/strong&gt;剪指甲&lt;/h3&gt;&lt;p&gt;&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;br&gt;&lt;strong&gt;&lt;span id=&quot;jinrishici-sentence&quot;&gt;正在加载今日诗词….&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
@@ -378,9 +371,9 @@
     <link href="http://yscblog.top/2018/07/05/%E5%B2%81%E6%9C%88%E5%AE%89%E5%A5%BD%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A0%B7/"/>
     <id>http://yscblog.top/2018/07/05/岁月安好，你也一样/</id>
     <published>2018-07-05T10:54:07.000Z</published>
-    <updated>2019-02-02T09:51:28.000Z</updated>
+    <updated>2019-02-19T10:28:47.934Z</updated>
     
-    <content type="html"><![CDATA[<hr><p><img src="https://api.uixsj.cn/bing/bing.php" width="900px" height="auto"></p><blockquote><p><strong><script type="text/javascript" src="https://api.uixsj.cn/hitokoto/w.php?code=js"></script><div id="xsjhitokoto"><script>xsjhitokoto()</script></div></strong></p></blockquote><p><a href="http://ysc168.coding.me/" target="_blank" rel="noopener">网页堆</a> <a href="http://www.wufazhuce.com/" target="_blank" rel="noopener">ONE-一个</a> <a href="https://www.juzimi.com/" target="_blank" rel="noopener">句子迷</a> <a href="http://ysc168.coding.me/music/" target="_blank" rel="noopener">音乐歌单</a> <a href="https://ysc168.github.io/main/" target="_blank" rel="noopener">导航</a></p><a id="more"></a><p><img src="https://raw.githubusercontent.com/YSC168/eee/master/beautiful.jpg" alt="此处输入图片的描述"> </p><p><strong>网易云音乐外链</strong></p><p><img src="http://img02.sogoucdn.com/app/a/100520146/61e89653d2e5632ff8f413f9894010cd" alt="此处输入图片的描述"> </p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p><img src="https://api.uixsj.cn/bing/bing.php" width="900px" height="auto"></p><blockquote><p><strong><script type="text/javascript" src="https://api.uixsj.cn/hitokoto/w.php?code=js"></script><div id="xsjhitokoto"><script>xsjhitokoto()</script></div></strong></p></blockquote><p><a href="http://ysc168.coding.me/" target="_blank" rel="noopener">网页堆</a> <a href="http://www.wufazhuce.com/" target="_blank" rel="noopener">ONE-一个</a> <a href="https://www.juzimi.com/" target="_blank" rel="noopener">句子迷</a> <a href="http://ysc168.coding.me/music/" target="_blank" rel="noopener">音乐歌单</a> <a href="https://ysc168.github.io/main/" target="_blank" rel="noopener">导航</a></p><a id="more"></a><p><img src="https://raw.githubusercontent.com/YSC168/eee/master/beautiful.jpg" alt="此处输入图片的描述"> </p><p><strong>网易云音乐外链</strong></p><p><img src="http://img02.sogoucdn.com/app/a/100520146/61e89653d2e5632ff8f413f9894010cd" alt="此处输入图片的描述"> </p><p><strong>获取歌词</strong><br>歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取</p><blockquote><p><a href="http://music.163.com/api/song/media?id=863046037" target="_blank" rel="noopener">http://music.163.com/api/song/media?id=863046037</a></p></blockquote><p>其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现</p>]]></content>
     
     <summary type="html">
     

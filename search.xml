@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[GoodDay]]></title>
     <url>%2F2019%2F02%2F16%2FGood_Day%2F</url>
-    <content type="text"><![CDATA[var binft = function (r) { function t() { return b[Math.floor(Math.random() * b.length)] } function e() { return String.fromCharCode(94 * Math.random() + 33) } function n(r) { for (var n = document.createDocumentFragment(), i = 0; r > i; i++) { var l = document.createElement("span"); l.textContent = e(), l.style.color = t(), n.appendChild(l) } return n } function i() { var t = o[c.skillI]; c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d) } var l = "", o = ["青青陵上柏，磊磊涧中石。", "人生天地间，忽如远行客。","斗酒相娱乐，聊厚不为薄。", "驱车策驽马，游戏宛与洛。","洛中何郁郁，冠带自相索。","长衢罗夹巷，王侯多第宅。","两宫遥相望，双阙百余尺。","极宴娱心意，戚戚何所迫？"].map(function (r) { return r + "" }), a = 2, g = 1, s = 5, d = 75, b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"], c = { text: "", prefixP: -s, skillI: 0, skillP: 0, direction: "forward", delay: a, step: g }; i() }; binft(document.getElementById('binft'));]]></content>
+    <content type="text"><![CDATA[var binft = function (r) { function t() { return b[Math.floor(Math.random() * b.length)] } function e() { return String.fromCharCode(94 * Math.random() + 33) } function n(r) { for (var n = document.createDocumentFragment(), i = 0; r > i; i++) { var l = document.createElement("span"); l.textContent = e(), l.style.color = t(), n.appendChild(l) } return n } function i() { var t = o[c.skillI]; c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d) } var l = "", o = ["春江潮水连海平，海上明月共潮生。", "滟滟随波千万里，何处春江无月明！","江流宛转绕芳甸，月照花林皆似霰。", "空里流霜不觉飞，汀上白沙看不见。","江天一色无纤尘，皎皎空中孤月轮。","江畔何人初见月？江月何年初照人？","人生代代无穷已，江月年年望相似。","不知江月待何人，但见长江送流水。"].map(function (r) { return r + "" }), a = 2, g = 1, s = 5, d = 75, b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"], c = { text: "", prefixP: -s, skillI: 0, skillP: 0, direction: "forward", delay: a, step: g }; i() }; binft(document.getElementById('binft'));]]></content>
   </entry>
   <entry>
     <title><![CDATA[《谈谈见识》]]></title>
@@ -117,7 +117,7 @@
   <entry>
     <title><![CDATA[new]]></title>
     <url>%2F2018%2F07%2F05%2Fnew%2F</url>
-    <content type="text"><![CDATA[不剪指甲正在加载今日诗词…. // \\ // \\ // ##DDDDDDDDDDDDDDDDDDDDDD## ## DDDDDDDDDDDDDDDDDDDD ## ________ ___ ___ ___ ________ ___ ___ ___ ## hh hh ## |\ __ \ |\ \ |\ \ |\ \ |\ __ \ |\ \ |\ \ |\ \ ## hh // \\ hh ## \ \ \|\ /_\ \ \\ \ \ \ \ \\ \ \|\ /_\ \ \\ \ \ \ \ \ ## hh // \\ hh ## \ \ __ \\ \ \\ \ \ \ \ \\ \ __ \\ \ \\ \ \ \ \ \ ## hh hh ## \ \ \|\ \\ \ \\ \ \____ \ \ \\ \ \|\ \\ \ \\ \ \____ \ \ \ ## hh wwww hh ## \ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\ ## hh hh ## \|_______| \|__| \|_______| \|__| \|_______| \|__| \|_______| \|__| ## MMMMMMMMMMMMMMMMMMMM ## ##MMMMMMMMMMMMMMMMMMMMMM## \/ \/]]></content>
+    <content type="text"><![CDATA[不剪指甲正在加载今日诗词…. // \\ // \\ // ##DDDDDDDDDDDDDDDDDDDDDD## ## DDDDDDDDDDDDDDDDDDDD ## ________ ___ ___ ___ ________ ___ ___ ___ ## hh hh ## |\ __ \ |\ \ |\ \ |\ \ |\ __ \ |\ \ |\ \ |\ \ ## hh // \\ hh ## \ \ \|\ /_\ \ \\ \ \ \ \ \\ \ \|\ /_\ \ \\ \ \ \ \ \ ## hh // \\ hh ## \ \ __ \\ \ \\ \ \ \ \ \\ \ __ \\ \ \\ \ \ \ \ \ ## hh hh ## \ \ \|\ \\ \ \\ \ \____ \ \ \\ \ \|\ \\ \ \\ \ \____ \ \ \ ## hh wwww hh ## \ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\\ \_______\\ \__\ ## hh hh ## \|_______| \|__| \|_______| \|__| \|_______| \|__| \|_______| \|__| ## MMMMMMMMMMMMMMMMMMMM ## ##MMMMMMMMMMMMMMMMMMMMMM## \/ \/ 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。defaultprimarysuccessinfowarningdanger danger no-icon 选项卡 1选项卡 2选项卡 3这是选项卡 1 呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈…… 这是选项卡 2 这是选项卡 3 哇，你找到我了！φ(≧ω≦*)♪～ 点击下载百度 1. 优秀的人，不是不合群，而是他们合群的人里没有你 来来必力 心知天气]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -125,7 +125,7 @@
   <entry>
     <title><![CDATA[岁月安好，你也一样]]></title>
     <url>%2F2018%2F07%2F05%2F%E5%B2%81%E6%9C%88%E5%AE%89%E5%A5%BD%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A0%B7%2F</url>
-    <content type="text"><![CDATA[xsjhitokoto() 网页堆 ONE-一个 句子迷 音乐歌单 导航 网易云音乐外链]]></content>
+    <content type="text"><![CDATA[xsjhitokoto() 网页堆 ONE-一个 句子迷 音乐歌单 导航 网易云音乐外链 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
       <categories>
         <category>其他</category>
       </categories>
@@ -174,9 +174,9 @@
         <category>搭建博客</category>
       </categories>
       <tags>
+        <tag>github</tag>
         <tag>npm</tag>
         <tag>hexo</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
