@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[免费CDN：jsDeliver+Github]]></title>
+    <url>%2F2019%2F03%2F09%2F%E5%85%8D%E8%B4%B9CDN%EF%BC%9AjsDeliver-Github%2F</url>
+    <content type="text"><![CDATA[CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。——百度百科 放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDeliver + Github便是免费且好用的CDN，非常适合博客网站使用。 第一步：新建Github仓库 第二步：上传文件上传图片或者js、css文件。可以直接上传文件夹。或者这样上传 复制文件到本地12cd 某个目录下git clone git@github.com:你的用户名/cdn.git or ( github 和 coding通用的 ）1git clone 一键复制的仓库地址 然后开始上传 123456789cd 到git仓库目录下// 查看状态git status// 添加所以改动git add .// 提交git commit -m &apos;第一次提交&apos;// 推送至远程仓库git push （注：jsDeliver不支持加载超过20M的资源，所以一些视频最好压缩到20M以下） 第三步：发布仓库点击release发布 第四步：通过jsDeliver引用资源使用方法：https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径比如：//加载js //加载图片https://cdn.jsdelivr.net/gh/ysc168/cdn@1.0/images/head.png 发现的问题 上传一次更新release再发布调用新版本的链接。比如：https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0/images/release.png用1.0就打不开https://cdn.jsdelivr.net/gh/YSC168/cdn@1.0/images/release.png]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[GoodDay]]></title>
     <url>%2F2019%2F02%2F16%2FGood_Day%2F</url>
     <content type="text"><![CDATA[var binft = function (r) { function t() { return b[Math.floor(Math.random() * b.length)] } function e() { return String.fromCharCode(94 * Math.random() + 33) } function n(r) { for (var n = document.createDocumentFragment(), i = 0; r > i; i++) { var l = document.createElement("span"); l.textContent = e(), l.style.color = t(), n.appendChild(l) } return n } function i() { var t = o[c.skillI]; c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d) } var l = "", o = ["春江潮水连海平，海上明月共潮生。", "滟滟随波千万里，何处春江无月明！","江流宛转绕芳甸，月照花林皆似霰。", "空里流霜不觉飞，汀上白沙看不见。","江天一色无纤尘，皎皎空中孤月轮。","江畔何人初见月？江月何年初照人？","人生代代无穷已，江月年年望相似。","不知江月待何人，但见长江送流水。"].map(function (r) { return r + "" }), a = 2, g = 1, s = 5, d = 75, b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"], c = { text: "", prefixP: -s, skillI: 0, skillP: 0, direction: "forward", delay: a, step: g }; i() }; binft(document.getElementById('binft'));]]></content>
@@ -21,7 +26,7 @@
   <entry>
     <title><![CDATA[追剧神器Neets]]></title>
     <url>%2F2019%2F01%2F24%2F%E8%BF%BD%E5%89%A7%E7%A5%9E%E5%99%A8Neets%2F</url>
-    <content type="text"><![CDATA[Neets——你的私人追剧专家疯狂电影迷磁力猫片哈网 追剧一直是各位上班族，学生党，社会人士的一大生活需求，有时候你可能都会自己忘记你看到哪一集了，那一段了，或者还需要重新找资源，花时间去记住今天看了几集，或者是因为工作今天没看，明天又忘记了，这里推荐给大家一个追剧的网站Neets——你的私人追剧专家！网站极力推荐给各位喜欢看电视剧的朋友们。网站Neets上收集美剧、日剧、韩剧、泰剧、动漫等多个分类，比如：《人民的名义》、《权利的游戏》、《越狱》、《西部世界》、《进击的巨人》、《春风十里不如你》这些比较热播的电视剧都有。网站会自动收集电视剧的播放地址或下载地址，同时提示播放网站中是否有广告。因为Neets只是搜集的播放地址，所以不会不涉及版权问题。比如《权利的游戏》，现在可观看到第七季第二集，而且是中文字幕。登陆账号后可以在下方分级列表总标记观看进度，最重要的是完美支持手机。]]></content>
+    <content type="text"><![CDATA[Neets——你的私人追剧专家疯狂电影迷思古影视磁力猫片哈网 追剧一直是各位上班族，学生党，社会人士的一大生活需求，有时候你可能都会自己忘记你看到哪一集了，那一段了，或者还需要重新找资源，花时间去记住今天看了几集，或者是因为工作今天没看，明天又忘记了，这里推荐给大家一个追剧的网站Neets——你的私人追剧专家！网站极力推荐给各位喜欢看电视剧的朋友们。网站Neets上收集美剧、日剧、韩剧、泰剧、动漫等多个分类，比如：《人民的名义》、《权利的游戏》、《越狱》、《西部世界》、《进击的巨人》、《春风十里不如你》这些比较热播的电视剧都有。网站会自动收集电视剧的播放地址或下载地址，同时提示播放网站中是否有广告。因为Neets只是搜集的播放地址，所以不会不涉及版权问题。比如《权利的游戏》，现在可观看到第七季第二集，而且是中文字幕。登陆账号后可以在下方分级列表总标记观看进度，最重要的是完美支持手机。]]></content>
       <tags>
         <tag>分享</tag>
       </tags>
@@ -174,9 +179,9 @@
         <category>搭建博客</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>npm</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
