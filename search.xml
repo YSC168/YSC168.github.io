@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[使用Hexo插件插入音乐视频]]></title>
+    <url>%2F2019%2F03%2F10%2F%E4%BD%BF%E7%94%A8Hexo%E6%8F%92%E4%BB%B6%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%2F</url>
+    <content type="text"><![CDATA[添加音乐当然可以用其他网站的外链，但是一般外链是&lt;iframe&gt;，这个影响网站的SEO，逼格也不够高。两个好用的hexo插件： hexo-tag-aplayer：https://github.com/grzhan/hexo-tag-aplayer) 在博客目录下Git Bush Here 输入npm install hexo-tag-aplayer是不行的直接输入npm install hexo-tag-aplayer@2.0.1 博客使用1&#123;% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; &quot;autoplay=false&quot; %&#125; new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "她的睫毛", author: "周杰伦", url: "http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3", pic: "http://home.ustc.edu.cn/~mmmwhy/jay.jpg", } }); hexo-tag-dplayer： https://github.com/NextMoe/hexo-tag-dplayer 同理npm install hexo-tag-dplayer1&#123;% dplayer &quot;url=https://raw.githubusercontent.com/YSC168/eee/master/yu.mp4&quot; &quot;pic=http://home.ustc.edu.cn/~mmmwhy/GEM.jpg&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125; (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://raw.githubusercontent.com/YSC168/eee/master/yu.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[2019_加油]]></title>
+    <url>%2F2019%2F03%2F10%2F2019%E2%80%94-%E5%8A%A0%E6%B2%B9%2F</url>
+    <content type="text"><![CDATA[人生的每一个阶段，都会有这个阶段该做的事，遇上了就要勇敢面对，而不是一味逃避，逃避未必能幸免，再次遇到时，慌乱、不会处理的还是你。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[免费CDN：jsDeliver+Github]]></title>
     <url>%2F2019%2F03%2F09%2F%E5%85%8D%E8%B4%B9CDN%EF%BC%9AjsDeliver-Github%2F</url>
     <content type="text"><![CDATA[CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。——百度百科 放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDeliver + Github便是免费且好用的CDN，非常适合博客网站使用。 第一步：新建Github仓库 第二步：上传文件上传图片或者js、css文件。可以直接上传文件夹。或者这样上传 复制文件到本地12cd 某个目录下git clone git@github.com:你的用户名/cdn.git or ( github 和 coding通用的 ）1git clone 一键复制的仓库地址 然后开始上传 123456789cd 到git仓库目录下// 查看状态git status// 添加所以改动git add .// 提交git commit -m &apos;第一次提交&apos;// 推送至远程仓库git push （注：jsDeliver不支持加载超过20M的资源，所以一些视频最好压缩到20M以下） 第三步：发布仓库点击release发布 第四步：通过jsDeliver引用资源使用方法：https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径比如：//加载js //加载图片https://cdn.jsdelivr.net/gh/ysc168/cdn@1.0/images/head.png 发现的问题 上传一次更新release再发布调用新版本的链接。比如：https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0/images/release.png用1.0就打不开https://cdn.jsdelivr.net/gh/YSC168/cdn@1.0/images/release.png]]></content>
@@ -17,11 +27,6 @@
       <tags>
         <tag>分享</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2019_加油]]></title>
-    <url>%2F2019%2F02%2F12%2F2019%E2%80%94-%E5%8A%A0%E6%B2%B9%2F</url>
-    <content type="text"><![CDATA[人生的每一个阶段，都会有这个阶段该做的事，遇上了就要勇敢面对，而不是一味逃避，逃避未必能幸免，再次遇到时，慌乱、不会处理的还是你。]]></content>
   </entry>
   <entry>
     <title><![CDATA[追剧神器Neets]]></title>
@@ -130,7 +135,7 @@
   <entry>
     <title><![CDATA[岁月安好，你也一样]]></title>
     <url>%2F2018%2F07%2F05%2F%E5%B2%81%E6%9C%88%E5%AE%89%E5%A5%BD%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A0%B7%2F</url>
-    <content type="text"><![CDATA[xsjhitokoto() 网页堆 ONE-一个 句子迷 音乐歌单 导航 网易云音乐外链 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
+    <content type="text"><![CDATA[xsjhitokoto() 网页堆 ONE-一个 句子迷 音乐歌单 导航 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
       <categories>
         <category>其他</category>
       </categories>
@@ -180,8 +185,8 @@
       </categories>
       <tags>
         <tag>github</tag>
-        <tag>hexo</tag>
         <tag>npm</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
