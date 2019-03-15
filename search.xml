@@ -135,7 +135,7 @@
   <entry>
     <title><![CDATA[岁月安好，你也一样]]></title>
     <url>%2F2018%2F07%2F05%2F%E5%B2%81%E6%9C%88%E5%AE%89%E5%A5%BD%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A0%B7%2F</url>
-    <content type="text"><![CDATA[xsjhitokoto() 网页堆 ONE-一个 句子迷 音乐歌单 导航 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer62"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
+    <content type="text"><![CDATA[xsjhitokoto() 网页堆 ONE-一个 句子迷 音乐歌单 导航 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer3"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
       <categories>
         <category>其他</category>
       </categories>
@@ -184,9 +184,9 @@
         <category>搭建博客</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>npm</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
