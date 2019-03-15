@@ -6,7 +6,7 @@
 */
 
 var media = [
-    "https://raw.githubusercontent.com/YSC168/eee/master/fade.mp3"
+    "http://music.163.com/song/media/outer/url?id=29947420.mp3"
   ],
   fftSize = 1024,
   // [32, 64, 128, 256, 512, 1024, 2048]
