@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[我与GF]]></title>
     <url>%2F%E6%88%91%E4%B8%8EGF%2F</url>
-    <content type="text"><![CDATA[愿一切安好！披荆斩棘！ 520]]></content>
+    <content type="text"><![CDATA[愿一切安好！披荆斩棘！ 520恋爱记时]]></content>
       <tags>
         <tag>生活</tag>
       </tags>
@@ -208,9 +208,9 @@
         <category>搭建博客</category>
       </categories>
       <tags>
-        <tag>github</tag>
-        <tag>hexo</tag>
         <tag>npm</tag>
+        <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
