@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>微博客</title>
   
-  <subtitle>记录琐事与技术</subtitle>
+  <subtitle>&lt;font color = &quot;#000&quot; &gt;&lt;script type=&quot;text/javascript&quot; src=&quot;https://api.uixsj.cn/hitokoto/w.php?code=js&quot;&gt;&lt;/script&gt;&lt;div id=&quot;xsjhitokoto&quot;&gt;&lt;script&gt;xsjhitokoto()&lt;/script&gt;&lt;/div&gt;&lt;/font&gt;</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
