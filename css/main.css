@@ -1953,7 +1953,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1;
+  background: #61fff9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2747,7 +2747,7 @@ pre .javascript .function {
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: rgba(255,255,255,0.7);
+  background: #fff;
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2806,7 +2806,7 @@ pre .javascript .function {
   box-sizing: border-box;
   padding: 40px;
   width: 810px;
-  background: rgba(255,255,255,0.7);
+  background: #fff;
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -2831,7 +2831,7 @@ pre .javascript .function {
   float: left;
   margin-top: 300px;
   width: 240px;
-  background: rgba(255,255,255,0.7);
+  background: #f5f7f9;
   box-shadow: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3139,6 +3139,13 @@ pre .javascript .function {
 }
 .site-author-name {
   font-size: 20px;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .feed-link a {
   display: inline-block;
