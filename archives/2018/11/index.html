@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -150,7 +150,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":false,"onmobile":true},
     fancybox: true,
@@ -191,7 +191,15 @@
 
   <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
-
+<style>
+  canvas { position: fixed;  
+              top: 0;  
+              left: 0;  
+              z-index: 0;  
+              width: 100%;  
+              height: 100%;  
+              pointer-events: none;  
+</style>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -228,7 +236,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">记录琐事与技术</p>
+        <h1 class="site-subtitle" itemprop="description">记录琐事与技术</h1>
       
   </div>
 
@@ -388,7 +396,7 @@
         
           
           <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
+            <h2 class="archive-year" id="archive-year-2018">2018</h2>
           </div>
         
         
@@ -398,7 +406,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
             <a class="post-title-link" href="/NexT主题中添加网页音乐播放器功能/" itemprop="url">
               
@@ -406,7 +414,7 @@
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
@@ -435,7 +443,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
             <a class="post-title-link" href="/ADB的使用/" itemprop="url">
               
@@ -443,7 +451,7 @@
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
@@ -507,7 +515,7 @@
                 alt="YSC" />
             
               <p class="site-author-name" itemprop="name">YSC</p>
-              <p class="site-description motion-element" itemprop="description">你在我的心里开了花</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -858,7 +866,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a></div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a></div>
 
 
 
@@ -1360,6 +1368,8 @@ setInterval("createtime()",250);
   
 
 
+ <canvas ></canvas> 
+ <script type="text/javascript" src="/js/src/bg.js"></script>
 
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></body>
 </html>
@@ -1367,3 +1377,5 @@ setInterval("createtime()",250);
 <script type="text/javascript" src="/js/src/love.js"></script>
 <!--崩溃欺骗-->
 <script type="text/javascript" src="/js/src/crash_cheat.js"></script>
+
+<script type="text/javascript" src="/js/src/bg.js"></script>
