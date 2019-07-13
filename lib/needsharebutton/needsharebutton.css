@@ -89,10 +89,10 @@
 ***********************************************/
 .need-share-button_dropdown-top-left {
   right: 100%;
-  bottom: 100%;
+  bottom: 50%;
 
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 .need-share-button_dropdown-top-right {
   bottom: 100%;
@@ -144,7 +144,7 @@
 .need-share-button-default {
   display: inline-block;
 
-  margin-bottom: 0;
+  margin-bottom: 100px;
   padding: 6px 12px;
 
   font-size: 14px;
