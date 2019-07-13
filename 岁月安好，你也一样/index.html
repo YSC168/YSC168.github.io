@@ -2,10 +2,8 @@
 
 
 
-  
 
-
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next gemini" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -144,7 +142,7 @@
 <meta property="og:image" content="https://api.uixsj.cn/bing/bing.php">
 <meta property="og:image" content="https://raw.githubusercontent.com/YSC168/eee/master/beautiful.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/wailian.png">
-<meta property="og:updated_time" content="2019-07-06T15:07:50.000Z">
+<meta property="og:updated_time" content="2019-07-13T08:22:12.747Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="岁月安好，你也一样">
 <meta name="twitter:description" content="xsjhitokoto()  网页堆 音乐歌单 引导页">
@@ -158,10 +156,10 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":false,"onmobile":true},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"scroll_to_more":true,"onmobile":true},
     fancybox: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -476,7 +474,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  184
+                  193
                 </span>
               
 
@@ -519,12 +517,13 @@
 <blockquote>
 <p><strong><script type="text/javascript" src="https://api.uixsj.cn/hitokoto/w.php?code=js"></script><div id="xsjhitokoto"><script>xsjhitokoto()</script></div></strong></p>
 </blockquote>
-<p><a href="http://ysc168.coding.me/" target="_blank" rel="noopener">网页堆</a> <a href="https://yscblog.top/music/">音乐歌单</a> <a href="https://yscblog.top/main/">引导页</a><br><a id="more"></a><br><a href="http://www.wufazhuce.com/" target="_blank" rel="noopener">ONE-一个</a> <a href="https://www.juzimi.com/" target="_blank" rel="noopener">句子迷</a> <a href="https://ysc168.github.io/audio/" target="_blank" rel="noopener">旋律</a>  <a href="https://ysc168.github.io/browse/" target="_blank" rel="noopener">导航</a>  <a href="https://ysc168.github.io/video/" target="_blank" rel="noopener">观察自己</a><br><img src="https://raw.githubusercontent.com/YSC168/eee/master/beautiful.jpg" alt="此处输入图片的描述"> </p>
+<p><a href="http://ysc168.coding.me/" target="_blank" rel="noopener">网页堆</a> <a href="https://yscblog.top/music/">音乐歌单</a> <a href="https://yscblog.top/main/">引导页</a><br><a id="more"></a><br><a href="http://www.wufazhuce.com/" target="_blank" rel="noopener">ONE-一个</a> <a href="https://www.juzimi.com/" target="_blank" rel="noopener">句子迷</a> <a href="https://ysc168.github.io/audio/" target="_blank" rel="noopener">旋律</a>  <a href="https://ysc168.github.io/browse/" target="_blank" rel="noopener">导航</a>  <a href="https://ysc168.github.io/video/" target="_blank" rel="noopener">观察自己</a><br><a href="http://www.1ppt.com/" target="_blank" rel="noopener">第一PPT网</a> <a href="https://fontawesome.com/" target="_blank" rel="noopener">FontAwesome</a> <a href="https://bing.ioliu.cn/" target="_blank" rel="noopener">必应壁纸</a> </p>
+<p><img src="https://raw.githubusercontent.com/YSC168/eee/master/beautiful.jpg" alt="此处输入图片的描述"> </p>
 <p><strong>网易云音乐外链</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/wailian.png" alt="此处输入图片的描述"><br><strong>网易云音乐可以直链</strong><br><a href="http://music.163.com/song/media/outer/url?id=歌曲id.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=歌曲id.mp3</a><br><div id="aplayer3" class="aplayer" style="margin-bottom: 20px;"></div>
+<p><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/wailian.png" alt="此处输入图片的描述"><br><strong>网易云音乐可以直链</strong><br><a href="http://music.163.com/song/media/outer/url?id=歌曲id.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=歌曲id.mp3</a><br><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
-				element: document.getElementById("aplayer3"),
+				element: document.getElementById("aplayer0"),
 				narrow: false,
 				autoplay: false,
 				showlrc: 0,
@@ -1013,6 +1012,8 @@
       
         <div class="back-to-top">
           <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
           
         </div>
       
