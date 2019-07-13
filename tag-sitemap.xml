@@ -65,14 +65,14 @@
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/npm/</loc>
+        <loc>http://yscblog.top/tags/hexo/</loc>
         <lastmod>2019-07-12T16:37:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/hexo/</loc>
+        <loc>http://yscblog.top/tags/npm/</loc>
         <lastmod>2019-07-12T16:37:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
