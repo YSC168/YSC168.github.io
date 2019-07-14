@@ -498,7 +498,7 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #000;
+  color: #555;
   background: #eee;
   border-radius: 3px;
   font-size: 14px;
@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0824;
+  background: #a7c162;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3285,6 +3285,20 @@ pre .javascript .function {
 }
 .site-author-name {
   font-size: 20px;
+}
+.headband {
+  height: 3px;
+  background: #222;
+}
+.site-meta {
+  padding: 20px 0;
+  color: #fff;
+  background: #222;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fff;
 }
 .feed-link a {
   display: inline-block;
