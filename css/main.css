@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a7c162;
+  background: #c45321;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3288,12 +3288,12 @@ pre .javascript .function {
 }
 .headband {
   height: 3px;
-  background: #222;
+  background: #f99;
 }
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #222;
+  background: #f99;
 }
 .site-subtitle {
   margin-top: 10px;
