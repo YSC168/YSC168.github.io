@@ -8,7 +8,15 @@
 
     <url>
         <loc>http://yscblog.top/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%96%B9%E6%B3%95/</loc>
-        <lastmod>2019-07-20T14:10:49.427Z</lastmod>
+        <lastmod>2019-07-21T08:56:52.592Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yscblog.top/Good_Day/</loc>
+        <lastmod>2019-07-21T05:59:54.298Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -137,14 +145,6 @@
     <url>
         <loc>http://yscblog.top/%E6%88%91%E4%B8%8EGF/</loc>
         <lastmod>2019-07-06T15:13:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yscblog.top/Good_Day/</loc>
-        <lastmod>2019-07-06T14:10:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
