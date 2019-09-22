@@ -278,7 +278,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/br/" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -288,7 +288,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags/br/" rel="section">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -298,7 +298,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/categories/br/" rel="section">
+          <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
@@ -308,7 +308,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives/br/" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -318,7 +318,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/about/br/" rel="section">
+          <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
@@ -328,7 +328,7 @@
       
         
         <li class="menu-item menu-item-相册">
-          <a href="/photos/br/" rel="section">
+          <a href="/photos/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
             
@@ -536,10 +536,10 @@
 <li>lrc:xxx: (可选）歌词文件 URL 地址</li>
 </ul>
 <p>博客使用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;See You Again&quot; &quot;Wiz Khalifa / Charlie Puth&quot; &quot;http://music.163.com/song/media/outer/url?id=30953009.mp3&quot;  &quot;http://p2.music.126.net/JIc9X91OSH-7fUZqVfQXAQ==/7731765766799133.jpg?param=130y130&quot; &quot;autoplay=false&quot; %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
-				element: document.getElementById("aplayer0"),
+				element: document.getElementById("aplayer1"),
 				narrow: false,
 				autoplay: false,
 				showlrc: 0,
@@ -552,12 +552,12 @@
 			});
 		</script>
 <p>除了使用标签 <code>lrc</code> 选项来设定歌词，你也可以直接使用 <code>aplayerlrc</code> 标签来直接插入歌词文本在博客中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayerlrc &quot;title&quot; &quot;author&quot; &quot;url&quot; &quot;封面(选填)&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">[00:00.00]lrc here</span><br><span class="line">&#123;% endaplayerlrc %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;">
+<div id="aplayer2" class="aplayer" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">'[00:00.00]lrc here</pre>
 			</div>
 			<script>
 				new APlayer({
-					element: document.getElementById("aplayer1"),
+					element: document.getElementById("aplayer2"),
 					narrow: false,
 					autoplay: 0,
 					showlrc: 2,
@@ -570,10 +570,10 @@
 				});
 			</script>
 
-			<div id="aplayer2" class="aplayer" style="margin-bottom: 20px;"></div>
+			<div id="aplayer3" class="aplayer" style="margin-bottom: 20px;"></div>
 			<script>
 				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"アイロニ","author":"鹿乃","url":"http://music.163.com/song/media/outer/url?id=31421442.mp3","pic":"http://p1.music.126.net/4Zpn57gnArtV3F5xiNBK0g==/109951163598414321.jpg?param=130y130"},{"title":"Fade","author":"Alan Walker","url":"http://music.163.com/song/media/outer/url?id=29947420.mp3","pic":"http://p1.music.126.net/6Skxbgl8cfIjFGV-MzGi0Q==/109951163787691327.jpg?param=130y130"}]};
-				options.element = document.getElementById("aplayer2");
+				options.element = document.getElementById("aplayer3");
 				new APlayer(options);
 			</script>
 
@@ -749,7 +749,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/br/">
+                <a href="/archives/">
               
                   <span class="site-state-item-count">31</span>
                   <span class="site-state-item-name">日志</span>
