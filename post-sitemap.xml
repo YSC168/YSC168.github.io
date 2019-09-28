@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yscblog.top/Good_Day/</loc>
+        <lastmod>2019-09-28T13:04:06.218Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yscblog.top/%E8%BF%BD%E5%89%A7%E7%A5%9E%E5%99%A8Neets/</loc>
         <lastmod>2019-09-22T02:50:40.404Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +57,6 @@
     <url>
         <loc>http://yscblog.top/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%96%B9%E6%B3%95/</loc>
         <lastmod>2019-07-21T08:56:52.592Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yscblog.top/Good_Day/</loc>
-        <lastmod>2019-07-21T05:59:54.298Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
