@@ -7,8 +7,8 @@ CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建�
 
 放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDeliver + Github便是免费且好用的CDN，非常适合博客网站使用。
 
-https://www.itrhx.com/2019/08/01/A27-image-hosting/
-[升级版][10]
+
+[升级版][10]  PicGO 方便快捷高效
 <!--more-->
 ####  第一步：新建Github仓库
 ![此处输入图片的描述][1]

@@ -22,6 +22,8 @@ r=a(1-sinθ)(a>0)
 
 {% aplayer "小酒窝" "欧芊" "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/xiaojiuwo.m4a"  "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg" "autoplay=false" %}
 
+{% aplayer "东西" "欧芊" "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.1/audio/dongxi.m4a"  "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg" "autoplay=false" %}
+
 
 3月23日傍晚到3月25日下午在重庆，4月19日晚上到4月22日下午在成都，5月20日上午到5月22日早上在永川重庆，6月20日晚上到6月23日傍晚在成都。共计相遇四次十天。
 

@@ -125,13 +125,15 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:YSC168/YSC168.github.io.git
+  repository: 
+    github: git@github.com:YSC168/YSC168.github.io.git
+    coding: git@git.dev.tencent.com:ysc168/ysc168.coding.me.git
   branch: master
 
 
 backup:
   type: git
   theme: next
-  message: Back up my www.itrhx.com blog
+  message: Backup my blog
   repository:
     github: git@github.com:YSC168/YSC168.github.io.git,backup
