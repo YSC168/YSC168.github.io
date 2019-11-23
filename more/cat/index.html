@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>圈小猫 | 微博客</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.0/more/cat/translateelement.css">
+    <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.1/more/jquery.min1.js"></script>
+    <style>
+        body {background-color: #eeeeee}
+        #catch-the-cat {width: 100%;text-align: center;}
+        #footer{position:relative;clear:both;padding:10px 20px 40px 0;padding:10px 0;width:100%;text-align:center}#footer address{display:inline-block;padding:2px 10px;color:rgba(0,0,0,.5);font-style:normal}
+        #footer a{color:rgba(0,0,0,.5);cursor:grab}#footer a:hover{border-bottom:1px dotted #00387d;color:#00387d}
+    </style>
+</head>
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+	<script>
+		document.onkeydown = function () {
+			if (window.event && window.event.keyCode == 123) {
+				event.keyCode = 0;
+				event.returnValue = false;
+				return false;
+			}
+		};
+	</script>
+    <h1 style="text-align:center;margin-top:32px;">游戏：《圈小猫》</h1><br>
+    <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.0/more/cat/phaser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.0/more/cat/catch-the-cat.js"></script>
+    <div id="catch-the-cat"></div>
+    <script>
+      window.game = new CatchTheCatGame({
+        w: 11,
+        h: 11,
+        r: 20,
+        backgroundColor: 0xffffff,
+        parent: 'catch-the-cat',
+        statusBarAlign: 'center',
+        credit: '微博客'
+      });
+    </script>
+   <footer id="footer" role="contentinfo" style="top:10px;">
+        <address>
+             <p id="hitokoto"  style="color: black;">加载中···</p>
+            
+            <hr color="black" height="0.5px">
+             
+              <div class="copyright" style="color: black;">
+                Copyright&nbsp;©&nbsp;2018-2019&nbsp;<a  style="color: black;" href="https://yscblog.top/" target="_blank">微博客</a>&nbsp;&nbsp;|&nbsp;
+
+
+                素材来源于网络&nbsp;&nbsp;<a   style="color: black;" href="https://www.itrhx.com/" target="_blank">TRHX'S BLOG</a><br>
+
+               
+            </div>
+        </address>
+      <main></main>
+    </footer>
+       <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.2/more/main.js"></script>
+</body>
+</html>
