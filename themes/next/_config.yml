@@ -98,7 +98,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   about: /about/ || user
-  相册: /photos/ || heartbeat
+  more: /more/ || qq
   #连接||图标
   #photos: /photos/ || user
   #search: /search/ || search
@@ -160,6 +160,7 @@ links:
   现实君: https://uixsj.cn/
   网页配色: http://tool.c7sky.com/webcolor/
   豆瓣top250: https://movie.douban.com/top250/
+  TRHX'S BLOG: https://www.itrhx.com/
   PivixBox: https://pixivbox.top/
 
 
