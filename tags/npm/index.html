@@ -213,8 +213,7 @@
 
 
 
-  <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
 <style>
   canvas { position: fixed;  
               top: 0;  
@@ -239,8 +238,7 @@
 <div id="aplayer"></div>
 <script type="text/javascript" src="/dist/APlayer.min.js"></script>
 <script type="text/javascript" src="/dist/music.js"></script>
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
  
   
   
@@ -500,7 +498,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">34</span>
+                  <span class="site-state-item-count">33</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1381,6 +1379,32 @@ setInterval("createtime()",250);
 </html>
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
+<script type="text/javascript" src="js/src/fireworks.min.js"></script><!--  点击爆炸效果  -->
+
+<script type="text/javascript">
+
+ var js = document.createElement('script');
+ $(function(){
+  //判断屏幕宽度
+  var winWide = window.screen.width;  //获取当前屏幕分辨率
+  alert("winWide")；
+  var wideScreen = false;
+  if(winWide  > 768){  //1024及以下分辨率
+  //这里写要加载的代码
+  js.src='https://cdn.jsdelivr.net/gh/mumudadi/cdn@latest/js/sakura.min.js';
+  }
+  else{  //大于1024的分辨率
+  //这里写要加载的代码
+  }
+})
+
+  
+js.type = 'text/javascript';
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/mumudadi/cdn@latest/js/sakura.min.js"></script><!--  点击爆炸效果  -->
+
 <!--崩溃欺骗-->
 <script type="text/javascript" src="/js/src/crash_cheat.js"></script>
 

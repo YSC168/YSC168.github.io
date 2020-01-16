@@ -34,7 +34,7 @@
   <entry>
     <title><![CDATA[我与GF]]></title>
     <url>%2F%E6%88%91%E4%B8%8EGF%2F</url>
-    <content type="text"><![CDATA[愿一切安好！披荆斩棘！r=a(1-sinθ)(a&gt;0) 我的色彩来源于你，请细细填充。 我们开始于嘻笑，经营在异地，邂逅的欢喜，维系于每时每刻。 new APlayer({ element: document.getElementById("aplayer6"), narrow: false, autoplay: false, showlrc: 0, music: { title: "过火", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.4/audio/gh.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer7"), narrow: false, autoplay: false, showlrc: 0, music: { title: "遇见你的时候所有星星都落到我头上", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/yujianni.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer8"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Nothing's Gonna Change My Love For You", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/loveforyou.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer9"), narrow: false, autoplay: false, showlrc: 0, music: { title: "小酒窝", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/xiaojiuwo.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer10"), narrow: false, autoplay: false, showlrc: 0, music: { title: "东西", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.1/audio/dongxi.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 3月23日傍晚到3月25日下午在重庆，4月19日晚上到4月22日下午在成都，5月20日上午到5月22日早上在永川重庆，6月20日晚上到6月23日傍晚在成都。共计相遇四次十天。 7月24日晚到7月30日晚在重庆 嘻嘻 8月30日晚到9月1日傍晚在成都，10月1日傍晚到10月6日傍晚在成都，11月8日晚到11月10傍晚在重庆 520恋爱记时]]></content>
+    <content type="text"><![CDATA[愿一切安好！披荆斩棘！ 图片合集 r=a(1-sinθ)(a&gt;0) 我的色彩来源于你，请细细填充。 我们开始于嘻笑，经营在异地，邂逅的欢喜，维系于每时每刻。 new APlayer({ element: document.getElementById("aplayer3"), narrow: false, autoplay: false, showlrc: 0, music: { title: "过火", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.4/audio/gh.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer4"), narrow: false, autoplay: false, showlrc: 0, music: { title: "遇见你的时候所有星星都落到我头上", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/yujianni.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer5"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Nothing's Gonna Change My Love For You", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/loveforyou.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer6"), narrow: false, autoplay: false, showlrc: 0, music: { title: "小酒窝", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/xiaojiuwo.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer7"), narrow: false, autoplay: false, showlrc: 0, music: { title: "东西", author: "欧芊", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.1/audio/dongxi.m4a", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 3月23日傍晚到3月25日下午在重庆，4月19日晚上到4月22日下午在成都，5月20日上午到5月22日早上在永川重庆，6月20日晚上到6月23日傍晚在成都。共计相遇四次十天。 7月24日晚到7月30日晚在重庆 嘻嘻 8月30日晚到9月1日傍晚在成都，10月1日傍晚到10月6日傍晚在成都，11月8日晚到11月10傍晚在重庆 520恋爱记时]]></content>
       <tags>
         <tag>生活</tag>
       </tags>
@@ -120,17 +120,17 @@
     <content type="text"><![CDATA[手机要进入设置-&gt;开发人员选项-&gt;打开USB调试在电脑上进入cmd输入 adb services 显示有一串数字就OK了打开根目录/data/misc/wifi/wpa_supplicant.conf的文件可以查看连过的WIFI密码 一、配置android的adb环境变量 建议百度 二、常用的adb代码 1、重启有关 关机先输入adb shell,然后reboot -p 重启设备 adb reboot 重启到bootloader界面 adb reboot bootloader 重启到Recovery界面 adb reboot recovery 2、APK操作（手机应用不需要ROOT权限） 卸载软件 adb shell pm uninstall -k 包名 使用-k参数：保留安装包的数据和缓存目录。 常用包名（不要干坏事！！！）QQ：com.tencent.mobileqq微信：com.tencent.mm微博：com.sina.weibo支付宝：com.eg.android.AlipayGphone 安装软件 没有 三、其他 在命令行中先输入adb shell 在输入以下代码:创建文件夹 mkdir /sdcard/tmp删除文件 rm -f /sdcard/test.txt移动文件 mv /sdcard/tmp /sdcard/test锁屏 input keyevent 223返回 input keyevent 3已安装第三方应用 pm list packages -3已安装应用 pm list packages手机电量 dumpsys battery手机型号 getprop ro.product.model清除apk数据 pm clear com.test.abc截屏 creencap /sdcard/screen.pngDNS etprop net.dns1IP地址 fconfig或者 ip -f inet addr show wlan0]]></content>
   </entry>
   <entry>
-    <title><![CDATA[科学上网，蓝灯必备]]></title>
-    <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
-    <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[科学上网方法]]></title>
     <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[1.当我们需要访问国外的网站时，发现总是打不开。这时需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯Github开源地址 2.一个基于浏览器端 JS 实现的在线代理Github开源地址浏览器访问地址，亲测可用效果好。 支持PC和安卓端 （注意及时更新版本）下载地址]]></content>
       <tags>
         <tag>分享</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[科学上网，蓝灯必备]]></title>
+    <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
+    <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
   </entry>
   <entry>
     <title><![CDATA[奥斯卡最佳动画短片《鹬》]]></title>
@@ -200,7 +200,7 @@
   <entry>
     <title><![CDATA[岁月安好，你也一样]]></title>
     <url>%2F%E5%B2%81%E6%9C%88%E5%AE%89%E5%A5%BD%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A0%B7%2F</url>
-    <content type="text"><![CDATA[xsjhitokoto() new APlayer({ element: document.getElementById("aplayer3"), narrow: false, autoplay: false, showlrc: 0, music: { title: "没什么大不了", author: "《你的名字》片尾曲", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/meishem.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); new APlayer({ element: document.getElementById("aplayer4"), narrow: false, autoplay: false, showlrc: 0, music: { title: "童话镇", author: "陈一发", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网页堆 音乐歌单 引导页 beautiful 支付一下 404ONE-一个 句子迷 旋律 导航 观察自己第一PPT网 FontAwesome 必应壁纸 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer5"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
+    <content type="text"><![CDATA[xsjhitokoto() new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "没什么大不了", author: "《你的名字》片尾曲", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/meishem.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网页堆 歌单 歌单2 引导页 beautiful 支付一下 404ONE-一个 句子迷 旋律 导航 观察自己第一PPT网 FontAwesome 必应壁纸 new APlayer({ element: document.getElementById("aplayer1"), narrow: false, autoplay: false, showlrc: 0, music: { title: "童话镇", author: "陈一发", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer2"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
       <categories>
         <category>其他</category>
       </categories>
@@ -252,17 +252,6 @@
         <tag>hexo</tag>
         <tag>github</tag>
         <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2018大年初二]]></title>
-    <url>%2F2018%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%BA%8C%2F</url>
-    <content type="text"><![CDATA[你的名字 在2018年的2月17日是很开心的一天！ 早上9点我们准时碰面，坐着走走停停的109路公交车踏上了长寿湖之旅。途中我们更是有说有笑，像是多年未见的挚友。聊着我们各自的见闻。 但我的想法却不是这样，这使我的行为变得拘谨，掩饰。 上午去长寿湖游览了一些小景点，我是很希望到那个鹊桥找个路人拍照作为美好的纪念的！ BUT 这该怎么开口呢？不甘这样，却难于踏出这一步！不是很快乐的走了一遍。在尾随中偷偷的拍了她的一张背影。中午吃了很好吃的豆花饭，她点的我当然喜欢啦。傍晚则是去看电影《唐人街探案2》，别扭的英文或许是唯一的笑点。还有那首《粉红色的回忆》也是惊艳到了我。晚上再陪她去长寿北取火车票，最后回到了晏家吃了碗小面，在街头交谈许久，不舍的回到各自的家。 纵观这一天，对于我是多么的美好，仿佛幸福就在眼前！ 然而一切又是那么的朴素，那么的真实。我的表现真的是差极了，邋遢全方位的展现在她的眼前，节俭她早已洞察。这也就是第一次，以后可不能这样的尬聊。其次在2月27日，去长寿北送了一个小礼物。哈哈哈 这是最美好的寒假！]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>开心</tag>
       </tags>
   </entry>
 </search>
