@@ -120,17 +120,17 @@
     <content type="text"><![CDATA[手机要进入设置-&gt;开发人员选项-&gt;打开USB调试在电脑上进入cmd输入 adb services 显示有一串数字就OK了打开根目录/data/misc/wifi/wpa_supplicant.conf的文件可以查看连过的WIFI密码 一、配置android的adb环境变量 建议百度 二、常用的adb代码 1、重启有关 关机先输入adb shell,然后reboot -p 重启设备 adb reboot 重启到bootloader界面 adb reboot bootloader 重启到Recovery界面 adb reboot recovery 2、APK操作（手机应用不需要ROOT权限） 卸载软件 adb shell pm uninstall -k 包名 使用-k参数：保留安装包的数据和缓存目录。 常用包名（不要干坏事！！！）QQ：com.tencent.mobileqq微信：com.tencent.mm微博：com.sina.weibo支付宝：com.eg.android.AlipayGphone 安装软件 没有 三、其他 在命令行中先输入adb shell 在输入以下代码:创建文件夹 mkdir /sdcard/tmp删除文件 rm -f /sdcard/test.txt移动文件 mv /sdcard/tmp /sdcard/test锁屏 input keyevent 223返回 input keyevent 3已安装第三方应用 pm list packages -3已安装应用 pm list packages手机电量 dumpsys battery手机型号 getprop ro.product.model清除apk数据 pm clear com.test.abc截屏 creencap /sdcard/screen.pngDNS etprop net.dns1IP地址 fconfig或者 ip -f inet addr show wlan0]]></content>
   </entry>
   <entry>
-    <title><![CDATA[科学上网，蓝灯必备]]></title>
-    <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
-    <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[科学上网方法]]></title>
     <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[1.当我们需要访问国外的网站时，发现总是打不开。这时需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯Github开源地址 2.一个基于浏览器端 JS 实现的在线代理Github开源地址浏览器访问地址，亲测可用效果好。 支持PC和安卓端 （注意及时更新版本）下载地址]]></content>
       <tags>
         <tag>分享</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[科学上网，蓝灯必备]]></title>
+    <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
+    <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
   </entry>
   <entry>
     <title><![CDATA[奥斯卡最佳动画短片《鹬》]]></title>
