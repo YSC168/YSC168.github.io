@@ -4,10 +4,10 @@ const ap = new APlayer({
     audio: [
        
          {
-        name: 'Sakura Tears',
-        artist: '櫻花淚',
-        url: 'http://music.163.com/song/media/outer/url?id=509313150.mp3',
-        cover: 'http://p1.music.126.net/HS9QYUXD3UCpmBxnMfxicA==/109951163604923548.jpg?param=180y180',
+        name: '白羊',
+        artist: '徐秉龙/沈以诚',
+        url: 'http://music.163.com/song/media/outer/url?id=514761281.mp3',
+        cover: 'http://p2.music.126.net/tczb_7II9KzSuLQsVt89Gw==/109951163049336667.jpg?param=130y130',
       },
       {
         name: "Shape of You",
@@ -18,7 +18,7 @@ const ap = new APlayer({
      {
         name: "你是人间四月天",
         artist: '解忧邵帅',
-        url: 'http://music.163.com/song/media/outer/url?id=1344897943.mp3',
+        url: 'http://music.163.com/song/media/outer/url?id=28481189.mp3',
         cover: 'http://p2.music.126.net/o9SkgZVnB2g0JDeeK-ugGA==/109951163886781910.jpg?param=130y130',
       },
         {
@@ -34,10 +34,10 @@ const ap = new APlayer({
         cover: 'http://p2.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg?param=130y130',
       },
        {
-        name: "風になる",
-        artist: 'つじあやの',
-        url: 'http://music.163.com/song/media/outer/url?id=482172.mp3',
-        cover: 'http://p2.music.126.net/82XmKUX6AAkjSIqVq84jZw==/109951163346032923.jpg?param=130y130',
+        name: "Breath and Life",
+        artist: 'Audiomachine',
+        url: 'http://music.163.com/song/media/outer/url?id=3935139.mp3',
+        cover: 'http://p1.music.126.net/dRBpkU9RDUtEu513XtG7Fw==/109951163818565831.jpg?param=130y130',
       },
         {
         name: '小幸运',
