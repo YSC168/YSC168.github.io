@@ -26,8 +26,7 @@
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
-  <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
 <style>
   canvas { position: fixed;  
               top: 0;  
@@ -52,8 +51,7 @@
 <div id="aplayer"></div>
 <script type="text/javascript" src="/dist/APlayer.min.js"></script>
 <script type="text/javascript" src="/dist/music.js"></script>
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
  
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
@@ -143,8 +141,46 @@
 
 </body>
 </html>
-<!-- 页面点击小红心 -->
+<!-- 页面点击小红心-->
 <script type="text/javascript" src="/js/src/love.js"></script>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
+<script type="text/javascript" src="js/src/fireworks.min.js"></script><!--  点击爆炸效果  -->
+
+<script type="text/javascript">
+
+ var js = document.createElement('script');
+ $(function(){
+  //判断屏幕宽度
+  var winWide = window.screen.width;  //获取当前屏幕分辨率
+  alert("winWide")；
+  var wideScreen = false;
+  if(winWide  > 768){  //1024及以下分辨率
+  //这里写要加载的代码
+  js.src='https://cdn.jsdelivr.net/gh/mumudadi/cdn@latest/js/sakura.min.js';
+  }
+  else{  //大于1024的分辨率
+  //这里写要加载的代码
+  }
+})
+
+  
+js.type = 'text/javascript';
+</script>
+<script language="JavaScript">
+     window.onload = function(){
+        var script = document.createElement("script");  
+var isOnPc = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent));
+
+    
+if (!isOnPc) {
+
+        script.setAttribute("src","https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.5/js/sakura.js");  
+        document.getElementsByTagName("body")[0].appendChild(script); 
+    }
+     } 
+</script>
+
 <!--崩溃欺骗-->
 <script type="text/javascript" src="/js/src/crash_cheat.js"></script>
 

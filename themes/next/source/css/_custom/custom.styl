@@ -4,35 +4,7 @@
 }
 
 
-/* 适配手机样式 */
-@media (max-width: 767px){
-  /*手机端body体显示*/
-  body{
-    background-image: none;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #34495e;
-  }
-  /*手机端菜单栏样式*/
-  .menu {
-    display: flex;
-    margin-left: 5px;
-    float: none !important;
-  }
 
-  .menu .menu-item a{
-    /*font-weight: 600;*/
-    color: #2c3e50;
-    font-size: 14px;
-    padding: 1px 7px;
-  }
-  /*选中菜单样式*/
-  .menu-item-active a:after{
-    top: -10%;
-    right: 24px;
-}
-}
 
 
 // 修改网站头部颜色
@@ -64,3 +36,45 @@
 .headband {display:none;}
 .feed-link a{display: inline-block;}
 
+
+// 适配手机样式 began ------------------------>
+@media (max-width: 767px){
+  /*手机端body体显示*/
+  body{
+    background-image: none;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #34495e;
+  }
+  /*手机端菜单栏样式*/
+  .menu {
+    display: flex;
+    margin-left: 5px;
+    float: none !important;
+  }
+  //.menu-item{
+  //  display: inline;
+  //}
+
+  ////不显示站点地图li
+  //.menu .menu-item menu-item-sitemap{
+  //  display:none
+  //}
+
+  .menu .menu-item a{
+    /*font-weight: 600;*/
+    color: #2c3e50;
+    font-size: 14px;
+    //padding: 1px 7px;
+    padding: 5px 12px;
+  }
+  //选中菜单样式
+  .menu-item-active a:after{
+    top: -10%;
+    //top: 66%;
+    right: 24px;
+    //三角形
+    //width:0; height:0; border:10px solid; border-color:#aececb #f5f7f9 #f5f7f9 #f5f7f9;
+}
+}

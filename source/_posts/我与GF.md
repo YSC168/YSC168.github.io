@@ -6,6 +6,9 @@ password: qq
 ---
 <p align="center"><font color="#ff6666"  size="+2">愿一切安好！披荆斩棘！</font></p>
 <!--more-->
+
+<center>{% btn https://yscblog.top/top/, 图片合集 %}</center>
+
 r=a(1-sinθ)(a>0)
 
 我的色彩来源于你，请细细填充。
