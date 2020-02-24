@@ -120,17 +120,17 @@
     <content type="text"><![CDATA[手机要进入设置-&gt;开发人员选项-&gt;打开USB调试在电脑上进入cmd输入 adb services 显示有一串数字就OK了打开根目录/data/misc/wifi/wpa_supplicant.conf的文件可以查看连过的WIFI密码 一、配置android的adb环境变量 建议百度 二、常用的adb代码 1、重启有关 关机先输入adb shell,然后reboot -p 重启设备 adb reboot 重启到bootloader界面 adb reboot bootloader 重启到Recovery界面 adb reboot recovery 2、APK操作（手机应用不需要ROOT权限） 卸载软件 adb shell pm uninstall -k 包名 使用-k参数：保留安装包的数据和缓存目录。 常用包名（不要干坏事！！！）QQ：com.tencent.mobileqq微信：com.tencent.mm微博：com.sina.weibo支付宝：com.eg.android.AlipayGphone 安装软件 没有 三、其他 在命令行中先输入adb shell 在输入以下代码:创建文件夹 mkdir /sdcard/tmp删除文件 rm -f /sdcard/test.txt移动文件 mv /sdcard/tmp /sdcard/test锁屏 input keyevent 223返回 input keyevent 3已安装第三方应用 pm list packages -3已安装应用 pm list packages手机电量 dumpsys battery手机型号 getprop ro.product.model清除apk数据 pm clear com.test.abc截屏 creencap /sdcard/screen.pngDNS etprop net.dns1IP地址 fconfig或者 ip -f inet addr show wlan0]]></content>
   </entry>
   <entry>
-    <title><![CDATA[科学上网，蓝灯必备]]></title>
-    <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
-    <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[科学上网方法]]></title>
     <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[1.当我们需要访问国外的网站时，发现总是打不开。这时需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯Github开源地址 2.一个基于浏览器端 JS 实现的在线代理Github开源地址浏览器访问地址，亲测可用效果好。 支持PC和安卓端 （注意及时更新版本）下载地址]]></content>
       <tags>
         <tag>分享</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[科学上网，蓝灯必备]]></title>
+    <url>%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%8C%E8%93%9D%E7%81%AF%E5%BF%85%E5%A4%87%2F</url>
+    <content type="text"><![CDATA[当我们访问国外的网站时，发现总是打不开。这是需要连接国外的VPN进行访问。这里分享一个不错的软件蓝灯 支持PC和安卓端 下载地址]]></content>
   </entry>
   <entry>
     <title><![CDATA[奥斯卡最佳动画短片《鹬》]]></title>
@@ -200,7 +200,7 @@
   <entry>
     <title><![CDATA[岁月安好，你也一样]]></title>
     <url>%2F%E5%B2%81%E6%9C%88%E5%AE%89%E5%A5%BD%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A0%B7%2F</url>
-    <content type="text"><![CDATA[xsjhitokoto() new APlayer({ element: document.getElementById("aplayer4"), narrow: false, autoplay: false, showlrc: 0, music: { title: "没什么大不了", author: "《你的名字》片尾曲", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/meishem.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网页堆 歌单 歌单2 引导页 beautiful 支付一下 404ONE-一个 句子迷 旋律 导航 观察自己第一PPT网 FontAwesome 必应壁纸 new APlayer({ element: document.getElementById("aplayer5"), narrow: false, autoplay: false, showlrc: 0, music: { title: "童话镇", author: "陈一发", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer6"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
+    <content type="text"><![CDATA[YSC♥♥♥欧小芊(●’◡’●)ﾉ xsjhitokoto() new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "没什么大不了", author: "《你的名字》片尾曲", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/meishem.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网页堆 歌单 歌单2 引导页 beautiful 支付一下 404 ONE-一个 句子迷 旋律 导航 观察自己第一PPT网 FontAwesome 必应壁纸 new APlayer({ element: document.getElementById("aplayer1"), narrow: false, autoplay: false, showlrc: 0, music: { title: "童话镇", author: "陈一发", url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3", pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg", } }); 网易云音乐外链 网易云音乐可以直链http://music.163.com/song/media/outer/url?id=歌曲id.mp3 new APlayer({ element: document.getElementById("aplayer2"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Moonlight Shadow", author: "Dana Winner", url: "http://music.163.com/song/media/outer/url?id=22623026.mp3", pic: "autoplay=false", } }); 只需要查看歌曲id，替换上面链接歌曲id即可…… http://music.163.com/song/media/outer/url?id=22623026.mp3 获取歌词歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取 http://music.163.com/api/song/media?id=863046037 其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现]]></content>
       <categories>
         <category>其他</category>
       </categories>
