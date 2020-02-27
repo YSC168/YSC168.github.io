@@ -4,6 +4,7 @@ const ap = new APlayer({
     audio: [
       
          {
+         	
         name: '告白の夜',
         artist: 'Ayasa绚沙',
         url: 'https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.2/mp3/gbzy.mp3',
