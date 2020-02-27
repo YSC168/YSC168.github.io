@@ -2,12 +2,13 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     audio: [
-       
+      
          {
-        name: '白羊',
-        artist: '徐秉龙/沈以诚',
-        url: 'http://music.163.com/song/media/outer/url?id=514761281.mp3',
-        cover: 'http://p2.music.126.net/tczb_7II9KzSuLQsVt89Gw==/109951163049336667.jpg?param=130y130',
+         	
+        name: '告白の夜',
+        artist: 'Ayasa绚沙',
+        url: 'https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.2/mp3/gbzy.mp3',
+        cover: 'https://p1.music.126.net/nNIX5GT6dfVSheiQU4QtfQ==/109951163984605821.jpg?param=130y130',
       },
       {
         name: "Shape of You",
@@ -15,11 +16,17 @@ const ap = new APlayer({
         url: 'http://music.163.com/song/media/outer/url?id=468882985.mp3',
         cover: 'http://p1.music.126.net/hZ2ttGYOQbL9ei9yABpejQ==/109951163032775841.jpg?param=130y130',
       },
+      {
+        name: "Monsters",
+        artist: 'Katie Sky',
+        url: 'http://music.163.com/song/media/outer/url?id=28481189.mp3',
+        cover: 'http://p1.music.126.net/YPh291Jw4Lzy7x1iT_Aw5A==/109951163510035145.jpg?param=130y130',
+      },
      {
         name: "你是人间四月天",
         artist: '解忧邵帅',
-        url: 'http://music.163.com/song/media/outer/url?id=28481189.mp3',
-        cover: 'http://p2.music.126.net/o9SkgZVnB2g0JDeeK-ugGA==/109951163886781910.jpg?param=130y130',
+        url: 'http://music.163.com/song/media/outer/url?id=1344897943.mp3',
+        cover: 'http://p2.music.126.net/kQJQD58WkmQneTneOYe22A==/109951164252455813.jpg?param=130y130',
       },
         {
         name: "我喜欢你",
@@ -38,12 +45,6 @@ const ap = new APlayer({
         artist: 'Audiomachine',
         url: 'http://music.163.com/song/media/outer/url?id=3935139.mp3',
         cover: 'http://p1.music.126.net/dRBpkU9RDUtEu513XtG7Fw==/109951163818565831.jpg?param=130y130',
-      },
-        {
-        name: '小幸运',
-        artist: '田馥甄',
-        url: 'http://music.163.com/song/media/outer/url?id=537854958.mp3',
-        cover: 'http://p1.music.126.net/RWIn_QVvCl4GMa8qwCHySA==/109951163424252100.jpg?param=130y130',
       },
         {
         name: "往后余生",

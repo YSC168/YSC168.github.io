@@ -37,21 +37,14 @@
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/%E5%BC%80%E5%BF%83/</loc>
-        <lastmod>2019-07-12T12:02:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yscblog.top/tags/npm/</loc>
+        <loc>http://yscblog.top/tags/github/</loc>
         <lastmod>2019-07-14T16:36:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/github/</loc>
+        <loc>http://yscblog.top/tags/npm/</loc>
         <lastmod>2019-07-14T16:36:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -81,6 +74,13 @@
     <url>
         <loc>http://yscblog.top/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%9B%BE/</loc>
         <lastmod>2020-02-24T07:03:44.180Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yscblog.top/tags/%E5%BC%80%E5%BF%83/</loc>
+        <lastmod>2020-02-27T02:48:15.253Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
