@@ -7,14 +7,16 @@ password: qq
 <p align="center"><font color="#ff6666"  size="+2">愿一切安好！披荆斩棘！</font></p>
 <!--more-->
 
-<center>{% btn https://yscblog.top/top/, 图片合集 %}</center>
+![cute][27] 
+
+<center>{% btn https://yscblog.top/top/, 图片合集 %}
 
 r=a(1-sinθ)(a>0)
 
 我的色彩来源于你，请细细填充。
 
 我们开始于嘻笑，经营在异地，邂逅的欢喜，维系于每时每刻。
-
+</center>
 <br>
 
 {% aplayer "过火" "欧芊" "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.4/audio/gh.m4a"  "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg" "autoplay=false" %}
@@ -33,6 +35,7 @@ r=a(1-sinθ)(a>0)
 **7月24日晚到7月30日晚在重庆** 嘻嘻
 
 8月30日晚到9月1日傍晚在成都，10月1日傍晚到10月6日傍晚在成都，11月8日晚到11月10傍晚在重庆
+2020年1月3日傍晚到1月5日在重庆，2月4日傍晚到2月23日在成都
 
 <center>![520二维码][23]</center>
 
@@ -41,6 +44,7 @@ r=a(1-sinθ)(a>0)
 <br>
 
 ![成都][1] ![南山植物园][2]![大熊猫基地][3]![磁器口][4]![英伦联邦][6]![鹅岭二厂][9]![鹅岭二厂][10]![公路][11]![爱心][12]![公交汽车][13]![个人][14]![帽子][15]![亲亲][16]![亲亲][17]![锦里][18]![锦里][19]![朝天门][20]![朝天门][21]![洪崖洞][22]![动漫][5]![记录][8]
+![beautya][24] ![beautyb][25]  ![line][26] 
 {% raw %}
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=17148321&cid=28016249&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
 {% endraw %}
@@ -70,3 +74,7 @@ r=a(1-sinθ)(a>0)
 [21]: https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic14.jpg
 [22]: https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic15.jpg
 [23]: https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/ico/520.png
+[24]: https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/ps/beautya.jpg
+[25]: https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/ps/beautyb.jpg
+[26]: https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/ps/line.jpg
+[27]: https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/source/cute.gif

@@ -27,8 +27,18 @@
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
 
-<style>
-  canvas { position: fixed;  
+
+<style type="text/css">
+    .fireworks {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 99999999;
+      pointer-events: none;
+    }
+   
+
+  .colorfulline { position: fixed;  
               top: 0;  
               left: 0;  
               z-index: 0;  
@@ -45,7 +55,11 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
-   <canvas ></canvas> 
+   <canvas class="colorfulline"></canvas> 
+   <canvas class="fireworks"></canvas>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
+<script type="text/javascript" src="/js/src/fireworks.min.js"></script><!--点击爆炸效果-->
   <script src="./bg.js"></script>
   <link rel="stylesheet" href="/dist/APlayer.min.css">
 <div id="aplayer"></div>
@@ -143,9 +157,10 @@
 </html>
 <!-- 页面点击小红心-->
 <script type="text/javascript" src="/js/src/love.js"></script>
+ 
 
-<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
-<script type="text/javascript" src="js/src/fireworks.min.js"></script><!--  点击爆炸效果  -->
+
+
 
 <script type="text/javascript">
 

@@ -3,7 +3,20 @@ title: 关于
 date: 2018-05-13 10:14:14
 ---
 
+<br>
+
+<center><embed src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.7/source/beautifulflower.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="300" height="240" wmode="Transparent"></embed></center>
+
+
 > **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熵让我理解了一件事，如果不施加外力影响，事物永远向着更混乱的状态发展。比如，房间如果没人打扫，只会越来越乱，不可能越来越干净。**<!---more-->
+
+
+
+
+{% raw %}
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=79807193&cid=136574858&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+{% endraw %}
+
 
 ### 简介
 男，96后摩羯座，不追热点，不关时政，不要喧哗，不惹纷争。
