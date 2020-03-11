@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2020-03-11T09:14:23.763Z</updated>
+  <updated>2019-11-19T12:16:55.582Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>学习HTML</title>
-    <link href="http://yscblog.top/%E5%AD%A6%E4%B9%A0HTML/"/>
-    <id>http://yscblog.top/学习HTML/</id>
-    <published>2020-03-11T03:51:15.000Z</published>
-    <updated>2020-03-11T09:14:23.763Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><html></html></p><head><script>function clickCounter(){    if(typeof(Storage)!=="undefined")    {        if (localStorage.clickcount)        {            localStorage.clickcount=Number(localStorage.clickcount)+1;        }        else        {            localStorage.clickcount=1;        }        document.getElementById("result").innerHTML=" 你已经点击了按钮 " + localStorage.clickcount + " 次 ";    }    else    {        document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。";    }}</script><p></p></head><p></p><body><br><br><nav><br><a href="/html/">HTML</a> |<br><a href="/css/">CSS</a> |<br><a href="/javascript/">Javascript</a> |<br><a href="/jquery/">jQuery</a><br></nav><br><p><s>我的车是蓝色的。</s></p><br><br><canvas id="myCanvas">你的浏览器不支持 HTML5 canvas 标签。</canvas><br><br><script><br>var c=document.getElementById(‘myCanvas’);<br>var ctx=c.getContext(‘2d’);<br>ctx.fillStyle=’#FF0000’;<br>ctx.fillRect(0,0,100,100,100);<br></script><br><br><br><br><script><br>document.write(“Hello World!”)<br></script><br><form><br> <fieldset><br>  <legend>个人信息:</legend><br>  姓名: <input type="text"><br><br>  邮箱: <input type="text"><br><br>  生日: <input type="text"><br> </fieldset><br></form><br><br><br><br><div id="resul"></div><br><script><br>if(typeof(Storage)!==”undefined”)<br>{<br>  localStorage.sitename=”W3Cschool在线教程”;<br>  document.getElementById(“resul”).innerHTML=”网站名：” + localStorage.sitename;<br>}<br>else<br>{<br>  document.getElementById(“resul”).innerHTML=”对不起，您的浏览器不支持 web 存储。”;<br>}<br></script><br><br><br><p><button onclick="clickCounter()" type="button">点我！</button></p><br><div id="result"></div><br><p>点击该按钮查看计数器的增加。</p><br><p>关闭浏览器选项卡(或窗口),重新打开此页面,计数器将继续计数(不是重置)。</p><br><br><br><ol><br>  <li>咖啡</li><br>  <li>茶</li><br>  <li>牛奶</li><br></ol><br><br><ol start="50"><br>  <li>咖啡</li><br>  <li>茶</li><br>  <li>牛奶</li><br></ol><br><br><form action="/statics/demosource/demo-form.php" method="get"><br><input list="browsers" name="browser"><br><datalist id="browsers"><br>  <option value="Internet Explorer"><br>  </option><option value="Firefox"><br>  </option><option value="Chrome"><br>  </option><option value="Opera"><br>  </option><option value="Safari"><br></option></datalist><br><input type="submit"><br></form><br><form action="/statics/demosource/demo-form.php"><br>  选择你喜欢的颜色: <input type="color" name="favcolor"><br><br>  <input type="submit"><br></form><br><br><br><br><br><br><p id="demo">点击按钮获取您当前坐标（可能需要比较长的时间获取）：</p><br><button onclick="getLocation()">点我</button><br><div id="mapholder"></div><br><script><br>var x=document.getElementById(“demo”);<br>function getLocation()<br>  {<br>  if (navigator.geolocation)<br>    {<br>    navigator.geolocation.getCurrentPosition(showPosition,showError);<br>    }<br>  else{x.innerHTML=”该浏览器不支持获取地理位置。”;}<br>  }<br><br>function showPosition(position)<br>  {<br>  var latlon=position.coords.latitude+”,”+position.coords.longitude;<br><br>  var img_url=”<a href="http://maps.googleapis.com/maps/api/staticmap?center=&quot;">http://maps.googleapis.com/maps/api/staticmap?center=&quot;</a><br>  +latlon+”&amp;zoom=14&amp;size=400x300&amp;sensor=false”;<br>  document.getElementById(“mapholder”).innerHTML=”<img src='"+img_url+"'>“;<br>  }<br><br>function showError(error)<br>  {<br>    switch(error.code)<br>    {<br>    case error.PERMISSION_DENIED:<br>      x.innerHTML=”用户拒绝对获取地理位置的请求。”<br>      break;<br>    case error.POSITION_UNAVAILABLE:<br>      x.innerHTML=”位置信息是不可用的。”<br>      break;<br>    case error.TIMEOUT:<br>      x.innerHTML=”请求用户地理位置超时。”<br>      break;<br>    case error.UNKNOWN_ERROR:<br>      x.innerHTML=”未知错误。”<br>      break;<br>    }<br>  }<br></script><br><br><br><br><svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190"><br/>   <polygon points="100,10 40,180 190,60 10,60 160,180" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/><br/></svg><br><canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;"><br>您的浏览器不支持 HTML5 canvas 标签。</canvas><br><br><script><br><br>var c=document.getElementById(“myCanvas”);<br>var ctx=c.getContext(“2d”);<br>ctx.beginPath();<br>ctx.arc(95,50,40,0,2*Math.PI);<br>ctx.stroke();<br><br></script><br><br><figure><br>  <img src="/statics/images/course/pulpit.jpg" alt="The Pulpit Rock" width="304" height="228"><br>  <figcaption>Fig.1 - A view of the pulpit rock in Norway.</figcaption><br></figure><br><p>今天别忘了买<mark>牛奶</mark>。</p><br><p>展示给定的数据范围:</p><br><meter value="2" min="0" max="10">2 out of 10</meter><br><br><meter value="0.6">60%</meter><br><br><p><strong>注意:</strong>IE 浏览器不支持 meter 标签。</p><br><hr><br><details><br><summary>Copyright 1999-2011.</summary><br><p> - by Refsnes Data. All Rights Reserved.</p><br><p>All content and graphics on this web site are the property of the company Refsnes Data.</p><br></details><br><br><p><b>注意：</b>目前，只有 Chrome 和 Safari 6 支持 details 标签。</p><br><p>我们在每天早上<time>9:00</time>开始营业。</p><br><textarea rows="10" cols="30"><br>我是一个文本框。<br></textarea><br><audio controls><br><source src="/statics/demosource/horse.ogg" type="audio/ogg"><br><source src="/statics/demosource/horse.mp3" type="audio/mpeg"><br>您的浏览器不支持 audio 元素。<br></audio><br><frameset cols="25%,50%,25%"><br>  <frame src="/statics/demosource/frame_a.htm"><br>  <frame src="/statics/demosource/frame_b.htm"><br>  <frame src="/statics/demosource/frame_c.htm"><br>  <noframes>抱歉，您的浏览器不支持 frame 属性！</noframes><br></frameset><br><iframe src="//www.w3cschool.cn" width="80%" height="600"><br><br><br><br><footer><br>  <p>Posted by: Hege Refsnes</p><br>  <p><time pubdate="" datetime="2012-03-01"></time></p><br></footer><br><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></iframe></body>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;&lt;html&gt;&lt;/html&gt;&lt;/p&gt;
-&lt;head&gt;
-
-
-&lt;script&gt;
-function clickCounter()
-{
-    if(typeof(Storage)!==
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Coding和Github</title>
@@ -154,9 +126,9 @@ function clickCounter()
     <link href="http://yscblog.top/%E6%88%91%E4%B8%8EGF/"/>
     <id>http://yscblog.top/我与GF/</id>
     <published>2019-05-02T04:18:24.000Z</published>
-    <updated>2020-01-14T07:11:13.583Z</updated>
+    <updated>2020-03-11T15:49:42.799Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p></p><p align="center"><font color="#ff6666" size="+2">愿一切安好！披荆斩棘！</font></p><br><a id="more"></a><p></p><center><a class="btn" href="https://yscblog.top/top/">图片合集</a></center><p>r=a(1-sinθ)(a&gt;0)</p><p>我的色彩来源于你，请细细填充。</p><p>我们开始于嘻笑，经营在异地，邂逅的欢喜，维系于每时每刻。</p><p><br></p><div id="aplayer4" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer4"),narrow: false,autoplay: false,showlrc: 0,music: {title: "过火",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.4/audio/gh.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><div id="aplayer5" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer5"),narrow: false,autoplay: false,showlrc: 0,music: {title: "遇见你的时候所有星星都落到我头上",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/yujianni.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><div id="aplayer6" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer6"),narrow: false,autoplay: false,showlrc: 0,music: {title: "Nothing's Gonna Change My Love For You",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/loveforyou.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><div id="aplayer7" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer7"),narrow: false,autoplay: false,showlrc: 0,music: {title: "小酒窝",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/xiaojiuwo.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><div id="aplayer8" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer8"),narrow: false,autoplay: false,showlrc: 0,music: {title: "东西",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.1/audio/dongxi.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><p>3月23日傍晚到3月25日下午在重庆，4月19日晚上到4月22日下午在成都，5月20日上午到5月22日早上在永川重庆，6月20日晚上到6月23日傍晚在成都。共计相遇四次十天。</p><p><strong>7月24日晚到7月30日晚在重庆</strong> 嘻嘻</p><p>8月30日晚到9月1日傍晚在成都，10月1日傍晚到10月6日傍晚在成都，11月8日晚到11月10傍晚在重庆</p><center><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/ico/520.png" alt="520二维码"></center><center><a class="btn" href="https://yscblog.top/520/">520</a><a class="btn" href="https://yscblog.top/loving/">恋爱记时</a></center><p><br></p><p><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic1.jpg" alt="成都"> <img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic2.jpg" alt="南山植物园"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic3.jpg" alt="大熊猫基地"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic4.jpg" alt="磁器口"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic6.jpg" alt="英伦联邦"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.1/images/pic8.jpg" alt="鹅岭二厂"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic9.jpg" alt="鹅岭二厂"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic10.jpg" alt="公路"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic11.jpg" alt="爱心"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic12.jpg" alt="公交汽车"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic13.jpg" alt="个人"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic14.jpg" alt="帽子"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/images/pic9.jpg" alt="亲亲"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/images/pic10.jpg" alt="亲亲"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic11.jpg" alt="锦里"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic12.jpg" alt="锦里"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic13.jpg" alt="朝天门"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic14.jpg" alt="朝天门"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic15.jpg" alt="洪崖洞"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic5.jpg" alt="动漫"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@5.0/images/pic7.jpg" alt="记录"><br><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=17148321&cid=28016249&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div></p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p></p><p align="center"><font color="#ff6666" size="+2">愿一切安好！披荆斩棘！</font></p><br><a id="more"></a><p></p><p><img src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/source/cute.gif" alt="cute"> </p><center><a class="btn" href="https://yscblog.top/top/">图片合集</a><br><br>r=a(1-sinθ)(a&gt;0)<br><br>我的色彩来源于你，请细细填充。<br><br>我们开始于嘻笑，经营在异地，邂逅的欢喜，维系于每时每刻。<br></center><br><br><br><br><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer0"),narrow: false,autoplay: false,showlrc: 0,music: {title: "过火",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.4/audio/gh.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><br><br><div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer1"),narrow: false,autoplay: false,showlrc: 0,music: {title: "遇见你的时候所有星星都落到我头上",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/yujianni.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><br><br><div id="aplayer2" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer2"),narrow: false,autoplay: false,showlrc: 0,music: {title: "Nothing's Gonna Change My Love For You",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/loveforyou.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><br><br><div id="aplayer3" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer3"),narrow: false,autoplay: false,showlrc: 0,music: {title: "小酒窝",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/audio/xiaojiuwo.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><br><br><div id="aplayer4" class="aplayer" style="margin-bottom: 20px;"></div><script>new APlayer({element: document.getElementById("aplayer4"),narrow: false,autoplay: false,showlrc: 0,music: {title: "东西",author: "欧芊",url: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.1/audio/dongxi.m4a",pic: "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/ico/head.jpg",}});</script><br><br><br>3月23日傍晚到3月25日下午在重庆，4月19日晚上到4月22日下午在成都，5月20日上午到5月22日早上在永川重庆，6月20日晚上到6月23日傍晚在成都。共计相遇四次十天。<br><br><strong>7月24日晚到7月30日晚在重庆</strong> 嘻嘻<br><br>8月30日晚到9月1日傍晚在成都，10月1日傍晚到10月6日傍晚在成都，11月8日晚到11月10傍晚在重庆<br>2020年1月3日傍晚到1月5日在重庆，2月4日傍晚到2月23日在成都<br><br><center><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/ico/520.png" alt="520二维码"></center><center><a class="btn" href="https://yscblog.top/520/">520</a><a class="btn" href="https://yscblog.top/loving/">恋爱记时</a></center><p><br></p><p><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic1.jpg" alt="成都"> <img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic2.jpg" alt="南山植物园"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic3.jpg" alt="大熊猫基地"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic4.jpg" alt="磁器口"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic6.jpg" alt="英伦联邦"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.1/images/pic8.jpg" alt="鹅岭二厂"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic9.jpg" alt="鹅岭二厂"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic10.jpg" alt="公路"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic11.jpg" alt="爱心"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic12.jpg" alt="公交汽车"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic13.jpg" alt="个人"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/pic14.jpg" alt="帽子"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/images/pic9.jpg" alt="亲亲"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.2/images/pic10.jpg" alt="亲亲"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic11.jpg" alt="锦里"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic12.jpg" alt="锦里"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic13.jpg" alt="朝天门"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic14.jpg" alt="朝天门"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.5/images/pic15.jpg" alt="洪崖洞"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/pic5.jpg" alt="动漫"><img src="https://cdn.jsdelivr.net/gh/YSC168/cdn@5.0/images/pic7.jpg" alt="记录"><br><img src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/ps/beautya.jpg" alt="beautya"> <img src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/ps/beautyb.jpg" alt="beautyb">  <img src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.8/ps/line.jpg" alt="line"><br><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=17148321&cid=28016249&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div></p>]]></content>
     
     <summary type="html">
     
@@ -370,6 +342,66 @@ function clickCounter()
     
     
       <category term="分享" scheme="http://yscblog.top/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习HTML</title>
+    <link href="http://yscblog.top/%E5%AD%A6%E4%B9%A0HTML/"/>
+    <id>http://yscblog.top/学习HTML/</id>
+    <published>2019-01-16T03:51:15.000Z</published>
+    <updated>2020-03-11T14:47:38.957Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><html></html></p><head><script>function clickCounter(){    if(typeof(Storage)!=="undefined")    {        if (localStorage.clickcount)        {            localStorage.clickcount=Number(localStorage.clickcount)+1;        }        else        {            localStorage.clickcount=1;        }        document.getElementById("result").innerHTML=" 你已经点击了按钮 " + localStorage.clickcount + " 次 ";    }    else    {        document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。";    }}</script><script>document.write("Hello World!")</script></head><body><p>W3C_school随时随地学编程学习阶段</p><a style="float:left;" href="#">HTML</a> <a style="float:left;" href="#">CSS</a> <a style="float:left;" href="#">Javascript</a> <a style="float:left;" href="#">jQuery</a><p><s>我的车是红色的。</s></p><a id="more"></a><canvas id="myCanvas" style="float:left;">你的浏览器不支持 HTML5 canvas 标签。</canvas><script>var c=document.getElementById('myCanvas');var ctx=c.getContext('2d');ctx.fillStyle='#000000';ctx.fillRect(0,0,100,100);</script><canvas id="myCanva" width="200" height="200" style="border:1px solid #000;float:left;"><br>您的浏览器不支持 HTML5 canvas 标签。</canvas><script>var c=document.getElementById("myCanva");var ctx=c.getContext("2d");ctx.beginPath();ctx.arc(100,100,50,0,10*Math.PI);ctx.stroke();</script> <form><br> <fieldset><br>  <legend>个人信息:</legend><br>  姓名: <input type="text"><br><br>  邮箱: <input type="text"><br><br>  生日: <input type="text"><br> </fieldset><br></form><br><br><br><br><div id="resul"></div><br><script><br>if(typeof(Storage)!==”undefined”)<br>{<br>  localStorage.sitename=”微博客”;<br>  document.getElementById(“resul”).innerHTML=”网站名：” + localStorage.sitename;<br>}<br>else<br>{<br>  document.getElementById(“resul”).innerHTML=”对不起，您的浏览器不支持 web 存储。”;<br>}<br></script><br><br><br><button onclick="clickCounter()" type="button">点我！</button><br><div id="result"></div><br>点击该按钮查看计数器的增加。<br>关闭浏览器选项卡(或窗口),重新打开此页面,计数器将继续计数(不是重置)。<br><br><br><ol start="520"><br>  <li>咖啡</li><br>  <li>茶</li><br>  <li>牛奶</li><br></ol><br><br><form><br><input list="flowers" name="flower"><br><datalist id="flowers"><br>  <option value="玫瑰"><br>  </option><option value="月季"><br>  </option><option value="牡丹"><br>  </option><option value="紫罗兰"><br>  </option><option value="向日葵"><br></option></datalist><br><br></form><br><form><br>  选择你喜欢的颜色: <input type="color" name="favcolor"><br><br><br></form><p></p><p id="demo">点击按钮获取您当前坐标（可能需要比较长的时间获取）：</p><p></p><p><button onclick="getLocation()">点我</button></p><p><div id="mapholder"></div></p><script>var x=document.getElementById("demo");function getLocation()  {  if (navigator.geolocation)    {    navigator.geolocation.getCurrentPosition(showPosition,showError);    }  else{x.innerHTML="该浏览器不支持获取地理位置。";}  }function showPosition(position)  {  var latlon=position.coords.latitude+","+position.coords.longitude;  var img_url="http://maps.googleapis.com/maps/api/staticmap?center="  +latlon+"&zoom=14&size=400x300&sensor=false";  document.getElementById("mapholder").innerHTML="<img src='"+img_url+"'>";  }function showError(error)  {    switch(error.code)     {    case error.PERMISSION_DENIED:      x.innerHTML="用户拒绝对获取地理位置的请求。"      break;    case error.POSITION_UNAVAILABLE:      x.innerHTML="位置信息是不可用的。"      break;    case error.TIMEOUT:      x.innerHTML="请求用户地理位置超时。"      break;    case error.UNKNOWN_ERROR:      x.innerHTML="未知错误。"      break;    }  }</script><svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190"><br/>   <polygon points="100,10 40,180 190,60 10,60 160,180" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/><br/></svg><p><center></center></p><p><figure><br><img src="https://api.uixsj.cn/bing/bing.php" alt="bing" width="304" height="228"></figure></p><p><figcaption>Pic.1 - 必应每日一图</figcaption><br><br><br>今天别忘了买<mark>牛奶</mark>。<br>展示给定的数据范围:</p><meter value="2" min="0" max="10">2 out of 10</meter><br><meter value="0.6">60%</meter><br><meter value="1.0">100%</meter><p><hr></p><details><br><summary>Copyright 1997-2020-查看详细信息</summary><br>男，96后摩羯座，不追热点，不关时政，不要喧哗，不惹纷争。<br>爱好：代码如诗，热爱生活以及喜欢思考有意义的东西。<br></details><p>我在每天早上<time>8:30</time>开始上班。</p><p><textarea rows="10" cols="30" width="100%"><br>我是一个文本框。</textarea></p><p><audio controls></audio></p><p><source src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3" type="audio/ogg"></p><p><source src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3" type="audio/mpeg"><br>浏览器不支持 audio 元素。<br></p><p><footer><br>Posted by: Yan Shengchao<br><time pubdate="" datetime="2020-03-11"></time><br></footer></p><iframe src="http://blxin.coding.me/" width="100%" height="800"><p><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></p></iframe></body><p></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;html&gt;&lt;/html&gt;&lt;/p&gt;
+&lt;head&gt;
+
+
+&lt;script&gt;
+function clickCounter()
+{
+    if(typeof(Storage)!==&quot;undefined&quot;)
+    {
+        if (localStorage.clickcount)
+        {
+            localStorage.clickcount=Number(localStorage.clickcount)+1;
+        }
+        else
+        {
+            localStorage.clickcount=1;
+        }
+        document.getElementById(&quot;result&quot;).innerHTML=&quot; 你已经点击了按钮 &quot; + localStorage.clickcount + &quot; 次 &quot;;
+    }
+    else
+    {
+        document.getElementById(&quot;result&quot;).innerHTML=&quot;对不起，您的浏览器不支持 web 存储。&quot;;
+    }
+}
+&lt;/script&gt;
+&lt;script&gt;
+document.write(&quot;Hello World!&quot;)
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;
+W3C_school随时随地学编程
+学习阶段
+&lt;/p&gt;
+
+
+&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;HTML&lt;/a&gt; 
+&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;CSS&lt;/a&gt; 
+&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;Javascript&lt;/a&gt; 
+&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;jQuery&lt;/a&gt;
+
+
+&lt;p&gt;&lt;s&gt;我的车是红色的。&lt;/s&gt;&lt;/p&gt;
+    
+    </summary>
+    
     
   </entry>
   
