@@ -2,6 +2,7 @@
 title: 人生苦短_我用python
 date: 2018-12-12 20:26:15
 tags: python
+categories: 学习
 ---
 ### python下载及运行环境
 [安装教程][1]

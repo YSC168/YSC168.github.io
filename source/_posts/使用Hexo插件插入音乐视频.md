@@ -1,7 +1,8 @@
 ---
 title: 使用Hexo插件插入音乐视频
 date: 2019-03-10 21:43:50
-tags:
+tags: hexo
+categories: 学习
 ---
 
 ### NexT主题添加音乐

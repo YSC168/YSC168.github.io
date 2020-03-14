@@ -1,7 +1,8 @@
 ---
 title: 我与GF
 date: 2019-05-02 12:18:24
-tags: 生活
+tags: 开心
+categories: 生活
 password: qq
 ---
 <p align="center"><font color="#ff6666"  size="+2">愿一切安好！披荆斩棘！</font></p>

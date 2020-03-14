@@ -1,8 +1,8 @@
 ---
 title: Github+Hexo制作个人博客
 date: 2018-05-08 20:38:42
-tags:  [npm, hexo, github]
-categories: 搭建博客
+tags:  [ hexo, github]
+categories: 学习
 ---
 ## 步骤一<!-- more -->
 [github+hexo 搭建属于自己的博客网站](https://www.jianshu.com/p/e6662ca7e283)

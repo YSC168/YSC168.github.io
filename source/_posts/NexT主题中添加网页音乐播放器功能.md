@@ -2,6 +2,7 @@
 title: NexT主题中添加网页音乐播放器功能
 date: 2018-11-20 21:27:50
 tags: hexo
+categories: 学习
 ---
 
 

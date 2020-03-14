@@ -1,7 +1,8 @@
 ---
 title: GoodDay
 date: 2019-02-16 22:13:14
-tags: 
+tags: 开心
+categories: 生活
 password: qq
 ---
 <center><div id="binft"></div></center>

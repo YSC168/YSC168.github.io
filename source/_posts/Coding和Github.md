@@ -2,6 +2,7 @@
 title: Coding和Github
 date: 2019-11-19 19:15:35
 tags: hexo
+categories: 抄录
 ---
 <div class="note info"><p>部署到 Coding Pages 的好处：国内访问速度更快，可以提交百度收录（GitHub 禁止了百度的爬取）</p></div>
 

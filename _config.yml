@@ -4,17 +4,16 @@
 live2d:
   enable: true
   scriptFrom: local
-  model:
-    use: live2d-widget-model-wanko
+
   display:
     position: right
     width: 150
     height: 300
   mobile:
-    show: true
+    show: false
 # Site
 title: 微博客
-subtitle: 记录琐事与技术
+subtitle: 记记 & 琐事 & 技术
 description: 你在我的心里开了花
 author: YSC
 language: zh-Hans

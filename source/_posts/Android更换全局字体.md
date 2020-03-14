@@ -1,8 +1,8 @@
 ---
 title: Android更换全局字体
 date: 2018-09-20 15:38:03
-tags: Android  
-categories: 安卓
+tags: 安卓
+categories: 学习
 ---
 Android O 推出了一项新的功能 Fonts in XML，借助这项功能，我们能比较方便地实现App全局字体的替换。
 <!--more-->

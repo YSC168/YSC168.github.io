@@ -2,7 +2,7 @@
 title: Github文件分享
 date: 2018-06-22 19:24:12
 tags: [github]
-categories: 安卓
+categories: 学习
 ---
 > **在Github提交推送要分享的文件，**可以分享压缩文件和一张图片。
 
