@@ -332,10 +332,19 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"></script></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+  <div  style=" background: url(https://cdn.jsdelivr.net/gh/ysc168/eee@1.0/1.gif);
+    height:4px;
+    top:0px;
+    position: fixed;
+    width:100%;
+    Z-index:9999;" ></div> 
    <canvas class="colorfulline"></canvas> 
    <canvas class="fireworks"></canvas>
 
-<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
+
+  <script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+
+  <!--点击爆炸效果-->
 <script type="text/javascript" src="/js/src/fireworks.min.js"></script><!--点击爆炸效果-->
   <script src="./bg.js"></script>
   <link rel="stylesheet" href="/dist/APlayer.min.css">
@@ -351,12 +360,7 @@
   
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
-<div  background: url(https://SKIN.gs/content/templates/FLY/img/1.gif);
-    height:4px;
-    top:0px;
-    position: fixed;
-    width:100%;
-    Z-index:9999;></div> 
+
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -681,10 +685,10 @@
 <li>lrc:xxx: (可选）歌词文件 URL 地址</li>
 </ul>
 <p>博客使用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;See You Again&quot; &quot;Wiz Khalifa / Charlie Puth&quot; &quot;http://music.163.com/song/media/outer/url?id=30953009.mp3&quot;  &quot;http://p2.music.126.net/JIc9X91OSH-7fUZqVfQXAQ==/7731765766799133.jpg?param=130y130&quot; &quot;autoplay=false&quot; %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer9" class="aplayer" style="margin-bottom: 20px;"></div>
+<div id="aplayer10" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
-				element: document.getElementById("aplayer9"),
+				element: document.getElementById("aplayer10"),
 				narrow: false,
 				autoplay: false,
 				showlrc: 0,
@@ -697,12 +701,12 @@
 			});
 		</script>
 <p>除了使用标签 <code>lrc</code> 选项来设定歌词，你也可以直接使用 <code>aplayerlrc</code> 标签来直接插入歌词文本在博客中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayerlrc &quot;title&quot; &quot;author&quot; &quot;url&quot; &quot;封面(选填)&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">[00:00.00]lrc here</span><br><span class="line">&#123;% endaplayerlrc %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer10" class="aplayer" style="margin-bottom: 20px;">
+<div id="aplayer11" class="aplayer" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">'[00:00.00]lrc here</pre>
 			</div>
 			<script>
 				new APlayer({
-					element: document.getElementById("aplayer10"),
+					element: document.getElementById("aplayer11"),
 					narrow: false,
 					autoplay: 0,
 					showlrc: 2,
@@ -715,10 +719,10 @@
 				});
 			</script>
 
-			<div id="aplayer11" class="aplayer" style="margin-bottom: 20px;"></div>
+			<div id="aplayer12" class="aplayer" style="margin-bottom: 20px;"></div>
 			<script>
 				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"アイロニ","author":"鹿乃","url":"http://music.163.com/song/media/outer/url?id=31421442.mp3","pic":"http://p1.music.126.net/4Zpn57gnArtV3F5xiNBK0g==/109951163598414321.jpg?param=130y130"},{"title":"Fade","author":"Alan Walker","url":"http://music.163.com/song/media/outer/url?id=29947420.mp3","pic":"http://p1.music.126.net/6Skxbgl8cfIjFGV-MzGi0Q==/109951163787691327.jpg?param=130y130"}]};
-				options.element = document.getElementById("aplayer11");
+				options.element = document.getElementById("aplayer12");
 				new APlayer(options);
 			</script>
 
@@ -1832,11 +1836,9 @@ setInterval("createtime()",250);
 </html>
 <!-- 页面点击小红心-->
 <script type="text/javascript" src="/js/src/love.js"></script>
- 
 
 
-
-
+<!-- 
 <script type="text/javascript">
 
  var js = document.createElement('script');
@@ -1857,6 +1859,7 @@ setInterval("createtime()",250);
   
 js.type = 'text/javascript';
 </script>
+-->
 <script language="JavaScript">
      window.onload = function(){
         var script = document.createElement("script");  
@@ -1876,7 +1879,6 @@ if (!isOnPc) {
 
 <script type="text/javascript" src="/js/src/bg.js"></script>
 <script type="text/javascript" src="/js/src/instantclick-1.2.2.js.js"></script>
-<!--动态线条背景-->
-<script type="text/javascript"
-color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-</script>
+ <!-- 蜘蛛网 
+        <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>    
+-->
