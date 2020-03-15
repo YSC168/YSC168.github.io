@@ -20,7 +20,7 @@ type: "links"
 | [犬's Blog][15]  | [******][16] |
 | [OK Yes][17]  | [haoziの窝][18]  
 
-
+<center><embed src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.9/source/blesslight.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="300" height="240" wmode="Transparent"></embed></center>
 
 <center>
 暗夜中
