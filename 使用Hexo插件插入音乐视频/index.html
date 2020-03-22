@@ -333,7 +333,7 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
   <div  style=" background: url(https://cdn.jsdelivr.net/gh/ysc168/eee@1.0/1.gif);
-    height:4px;
+    height:3px;
     top:0px;
     position: fixed;
     width:100%;
@@ -362,6 +362,9 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+
+
+
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
@@ -511,6 +514,27 @@
 
 
     </header>
+
+
+
+
+<!--  心知天气   -->
+<div id="tp-weather-widget"></div>
+<script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "slim",
+    location: "WX4FBXXFKE4F",
+    geolocation: true,
+    language: "zh-Hans",
+    unit: "c",
+    theme: "auto",
+    token: "c968c643-fb48-446d-b587-f86813bfff6c",
+    hover: "enabled",
+    container: "tp-weather-widget"
+  })
+</script>            <!--  心知天气   -->
+
 
     <main id="main" class="main">
       <div class="main-inner">
@@ -685,10 +709,10 @@
 <li>lrc:xxx: (可选）歌词文件 URL 地址</li>
 </ul>
 <p>博客使用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;See You Again&quot; &quot;Wiz Khalifa / Charlie Puth&quot; &quot;http://music.163.com/song/media/outer/url?id=30953009.mp3&quot;  &quot;http://p2.music.126.net/JIc9X91OSH-7fUZqVfQXAQ==/7731765766799133.jpg?param=130y130&quot; &quot;autoplay=false&quot; %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer10" class="aplayer" style="margin-bottom: 20px;"></div>
+<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
-				element: document.getElementById("aplayer10"),
+				element: document.getElementById("aplayer1"),
 				narrow: false,
 				autoplay: false,
 				showlrc: 0,
@@ -701,12 +725,12 @@
 			});
 		</script>
 <p>除了使用标签 <code>lrc</code> 选项来设定歌词，你也可以直接使用 <code>aplayerlrc</code> 标签来直接插入歌词文本在博客中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayerlrc &quot;title&quot; &quot;author&quot; &quot;url&quot; &quot;封面(选填)&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">[00:00.00]lrc here</span><br><span class="line">&#123;% endaplayerlrc %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer11" class="aplayer" style="margin-bottom: 20px;">
+<div id="aplayer2" class="aplayer" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">'[00:00.00]lrc here</pre>
 			</div>
 			<script>
 				new APlayer({
-					element: document.getElementById("aplayer11"),
+					element: document.getElementById("aplayer2"),
 					narrow: false,
 					autoplay: 0,
 					showlrc: 2,
@@ -719,10 +743,10 @@
 				});
 			</script>
 
-			<div id="aplayer12" class="aplayer" style="margin-bottom: 20px;"></div>
+			<div id="aplayer3" class="aplayer" style="margin-bottom: 20px;"></div>
 			<script>
 				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"アイロニ","author":"鹿乃","url":"http://music.163.com/song/media/outer/url?id=31421442.mp3","pic":"http://p1.music.126.net/4Zpn57gnArtV3F5xiNBK0g==/109951163598414321.jpg?param=130y130"},{"title":"Fade","author":"Alan Walker","url":"http://music.163.com/song/media/outer/url?id=29947420.mp3","pic":"http://p1.music.126.net/6Skxbgl8cfIjFGV-MzGi0Q==/109951163787691327.jpg?param=130y130"}]};
-				options.element = document.getElementById("aplayer12");
+				options.element = document.getElementById("aplayer3");
 				new APlayer(options);
 			</script>
 
@@ -1147,6 +1171,13 @@
 })()'><i class="fa fa-music"></i> High</a>
             </div>
           
+
+
+        <#div class="custom-logo-site-title">
+            <#p class="site-state-item-count">你在我的心里开了花</p>
+        </div>
+    
+
 
           
             <div class="links-of-author motion-element">

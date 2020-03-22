@@ -333,7 +333,7 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
   <div  style=" background: url(https://cdn.jsdelivr.net/gh/ysc168/eee@1.0/1.gif);
-    height:4px;
+    height:3px;
     top:0px;
     position: fixed;
     width:100%;
@@ -362,6 +362,9 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+
+
+
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
@@ -511,6 +514,27 @@
 
 
     </header>
+
+
+
+
+<!--  心知天气   -->
+<div id="tp-weather-widget"></div>
+<script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "slim",
+    location: "WX4FBXXFKE4F",
+    geolocation: true,
+    language: "zh-Hans",
+    unit: "c",
+    theme: "auto",
+    token: "c968c643-fb48-446d-b587-f86813bfff6c",
+    hover: "enabled",
+    container: "tp-weather-widget"
+  })
+</script>            <!--  心知天气   -->
+
 
     <main id="main" class="main">
       <div class="main-inner">
@@ -1184,6 +1208,13 @@
 })()'><i class="fa fa-music"></i> High</a>
             </div>
           
+
+
+        <#div class="custom-logo-site-title">
+            <#p class="site-state-item-count">你在我的心里开了花</p>
+        </div>
+    
+
 
           
             <div class="links-of-author motion-element">

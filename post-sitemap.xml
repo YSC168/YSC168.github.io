@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yscblog.top/new/</loc>
+        <lastmod>2020-03-22T02:40:50.850Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yscblog.top/%E6%88%91%E4%B8%8EGF/</loc>
         <lastmod>2020-03-15T02:35:36.567Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -81,14 +89,6 @@
     <url>
         <loc>http://yscblog.top/Good_Day/</loc>
         <lastmod>2020-03-14T04:40:56.498Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yscblog.top/new/</loc>
-        <lastmod>2020-03-14T04:40:42.960Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
