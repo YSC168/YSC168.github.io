@@ -3,22 +3,18 @@ const ap = new APlayer({
     fixed: true,
     audio: [
       
-         {
-         	
+         {  	
         name: '告白の夜',
         artist: 'Ayasa绚沙',
         url: 'https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.2/mp3/gbzy.mp3',
         cover: 'https://p1.music.126.net/nNIX5GT6dfVSheiQU4QtfQ==/109951163984605821.jpg?param=130y130',
       },
-    {
-         	
+    {  	
         name: '世界这么大还是遇见你',
         artist: '程响',
-        url: 'http://183.252.54.25/amobile.music.tc.qq.com/C400001xLIXo2w9V7U.m4a?guid=517866484&vkey=FE3B6C16AAD121F5CBCF400AC51DF9A864655AA64DDE8C4194628BC45E8EC1615FF724FA90FEF3F5CBFAC12E246FF9DD68BA71E8B179DEE1&uin=0&fromtag=66',
+        url: 'https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.5/mp3/shijienamoda.m4a',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003Ls5Jo4EFBIH_2.jpg?max_age=2592000',
       },
-
-
       {
         name: "Shape of You",
         artist: 'J.Fla',
@@ -61,6 +57,5 @@ const ap = new APlayer({
         url: 'http://music.163.com/song/media/outer/url?id=571338279.mp3',
         cover: 'http://p1.music.126.net/hTiVEeQTUSsc-YGF3o6ItQ==/109951163337847600.jpg?param=130y130',
       },
-   
     ]
 });
