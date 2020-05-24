@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8">
   
-
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no"><!--手机端浏览-->
 
 <title>520</title>
  <link rel="shortcut icon" href="favicon.ico" >
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/index.css">     
+   
 	<link rel="shortcut icon" href="favicon.ico" >
 
 </head>
@@ -24,60 +26,33 @@ canvas {
     padding:0;
     margin:0;
 }
-div.btnbg {
-    position:fixed;
-    left: 0;
-    vertical-align: middle;
-align-content: center;
-width: 100%;
-right: 0;
 
-margin:0 auto;
-    top:0;
-}
-.public-container{
-     position:fixed;
-    margin: 0 auto;
-    width: 100%;
-}
-#bt_fs:hover{animation:animover .2s linear;-webkit-animation:animover .2s linear}
-#bt_fs{position:absolute;
-    z-index:100;
-    padding:10px;left:0;
-    font-size:1rem;cursor:pointer;
-    left:auto;right:0;
-   color: black;
-    font-size: 1.5rem;
-    font-weight: 200;
-    transition:.2s ease}
+    h1,h5,h4{
+    	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+    }
 </style>
 <body>
-
-
-
-
 <canvas id="sakura"></canvas>
- 
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="//music.163.com/outchain/player?type=2&id=445886994&auto=1&height=66"></iframe>
-<div class="btnbg" >
 
-<div class="index-banner public-container clearfloat">
-    <div class="index-banner-bg "><img src="images/title.png" alt="banner"/></div>
-    <div class="index-banner-text">
-        <div class="text-logo"> </div>
-        <h1 class="text-info-title" font-size="5">
-          
-            <span class="txt">陪伴是最长情的告白</span>
-                </h1>
-        <p class="text-info">
-            <i class="line line-l"></i>
-            <span class="txt">You gesture, motion, and you smiles,you wit, you voice my heart beguiles,Beguiles my heart.</span>
-            <i class="line line-r"></i>
-        </p>
-    </div>  
-</div>  
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.5/mp3/shijienamoda.m4a"></iframe>
 
-	
+
+<div 
+style=" z-index: 10;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            color: #fff;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            width: 100%;"><!-- 页面居中-->
+
+
+  <div class="index-banner-bg "><img src="images/title.png" alt="banner"/></div>
+<h1 align="center" >陪伴是最长情的告白</h1>
+<h4 align="center" style="margin-right: 36px;margin-left: 36px;">You gesture, motion, and you smiles,you wit, you voice my heart beguiles,Beguiles my heart.</h4>
+
 </div>
 
 <!-- sakura shader -->

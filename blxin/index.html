@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="format-detection" content="telephone=no">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="lovebig.ico" >
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/aplayer.min.js"></script>
+     <link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="elements/style.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+    .fireworks {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 99999999;
+      pointer-events: none;
+    }
+   
+  </style>
+</head>
+<body style="cursor: url(cursor.ico),auto"><!--网页指针样式-->
+ <canvas class="fireworks"></canvas>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
+  <script type="text/javascript" src="js/fireworks.min.js"></script><!--点击爆炸效果-->
+<main>	
+ <div class="section no-pad-bot" id="index-banner">
+ <div class="row center">
+   <div class="row center">
+   <h4 class="header center blue-text text-lighten-3">念念不忘，必有回响</h4>
+   </div>
+   </div>
+    <div align="center" style="align-content: center;width: 100%">
+  <div class='box'>
+  <div class='wave -one'></div>
+  <div class='wave -two'></div>
+  <div class='wave -three'></div>
+  <div class='title blue-text text-lighten-3'  style="font-family:Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;">芊芊专属</div>
+      </div>
+     <div class="row center">
+        <h5 class="header col s12 light"></h5>
+     </div>
+       <a href="http://blxin.coding.me/tap/" id="download-button" class="btn-large waves-effect waves-light blue no-shadow" target="_blank">永远年轻,永远热泪盈眶</a>
+     <br><br>
+    </div>
+  </div>
+  <footer>
+            <p id="hitokoto">加载中···</p>
+  </footer>
+<div class="aplayer-footer">
+            <div class="ap-f" id="ap-f"></div>
+            <script>
+                $(function(){
+                    $.ajax({
+                        url:"https://api.fczbl.vip/163/?type=playlist&id=2701435181",
+                        success:function(e){
+                            var a = new APlayer({
+                                element:document.getElementById("ap-f"),
+                                autoplay:false,
+                                fixed:true,
+                                loop:"all",
+                                order:"list",
+                                listFolded:true,
+                                showlrc:3,
+                                theme:"#e6d0b2",
+                                listmaxheight:"200px",
+                                music:eval(e)
+                            });
+                            window.aplayers || (window.aplayers = []),
+                            window.aplayers.push(a)
+                        }
+                    })
+                })
+            </script>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
