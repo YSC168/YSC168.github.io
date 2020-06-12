@@ -1139,7 +1139,6 @@ pre .javascript .function {
   font-family: 'Lobster Two', 'Arial', "PingFang SC", "Arial", sans-serif;
 }
 .site-subtitle {
-  margin-top: 10px;
   font-size: 13px;
   color: #ddd;
 }
@@ -1151,7 +1150,6 @@ pre .javascript .function {
 .use-motion .site-subtitle {
   opacity: 0;
   position: relative;
-  top: -10px;
 }
 .site-nav-toggle {
   display: none;
@@ -1503,7 +1501,7 @@ pre .javascript .function {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 3px 0 12px 0;
   color: #999;
   font-family: 'Arial', "PingFang SC", "Arial", sans-serif;
   font-size: 12px;
@@ -1945,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffe0;
+  background: #6b4255;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3293,12 +3291,12 @@ pre .javascript .function {
   background: #f99;
 }
 .site-meta {
-  padding: 20px 0;
+  padding: 10px 0;
   color: #fff;
   background: #f99;
 }
 .site-subtitle {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 13px;
   color: #fff;
 }
