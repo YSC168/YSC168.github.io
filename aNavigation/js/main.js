@@ -77,62 +77,62 @@ $(function() {
     data: [ {
       name: '微博',
       link: 'https://www.weibo.com',
-      box_shadow: '#FB5555',
+      box_shadow: 'FB5555',
       icon: 'img/weibo-xs.png',
     }, {
       name: '工具集合',
       link: 'https://tools.miku.ac/',
-      box_shadow: '#ffffff',
+      box_shadow: 'ffffff',
       icon: 'img/tool.png',
     },{
-      name: '维基百科',
-      link: 'https://zh-m-wiki.eriri.ml/',
-      box_shadow: 'e9e9e9',
-      icon: 'img/wiki.png',
+      name: '果汁导航',
+      link: 'http://guozhivip.com/nav/',
+      box_shadow: 'f07c15',
+      icon: 'img/guozhi.png',
     }, {
       name: '今日热榜',
       link: 'https://tophub.today/',
-      box_shadow: '#F2584A',
+      box_shadow: 'F2584A',
       icon: 'img/headline.png',
     },{
       name: '简洁搜索',
       link: 'https://hao.zdsr.cn/',
-      box_shadow: '#ffffff',
+      box_shadow: 'ffffff',
       icon: 'img/search.png',
     }, {
       name: '兔二工具',
       link: 'https://tool2.cn/',
-      box_shadow: '#62677b',
+      box_shadow: '62677b',
       icon: 'img/tool2.png',
     }, {
       name: '简书',
       link: 'https://www.jianshu.com/',
-      box_shadow: '#ffffff',
+      box_shadow: 'ffffff',
       icon: 'img/jianshu.png',
     }, {
       name: '电视直播',
       link: 'http://ivi.bupt.edu.cn/',
-      box_shadow: '#ffffff',
+      box_shadow: 'ffffff',
       icon: 'img/dianshizhibo.png',
     }, {
       name: '知乎',
       link: 'https://www.zhihu.com/',
-      box_shadow: '#0078D8',
+      box_shadow: '0078D8',
       icon: 'img/zhihulogo.png',
     },{
       name: '高德地图',
       link: 'https://www.amap.com/',
-      box_shadow: '#0093fd',
+      box_shadow: '0093fd',
       icon: 'img/amap.png',
     },{
       name: '豆瓣',
       link: 'https://www.douban.com/',
-      box_shadow: '#37bf4c',
+      box_shadow: '37bf4c',
       icon: 'img/douban.png',
     },{
       name: '酷安',
       link: 'https://www.coolapk.com',
-      box_shadow: '#11B063',
+      box_shadow: '11B063',
       icon: 'img/coolapk.png',
     }, {
       name: '腾讯视频',
@@ -142,37 +142,37 @@ $(function() {
     }, {
       name: 'QQ音乐',
       link: 'https://y.qq.com/',
-      box_shadow: '#f8c913',
+      box_shadow: 'f8c913',
       icon: 'img/tenxun_music.png',
     }, {
       name: '哔哩哔哩',
       link: 'https://www.bilibili.com/',
-      box_shadow: '#e47494',
+      box_shadow: 'e47494',
       icon: 'img/bilibili-xs.png',
     }, {
       name: '网易音乐',
       link: 'https://music.163.com/',
-      box_shadow: '#e20001',
+      box_shadow: 'e20001',
       icon: 'img/wangyiyun.png',
     },{
       name: 'Via插件',
       link: 'http://via-app.cn/',
-      box_shadow: '#FA7199',
+      box_shadow: 'FA7199',
       icon: 'img/via.png',
     }, {
       name: 'unsplash',
       link: 'https://unsplash.com/',
-      box_shadow: '#2C2C2C',
+      box_shadow: '2C2C2C',
       icon: 'img/unsplash.png',
     },  {
       name: '解析视频',
       link: 'https://mplayer.m1907.cn/',
-      box_shadow: '#AC6E2F',
+      box_shadow: 'AC6E2F',
       icon: 'img/xda.png',
     }, {
       name: '少数派',
       link: 'https://sspai.com/',
-      box_shadow: '#D7191A',
+      box_shadow: 'D7191A',
       icon: 'img/sspai.png',
     }]
   }
@@ -430,16 +430,16 @@ function check() {
 var d = new Date();
 var time = d.getHours();
 if (time < 24) {
-  document.getElementById("title").innerHTML = "一个导航 | Good evening";
+  document.getElementById("title").innerHTML = "Good evening";
 }
 if (time < 18) {
-  document.getElementById("title").innerHTML = "一个导航 | Good afternoon";
+  document.getElementById("title").innerHTML = "Good afternoon";
 }
 if (time < 12) {
-  document.getElementById("title").innerHTML = "一个导航 | Good morning";
+  document.getElementById("title").innerHTML = "Good morning";
 }
 if (time < 5) {
-  document.getElementById("title").innerHTML = "一个导航 | Stay up late again";
+  document.getElementById("title").innerHTML = "Stay up late again";
 }
 //title问候语结束
 
