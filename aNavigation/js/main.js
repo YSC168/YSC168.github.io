@@ -135,15 +135,10 @@ $(function() {
       box_shadow: '11B063',
       icon: 'img/coolapk.png',
     }, {
-      name: '腾讯视频',
-      link: 'https://v.qq.com/',
+      name: '谷歌翻译',
+      link: 'https://translate.google.cn/',
       box_shadow: '7de621',
-      icon: 'img/tenxun_video.png',
-    }, {
-      name: 'QQ音乐',
-      link: 'https://y.qq.com/',
-      box_shadow: 'f8c913',
-      icon: 'img/tenxun_music.png',
+      icon: 'img/fanyi.png',
     }, {
       name: '哔哩哔哩',
       link: 'https://www.bilibili.com/',
