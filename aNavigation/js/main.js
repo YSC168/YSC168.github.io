@@ -114,11 +114,11 @@ $(function() {
       link: 'http://ivi.bupt.edu.cn/',
       box_shadow: 'ffffff',
       icon: 'img/dianshizhibo.png',
-    }, {
-      name: '知乎',
-      link: 'https://www.zhihu.com/',
-      box_shadow: '0078D8',
-      icon: 'img/zhihulogo.png',
+    },{
+      name: '网易阅读',
+      link: 'http://yuedu.163.com/',
+      box_shadow: 'D7191A',
+      icon: 'img/wyyd.png',
     },{
       name: '高德地图',
       link: 'https://www.amap.com/',
