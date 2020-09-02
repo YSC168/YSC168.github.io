@@ -86,13 +86,6 @@
     </url>
 
     <url>
-        <loc>http://yscblog.top/tags/%E5%BC%80%E5%BF%83/</loc>
-        <lastmod>2020-05-24T16:17:24.789Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yscblog.top/tags/%E5%88%86%E4%BA%AB/</loc>
         <lastmod>2020-06-23T08:24:36.677Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -102,6 +95,13 @@
     <url>
         <loc>http://yscblog.top/tags/%E6%AF%95%E4%B8%9A/</loc>
         <lastmod>2020-08-08T13:32:09.314Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yscblog.top/tags/%E5%BC%80%E5%BF%83/</loc>
+        <lastmod>2020-09-02T16:19:13.521Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
