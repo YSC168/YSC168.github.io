@@ -235,21 +235,21 @@
 
 
 
-<meta name="description" content="YSC♥♥♥欧小芊(●’◡’●)ﾉ           xsjhitokoto()    加载中…                		 			new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0,">
+<meta name="description" content="YSC♥♥♥欧小芊(●’◡’●)ﾉ           xsjhitokoto()    加载中…   		 			new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0, 				music: {">
 <meta name="keywords" content="分享">
 <meta property="og:type" content="article">
 <meta property="og:title" content="岁月安好，你也一样">
 <meta property="og:url" content="http://yscblog.top/岁月安好，你也一样/index.html">
 <meta property="og:site_name" content="微博客">
-<meta property="og:description" content="YSC♥♥♥欧小芊(●’◡’●)ﾉ           xsjhitokoto()    加载中…                		 			new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0,">
+<meta property="og:description" content="YSC♥♥♥欧小芊(●’◡’●)ﾉ           xsjhitokoto()    加载中…   		 			new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0, 				music: {">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://api.uixsj.cn/bing/bing.php">
 <meta property="og:image" content="https://source.unsplash.com/random/1920x1080">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/YSC168/cdn@4.0/images/wailian.png">
-<meta property="og:updated_time" content="2020-09-30T15:50:53.310Z">
+<meta property="og:updated_time" content="2020-09-30T16:07:58.117Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="岁月安好，你也一样">
-<meta name="twitter:description" content="YSC♥♥♥欧小芊(●’◡’●)ﾉ           xsjhitokoto()    加载中…                		 			new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0,">
+<meta name="twitter:description" content="YSC♥♥♥欧小芊(●’◡’●)ﾉ           xsjhitokoto()    加载中…   		 			new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0, 				music: {">
 <meta name="twitter:image" content="https://api.uixsj.cn/bing/bing.php">
 
 
@@ -607,8 +607,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-09-30T23:50:53+08:00">
-                2020-09-30
+              <time title="更新于" itemprop="dateModified" datetime="2020-10-01T00:07:58+08:00">
+                2020-10-01
               </time>
             
           </span>
@@ -713,19 +713,6 @@
 <blockquote>
 <p> <strong><div class="di" id="hitokoto">加载中…</div></strong></p>
 </blockquote>
-<script type="text/javascript" var="" hitokoto="https://v1.hitokoto.cn" ;="" hittext="document.getElementById("hitokoto");" xhr="new" xmlhttprequest();="" xhr.open('get',="" 'https:="" v1.hitokoto.cn');="" xhr.onreadystatechange="function()" {="" hittextdata.innertext="xhr.responseText;" data="JSON.parse(xhr.responseText);" hittext.innerhtml="data.hitokoto" +="" "&nbsp;&nbsp;&nbsp;&nbsp;__"="" data.from;="" }="" xhr.send();=""></script>
-
-
-
-
-
-
-
-
-
-
-
-
 <div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
@@ -782,6 +769,23 @@
 <p><a href="http://music.163.com/api/song/media?id=863046037" target="_blank" rel="noopener">http://music.163.com/api/song/media?id=863046037</a></p>
 </blockquote>
 <p>其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现</p>
+<script type="text/javascript">
+    var hitokoto = "https://v1.hitokoto.cn";
+
+    var hitText = document.getElementById("hitokoto");
+    var hitTextdata = document.getElementById("hitokoto_data");
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('get', 'https://v1.hitokoto.cn');
+    xhr.onreadystatechange = function() {
+
+      hitTextdata.innerText = xhr.responseText;
+      var data = JSON.parse(xhr.responseText);
+      hitText.innerHTML = data.hitokoto + "&nbsp;&nbsp;&nbsp;&nbsp;__" + data.from;
+
+    }
+    xhr.send();
+  </script>
 
       
     </div>
