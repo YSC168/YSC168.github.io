@@ -86,7 +86,7 @@ $(function() {
       icon: 'img/tool.png',
     },{
       name: '果汁导航',
-      link: 'http://guozhivip.com/nav/',
+      link: 'http://guozhivip.com/',
       box_shadow: 'f07c15',
       icon: 'img/guozhi.png',
     }, {
