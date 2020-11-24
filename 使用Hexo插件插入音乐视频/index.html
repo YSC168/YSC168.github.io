@@ -710,10 +710,10 @@
 <li>lrc:xxx: (可选）歌词文件 URL 地址</li>
 </ul>
 <p>博客使用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;See You Again&quot; &quot;Wiz Khalifa / Charlie Puth&quot; &quot;http://music.163.com/song/media/outer/url?id=30953009.mp3&quot;  &quot;http://p2.music.126.net/JIc9X91OSH-7fUZqVfQXAQ==/7731765766799133.jpg?param=130y130&quot; &quot;autoplay=false&quot; %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
+<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
-				element: document.getElementById("aplayer1"),
+				element: document.getElementById("aplayer0"),
 				narrow: false,
 				autoplay: false,
 				showlrc: 0,
@@ -726,12 +726,12 @@
 			});
 		</script>
 <p>除了使用标签 <code>lrc</code> 选项来设定歌词，你也可以直接使用 <code>aplayerlrc</code> 标签来直接插入歌词文本在博客中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayerlrc &quot;title&quot; &quot;author&quot; &quot;url&quot; &quot;封面(选填)&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">[00:00.00]lrc here</span><br><span class="line">&#123;% endaplayerlrc %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="aplayer2" class="aplayer" style="margin-bottom: 20px;">
+<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">'[00:00.00]lrc here</pre>
 			</div>
 			<script>
 				new APlayer({
-					element: document.getElementById("aplayer2"),
+					element: document.getElementById("aplayer1"),
 					narrow: false,
 					autoplay: 0,
 					showlrc: 2,
@@ -744,17 +744,17 @@
 				});
 			</script>
 
-			<div id="aplayer3" class="aplayer" style="margin-bottom: 20px;"></div>
+			<div id="aplayer2" class="aplayer" style="margin-bottom: 20px;"></div>
 			<script>
 				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"アイロニ","author":"鹿乃","url":"http://music.163.com/song/media/outer/url?id=31421442.mp3","pic":"http://p1.music.126.net/4Zpn57gnArtV3F5xiNBK0g==/109951163598414321.jpg?param=130y130"},{"title":"Fade","author":"Alan Walker","url":"http://music.163.com/song/media/outer/url?id=29947420.mp3","pic":"http://p1.music.126.net/6Skxbgl8cfIjFGV-MzGi0Q==/109951163787691327.jpg?param=130y130"}]};
-				options.element = document.getElementById("aplayer3");
+				options.element = document.getElementById("aplayer2");
 				new APlayer(options);
 			</script>
 
 		
 <p>更多详细使用方法参考文档：<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer</a><br>歌词的获取，可以直接找到各层次文件，或者可以直接在网易云上通过以下方法获取<br><code>http://music.163.com/api/song/media?id=863046037</code><br>其中id为网易云歌曲的id，打开链接之后，可以把”lyric”字段的值复制下来，再删除\n就可以直接放到aplayerlrc标签中了，这样就可以有歌词出现</p>
 <p>同理<br><code>npm install hexo-tag-dplayer</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=https://raw.githubusercontent.com/YSC168/eee/master/yu.mp4&quot;  &quot;pic=http://home.ustc.edu.cn/~mmmwhy/GEM.jpg&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure></p>
-<div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"theme":"#FADFA3","loop":true,"video":{"url":"https://raw.githubusercontent.com/YSC168/eee/master/yu.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://raw.githubusercontent.com/YSC168/eee/master/yu.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 
       
     </div>
@@ -931,7 +931,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
