@@ -14,6 +14,8 @@
 	<link rel="shortcut icon" href="favicon.ico" >
 
 </head>
+
+
 <style>
 
 body {
@@ -28,18 +30,35 @@ canvas {
 }
 
     h1,h5,h4{
-    	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 40px;
    
     }
+    @-webkit-keyframes rotation{
+        from {-webkit-transform: rotate(0deg);}
+        to {-webkit-transform: rotate(360deg);}
+    }
+
+        .index-banner-bg{   -webkit-transform: rotate(360deg);
+        animation: rotation 36s linear infinite;
+        -moz-animation: rotation 36s linear infinite;
+        -webkit-animation: rotation 36s linear infinite;
+        -o-animation: rotation 36s linear infinite;
+     
+    }
+#profile-img {width: 360px;height: 360px;margin: -180px auto 0 auto;}
+ #profile-img img {width: 100%;background: #FFF;border-radius: 50%;}#container #content {text-align: center;width: 320px;margin: 0 auto;padding: 0 0 50px 0;}
+  
 </style>
 <body>
 <canvas id="sakura"></canvas>
-
+<script id="ilt" src="https://player.ilt.me/player/js/player.js" key="f60b22c320c547fcae4fe531b6076e9a"></script>
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.5/mp3/shijienamoda.m4a"></iframe>
 
 
 <div 
-style=" z-index: 10;
+style="
+
+ z-index: 10;
             position: absolute;
             left: 50%;
             top: 50%;
@@ -49,8 +68,8 @@ style=" z-index: 10;
             width: 100%;"><!-- 页面居中-->
 
 
-  <div class="index-banner-bg "><img src="images/title.png" alt="banner"/></div>
-<h1 align="center" >陪伴是最长情的告白</h1>
+  <div id='profile-img'><div class="index-banner-bg "><img src="images/title.png" alt="banner"/></div></div>
+<h1 align="center" style="margin-top: 50px;">陪伴是最长情的告白</h1>
 <h4 align="center" style="margin-right: 36px;margin-left: 36px;">You gesture, motion, and you smiles,you wit, you voice my heart beguiles,Beguiles my heart.</h4>
 
 </div>
