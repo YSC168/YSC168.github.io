@@ -18,13 +18,13 @@ const ap = new APlayer({
       {
         name: "Shape of You",
         artist: 'J.Fla',
-        url: 'http://music.163.com/song/media/outer/url?id=468882985.mp3',
+        url: 'https://cdn.jsdelivr.net/gh/YSC168/mp3@1.02/31.mp3',
         cover: 'http://p1.music.126.net/hZ2ttGYOQbL9ei9yABpejQ==/109951163032775841.jpg?param=130y130',
       },
       {
         name: "Monsters",
         artist: 'Katie Sky',
-        url: 'http://music.163.com/song/media/outer/url?id=28481189.mp3',
+        url: 'https://cdn.jsdelivr.net/gh/YSC168/mp3@1.02/23.mp3',
         cover: 'http://p1.music.126.net/YPh291Jw4Lzy7x1iT_Aw5A==/109951163510035145.jpg?param=130y130',
       },
      {
@@ -32,12 +32,6 @@ const ap = new APlayer({
         artist: '解忧邵帅',
         url: 'http://music.163.com/song/media/outer/url?id=1344897943.mp3',
         cover: 'http://p2.music.126.net/kQJQD58WkmQneTneOYe22A==/109951164252455813.jpg?param=130y130',
-      },
-        {
-        name: "我喜欢你",
-        artist: '小晏晏',
-        url: 'http://music.163.com/song/media/outer/url?id=520619606.mp3',
-        cover: 'http://p2.music.126.net/IzI61mZWGe0qfmL9RFzjjw==/109951163069340813.jpg?param=130y130',
       },
        {
         name: "起风了",
@@ -54,7 +48,7 @@ const ap = new APlayer({
         {
         name: "往后余生",
         artist: '王贰浪',
-        url: 'http://music.163.com/song/media/outer/url?id=571338279.mp3',
+        url: 'https://cdn.jsdelivr.net/gh/YSC168/mp3@1.02/109.mp3',
         cover: 'http://p1.music.126.net/hTiVEeQTUSsc-YGF3o6ItQ==/109951163337847600.jpg?param=130y130',
       },
     ]
