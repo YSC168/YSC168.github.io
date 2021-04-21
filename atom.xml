@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2020-09-02T16:14:12.119Z</updated>
+  <updated>2021-04-21T14:03:49.949Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>九寨沟黄龙游记</title>
+    <link href="http://yscblog.top/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E9%BB%84%E9%BE%99%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://yscblog.top/九寨沟黄龙游记/</id>
+    <published>2021-04-21T14:02:35.000Z</published>
+    <updated>2021-04-21T14:03:49.949Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>时间：2021年4月12-14日<br>九寨沟距离成都290km，来回路程各8小时车程途中山多，云散。有段路直接下起了冰雹。休息区还有雪白牦牛可观赏<br><a id="more"></a><br>车程、沿途风景、景色都是很难忘的。</p><p>水奔流不息，山奇秀巍峨，云漂浮不定，雾雨随行。</p><p>九寨沟从树阵群海开始，一直到犀牛海，再到五花海，珍珠瀑布，再到长海，五彩池，最后萨日朗瀑布，相传珍珠瀑布是《西游记》片头曲的取景地，当然我和同事们也在那里合影留念。水面呈淡蓝色，非常好看。下午也是下起了雨，在淋湿一下，冷透彻骨。一路云雾缭绕，树木参天，奇岩怪石，游玩人数多。</p><p>黄龙是14日一早就上海拔3000米以上，路上片片雪海，每个松树上都积满了沉甸甸的雪。到达黄龙景区入口出时，又和小伙伴们玩起来雪仗，你扔我抛。但又有些破坏了完整性，“战后”一片狼藉。对于一个从没看过这么大的雪的人来说，是多么的不可思议。从索道坐上黄龙的景区也很震撼，越往上景色越美，颇有“一览众山小”的感觉。出索道后发现在上面太阳出来了，一点也不感觉冷。雪下在路上成冰，走起路来也是滑滑的。一群人被分成一“路”人缓慢行走，大量的植物被冰雪覆盖，到了第一个观景台，风景美不胜收，林海雪原一点也不为过。但白花花的雪和太阳让我睁不开眼睛，让我对雪盲症有了一点了解。然后一口气到达了五彩池，没错还是五彩池。松鼠，杜鹃在其中也增添了不少生气，难以想象在这么冷的环境下竟有动物。然后在下行是下起了鹅毛大的雪，真北国风光万里雪飘，一座座山又被积上厚厚的外衣，银装素裹的样子，全是雪也产生了审美疲劳。全程3km没有多大感觉，很轻松的样子，虽然是早起但被这震撼的景色吸引得睡意全无。雪山远近观看有很大的差别，雪山并非冰山。看着白压压一片，走进却是雪覆盖了一层。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时间：2021年4月12-14日&lt;br&gt;九寨沟距离成都290km，来回路程各8小时车程途中山多，云散。有段路直接下起了冰雹。休息区还有雪白牦牛可观赏&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>成都相册</title>
@@ -488,70 +506,6 @@
     
     
       <category term="分享" scheme="http://yscblog.top/tags/%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学习HTML</title>
-    <link href="http://yscblog.top/%E5%AD%A6%E4%B9%A0HTML/"/>
-    <id>http://yscblog.top/学习HTML/</id>
-    <published>2019-01-16T03:51:15.000Z</published>
-    <updated>2020-03-14T04:28:03.862Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><html></html></p><head><script>function clickCounter(){    if(typeof(Storage)!=="undefined")    {        if (localStorage.clickcount)        {            localStorage.clickcount=Number(localStorage.clickcount)+1;        }        else        {            localStorage.clickcount=1;        }        document.getElementById("result").innerHTML=" 你已经点击了按钮 " + localStorage.clickcount + " 次 ";    }    else    {        document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。";    }}</script><script>document.write("Hello World!")</script></head><body><p>W3C_school随时随地学编程学习阶段</p><a style="float:left;" href="#">HTML</a> <a style="float:left;" href="#">CSS</a> <a style="float:left;" href="#">Javascript</a> <a style="float:left;" href="#">jQuery</a><p><s>我的车是红色的。</s></p><a id="more"></a><canvas id="myCanvas" style="float:left;">你的浏览器不支持 HTML5 canvas 标签。</canvas><script>var c=document.getElementById('myCanvas');var ctx=c.getContext('2d');ctx.fillStyle='#000000';ctx.fillRect(0,0,100,100);</script><canvas id="myCanva" width="200" height="200" style="border:1px solid #000;float:left;"><br>您的浏览器不支持 HTML5 canvas 标签。</canvas><script>var c=document.getElementById("myCanva");var ctx=c.getContext("2d");ctx.beginPath();ctx.arc(100,100,50,0,10*Math.PI);ctx.stroke();</script> <form><br> <fieldset><br>  <legend>个人信息:</legend><br>  姓名: <input type="text"><br><br>  邮箱: <input type="text"><br><br>  生日: <input type="text"><br> </fieldset><br></form><br><br><br><br><div id="resul"></div><br><script><br>if(typeof(Storage)!==”undefined”)<br>{<br>  localStorage.sitename=”微博客”;<br>  document.getElementById(“resul”).innerHTML=”网站名：” + localStorage.sitename;<br>}<br>else<br>{<br>  document.getElementById(“resul”).innerHTML=”对不起，您的浏览器不支持 web 存储。”;<br>}<br></script><br><br><br><button onclick="clickCounter()" type="button">点我！</button><br><div id="result"></div><br>点击该按钮查看计数器的增加。<br>关闭浏览器选项卡(或窗口),重新打开此页面,计数器将继续计数(不是重置)。<br><br><br><ol start="520"><br>  <li>咖啡</li><br>  <li>茶</li><br>  <li>牛奶</li><br></ol><br><br><form><br><input list="flowers" name="flower"><br><datalist id="flowers"><br>  <option value="玫瑰"><br>  </option><option value="月季"><br>  </option><option value="牡丹"><br>  </option><option value="紫罗兰"><br>  </option><option value="向日葵"><br></option></datalist><br><br></form><br><form><br>  选择你喜欢的颜色: <input type="color" name="favcolor"><br><br><br></form><p></p><p id="demo">点击按钮获取您当前坐标（可能需要比较长的时间获取）：</p><p></p><p><button onclick="getLocation()">点我</button></p><p><div id="mapholder"></div></p><script>var x=document.getElementById("demo");function getLocation()  {  if (navigator.geolocation)    {    navigator.geolocation.getCurrentPosition(showPosition,showError);    }  else{x.innerHTML="该浏览器不支持获取地理位置。";}  }function showPosition(position)  {  var latlon=position.coords.latitude+","+position.coords.longitude;  var img_url="http://maps.googleapis.com/maps/api/staticmap?center="  +latlon+"&zoom=14&size=400x300&sensor=false";  document.getElementById("mapholder").innerHTML="<img src='"+img_url+"'>";  }function showError(error)  {    switch(error.code)     {    case error.PERMISSION_DENIED:      x.innerHTML="用户拒绝对获取地理位置的请求。"      break;    case error.POSITION_UNAVAILABLE:      x.innerHTML="位置信息是不可用的。"      break;    case error.TIMEOUT:      x.innerHTML="请求用户地理位置超时。"      break;    case error.UNKNOWN_ERROR:      x.innerHTML="未知错误。"      break;    }  }</script><svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190"><br/>   <polygon points="100,10 40,180 190,60 10,60 160,180" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/><br/></svg><p><center></center></p><p><figure><br><img src="https://api.uixsj.cn/bing/bing.php" alt="bing" width="304" height="228"></figure></p><p><figcaption>Pic.1 - 必应每日一图</figcaption><br><br><br>今天别忘了买<mark>牛奶</mark>。<br>展示给定的数据范围:</p><meter value="2" min="0" max="10">2 out of 10</meter><br><meter value="0.6">60%</meter><br><meter value="1.0">100%</meter><p><hr></p><details><br><summary>Copyright 1997-2020-查看详细信息</summary><br>男，96后摩羯座，不追热点，不关时政，不要喧哗，不惹纷争。<br>爱好：代码如诗，热爱生活以及喜欢思考有意义的东西。<br></details><p>我在每天早上<time>8:30</time>开始上班。</p><p><textarea rows="10" cols="30" width="100%"><br>我是一个文本框。</textarea></p><p><audio controls></audio></p><p><source src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3" type="audio/ogg"></p><p><source src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.0.6/mp3/tonghuaz.mp3" type="audio/mpeg"><br>浏览器不支持 audio 元素。<br></p><p><footer><br>Posted by: Yan Shengchao<br><time pubdate="" datetime="2020-03-11"></time><br></footer></p><iframe src="http://blxin.coding.me/" width="100%" height="800"><p><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></p></iframe></body><p></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;html&gt;&lt;/html&gt;&lt;/p&gt;
-&lt;head&gt;
-
-
-&lt;script&gt;
-function clickCounter()
-{
-    if(typeof(Storage)!==&quot;undefined&quot;)
-    {
-        if (localStorage.clickcount)
-        {
-            localStorage.clickcount=Number(localStorage.clickcount)+1;
-        }
-        else
-        {
-            localStorage.clickcount=1;
-        }
-        document.getElementById(&quot;result&quot;).innerHTML=&quot; 你已经点击了按钮 &quot; + localStorage.clickcount + &quot; 次 &quot;;
-    }
-    else
-    {
-        document.getElementById(&quot;result&quot;).innerHTML=&quot;对不起，您的浏览器不支持 web 存储。&quot;;
-    }
-}
-&lt;/script&gt;
-&lt;script&gt;
-document.write(&quot;Hello World!&quot;)
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;
-W3C_school随时随地学编程
-学习阶段
-&lt;/p&gt;
-
-
-&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;HTML&lt;/a&gt; 
-&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;CSS&lt;/a&gt; 
-&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;Javascript&lt;/a&gt; 
-&lt;a style=&quot;float:left;&quot; href=&quot;#&quot;&gt;jQuery&lt;/a&gt;
-
-
-&lt;p&gt;&lt;s&gt;我的车是红色的。&lt;/s&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="学习" scheme="http://yscblog.top/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="html" scheme="http://yscblog.top/tags/html/"/>
     
   </entry>
   

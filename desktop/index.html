@@ -2,6 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+
+
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no"><!--手机端浏览-->
 	<link rel="shortcut icon" href="images/lanigera.png">
 	<link rel="icon" sizes="any" href="images/lanigera.svg">
 	<link rel="stylesheet" type="text/css" href="css/banner.css">
@@ -23,7 +29,7 @@
 			top:0;
 		}
 	</style>
-	<title>Avalon</title>
+	<title>YSC,desktop</title>
 </head>
 <body>
 <div class="banner" id="banner1">
@@ -56,7 +62,7 @@
 
 	const banner = new FragmentBanner({
 		container : "#banner1",//选择容器 必选
-		imgs : ['images/1.jpg','images/2.jpg','images/3.jpg','images/4.jpg','images/5.jpg','images/6.jpg','images/7.jpg'],//图片集合 必选
+		imgs : ['https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/1.jpg','https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/2.jpg','https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/3.jpg','https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/4.jpg','https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/5.jpg','https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/6.jpg','https://cdn.jsdelivr.net/gh/YSC168/bigfiles@1.04/desktop/7.jpg'],//图片集合 必选
 		// links : ['','','','','','','',''],
 		// titles : ['','','','','','',''],
 		// intros : [
@@ -95,7 +101,7 @@
             <script>
                 $(function(){
                     $.ajax({
-                        url:"https://api.fczbl.vip/163/?type=playlist&id=2003373695",
+                        url:"https://api.fczbl.vip/163/?type=playlist&id=4940767232",
                         success:function(e){
                             var a = new APlayer({
                                 element:document.getElementById("ap-f"),
