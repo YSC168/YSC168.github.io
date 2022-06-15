@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[22年新工作]]></title>
+    <url>%2F22%E5%B9%B4%E6%96%B0%E5%B7%A5%E4%BD%9C%2F</url>
+    <content type="text"><![CDATA[2022年2月入职一个会计培训的公司，主要就是销售课程，月休4天基本每天加班，但是旺季薪资还看得过去 5，6月份就有些不够说不过去了，辞职之心愈演愈烈，但愿6月能熬过去，这种网络公司的留存率低和招新率高都是非常常见的]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[最近更新]]></title>
     <url>%2F%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0%2F</url>
     <content type="text"><![CDATA[123]]></content>
@@ -395,8 +400,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
 </search>
