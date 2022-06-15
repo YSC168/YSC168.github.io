@@ -15,7 +15,7 @@ const ap = new APlayer({
         artist: 'Katie Sky',
         url: 'https://cdn.jsdelivr.net/gh/YSC168/mp3@1.02/23.mp3',
         cover: 'http://p1.music.126.net/YPh291Jw4Lzy7x1iT_Aw5A==/109951163510035145.jpg?param=130y130',
-      },
+      }，
       {
         name: "Shape of You",
         artist: 'Ed Sheeran',
