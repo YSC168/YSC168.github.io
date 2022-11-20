@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[测试]]></title>
     <url>%2F%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[11111]]></content>
+    <content type="text"><![CDATA[&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt; &lt;div class=&quot;aplayer&quot; data-id=&quot;3778678&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-fixed=&quot;true&quot; data-autoplay=&quot;true&quot; data-volume=&quot;0.6&quot; &gt;&lt;/div&gt; var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id']]></content>
   </entry>
   <entry>
     <title><![CDATA[无题]]></title>
