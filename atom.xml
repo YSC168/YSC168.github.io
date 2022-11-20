@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2022-11-20T14:44:28.877Z</updated>
+  <updated>2022-11-20T14:55:26.938Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -17,20 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
+    <title>网易云音乐</title>
     <link href="http://yscblog.top/%E6%B5%8B%E8%AF%95/"/>
     <id>http://yscblog.top/测试/</id>
     <published>2022-11-20T14:33:18.000Z</published>
-    <updated>2022-11-20T14:44:28.877Z</updated>
+    <updated>2022-11-20T14:55:26.938Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><!-- 音乐播放器 --><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;div class=&quot;aplayer&quot; data-id=&quot;3778678&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-fixed=&quot;true&quot; data-autoplay=&quot;true&quot;    data-volume=&quot;0.6&quot; &gt;&lt;/div&gt;</code></pre><script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script><script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><html><br><body><br><!-- 音乐播放器 --><br>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><br>    <div class="aplayer" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.6"></div><br><script>var meting_api=’<a href="http://api.mizore.cn/meting/api.php?server=:server&amp;type=:type&amp;id=:id&#39;">http://api.mizore.cn/meting/api.php?server=:server&amp;type=:type&amp;id=:id&#39;</a></script><br><script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><br><br><script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><br><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></body><br></html>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;!-- 音乐播放器 --&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://cdn.jsdel
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;html&gt;&lt;br&gt;&lt;body&gt;&lt;br&gt;&lt;!-- 音乐播放器 --&gt;&lt;br&gt;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdeliv
       
     
     </summary>
