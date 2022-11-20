@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2022-11-20T14:55:26.938Z</updated>
+  <updated>2022-11-20T15:08:19.393Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yscblog.top/%E6%B5%8B%E8%AF%95/"/>
     <id>http://yscblog.top/测试/</id>
     <published>2022-11-20T14:33:18.000Z</published>
-    <updated>2022-11-20T14:55:26.938Z</updated>
+    <updated>2022-11-20T15:08:19.393Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><html><br><body><br><!-- 音乐播放器 --><br>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><br>    <div class="aplayer" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.6"></div><br><script>var meting_api=’<a href="http://api.mizore.cn/meting/api.php?server=:server&amp;type=:type&amp;id=:id&#39;">http://api.mizore.cn/meting/api.php?server=:server&amp;type=:type&amp;id=:id&#39;</a></script><br><script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><br><br><script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><br><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});</script></body><br></html>]]></content>
     
