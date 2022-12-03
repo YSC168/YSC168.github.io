@@ -301,43 +301,43 @@ const scaleFactorSelector = () => store.state.config.scaleFactor;
 const helpContent = {
 	shellType: {
 		header: 'Shell Type',
-		body: '选择将要发射的烟花类型。选择“随机”是一个不错的选择！'
+		body: 'The type of firework that will be launched. Select "Random" for a nice assortment!'
 	},
 	shellSize: {
 		header: 'Shell Size',
-		body: '调整烟花的大小。以真实的烟花炮弹尺寸为模型，较大的炮弹具有更大的爆发力，有时效果更复杂。但是，较大的烟花还需要设备配置更高，并且可能会导致延迟卡顿。'
+		body: 'The size of the fireworks. Modeled after real firework shell sizes, larger shells have bigger bursts with more stars, and sometimes more complex effects. However, larger shells also require more processing power and may cause lag.'
 	},
 	quality: {
 		header: 'Quality',
-		body: '整体图形质量。如果动画运行不流畅，请尝试降低质量。高质量会大大增加火花数量。'
+		body: 'Overall graphics quality. If the animation is not running smoothly, try lowering the quality. High quality greatly increases the amount of sparks rendered and may cause lag.'
 	},
 	skyLighting: {
 		header: 'Sky Lighting',
-		body: '烟花爆炸时照亮背景。如果背景在屏幕上看起来太亮，请尝试将其设置为“暗”或“无”。'
+		body: 'Illuminates the background as fireworks explode. If the background looks too bright on your screen, try setting it to "Dim" or "None".'
 	},
 	scaleFactor: {
 		header: 'Scale',
-		body: '缩放所有烟花的大小，相当于使您靠近或远离烟花。'
+		body: 'Allows scaling the size of all fireworks, essentially moving you closer or farther away. For larger shell sizes, it can be convenient to decrease the scale a bit, especially on phones or tablets.'
 	},
 	autoLaunch: {
 		header: 'Auto Fire',
-		body: '自动启动烟花序列。坐下来欣赏表演。'
+		body: 'Launches sequences of fireworks automatically. Sit back and enjoy the show, or disable to have full control.'
 	},
 	finaleMode: {
 		header: 'Finale Mode',
-		body: '发射强烈的烟花。可能会导致延迟。需要启用“自动射击”。'
+		body: 'Launches intense bursts of fireworks. May cause lag. Requires "Auto Fire" to be enabled.'
 	},
 	hideControls: {
 		header: 'Hide Controls',
-		body: '隐藏屏幕顶部的半透明控件。对于屏幕截图很有用。隐藏后，您仍然可以点击右上角以重新打开此菜单。'
+		body: 'Hides the translucent controls along the top of the screen. Useful for screenshots, or just a more seamless experience. While hidden, you can still tap the top-right corner to re-open this menu.'
 	},
 	fullscreen: {
 		header: 'Fullscreen',
-		body: '切换全屏模式。'
+		body: 'Toggles fullscreen mode.'
 	},
 	longExposure: {
 		header: 'Open Shutter',
-		body: '实验效果可保留长时间的光线，类似于保持相机快门打开。'
+		body: 'Experimental effect that preserves long streaks of light, similar to leaving a camera shutter open.'
 	}
 };
 
@@ -2095,7 +2095,7 @@ const Spark = {
 
 
 const soundManager = {
-	baseURL: 'https://cdn.jsdelivr.net/gh/ysc168/firework@1.01/',
+	baseURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/',
 	ctx: new (window.AudioContext || window.webkitAudioContext),
 	sources: {
 		lift: {
