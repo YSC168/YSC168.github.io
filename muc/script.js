@@ -6,7 +6,7 @@
 */
 
 var media = [
-    "https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.3/mp3/lianai.mp3"
+    "http://music.163.com/song/media/outer/url?id=865632948.mp3"
   ],
   fftSize = 1024,
   // [32, 64, 128, 256, 512, 1024, 2048]

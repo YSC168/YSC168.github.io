@@ -45,14 +45,14 @@ canvas {
         -o-animation: rotation 36s linear infinite;
      
     }
-#profile-img {width: 360px;height: 360px;margin: -180px auto 0 auto;}
+#profile-img {width: 280px;height: 280px;margin: -100px auto 0 auto;}
  #profile-img img {width: 100%;background: #FFF;border-radius: 50%;}#container #content {text-align: center;width: 320px;margin: 0 auto;padding: 0 0 50px 0;}
   
 </style>
 <body>
 <canvas id="sakura"></canvas>
-<script id="ilt" src="https://player.ilt.me/player/js/player.js" key="f60b22c320c547fcae4fe531b6076e9a"></script>
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="https://cdn.jsdelivr.net/gh/YSC168/cdn@2.1.5/mp3/shijienamoda.m4a"></iframe>
+
+   
 
 
 <div 
@@ -1165,4 +1165,12 @@ window.addEventListener('load', function(e) {
     w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
 })(window, 'equestAnimationFrame');
 </script>
+<!-- 音乐播放器 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <div class="aplayer" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"
+        data-volume="0.6" ></div>
+<script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+<script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+
+<script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </html>

@@ -2,12 +2,9 @@
 <html>
 <head>
 	<title></title>
-    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
-
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
 <meta name="apple-mobile-web-app-capable" content="yes">
-
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
 <meta name="format-detection" content="telephone=no">
 <link href="css/materialize.css" type="text/css" rel="stylesheet" />
 <link rel="shortcut icon" href="lovebig.ico" >
@@ -51,39 +48,21 @@
      <div class="row center">
         <h5 class="header col s12 light"></h5>
      </div>
-       <a  id="download-button" class="btn-large waves-effect waves-light blue no-shadow" target="_blank">永远年轻,永远热泪盈眶</a>
+       <a  id="download-button"  href="http://guozhivip.com/yy/apis/api.php" class="btn-large waves-effect waves-light blue no-shadow" target="_blank">永远年轻,永远热泪盈眶</a>
      <br><br>
     </div>
   </div>
   <footer>
             <script src="http://guozhivip.com/yy/api/api.php"></script>
   </footer>
-<div class="aplayer-footer">
-            <div class="ap-f" id="ap-f"></div>
-            <script>
-                $(function(){
-                    $.ajax({
-                        url:"https://api.fczbl.vip/163/?type=playlist&id=2701435181",
-                        success:function(e){
-                            var a = new APlayer({
-                                element:document.getElementById("ap-f"),
-                                autoplay:false,
-                                fixed:true,
-                                loop:"all",
-                                order:"list",
-                                listFolded:true,
-                                showlrc:3,
-                                theme:"#e6d0b2",
-                                listmaxheight:"200px",
-                                music:eval(e)
-                            });
-                            window.aplayers || (window.aplayers = []),
-                            window.aplayers.push(a)
-                        }
-                    })
-                })
-            </script>
-        </div>
+<!-- 音乐播放器 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <div class="aplayer" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"
+        data-volume="0.6" ></div>
+<script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+<script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+
+<script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
     </main>
     <script src="./js/main.js"></script>
 

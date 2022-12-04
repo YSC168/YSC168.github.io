@@ -40,7 +40,7 @@
     <script src="./js/aplayer.min.js"></script>
  
 
-<!--  心知天气   
+ 
 <div id="tp-weather-widget"></div>
 <script>
   (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
@@ -73,39 +73,12 @@ if (!isOnPc) {
 
 <body style="cursor: url(cursor.ico),auto">
 
-<div  style=" background: url(https://cdn.jsdelivr.net/gh/ysc168/eee@1.0/1.gif);
-    height:4px;
-    top:0px;
-    position: fixed;
-    width:100%;
-    Z-index:9999;" ></div> 
-  
-
 <canvas class="colorfulline"></canvas> 
 <canvas class="fireworks"></canvas>
 
 <script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><!--点击爆炸效果-->
   <script type="text/javascript" src="js/fireworks.min.js"></script><!--点击爆炸效果-->
 
-
-
-
-
-<div id="YSC168"
-style=" z-index: 10;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translateX(-50%) translateY(-50%);
-            font-family: "Montserrat";
-            text-align: center;
-            width: 100%;">
-
-
-<embed src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.7/source/beautifulflower.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="300" height="240" wmode="Transparent"></embed>
-  
-</div>
- 
 
 <!-- 页面点击小红心-->
 <script type="text/javascript" src="js/love.js"></script>
@@ -117,36 +90,16 @@ style=" z-index: 10;
           <script type="text/javascript" src="https://api.uixsj.cn/hitokoto/w.php?code=js"></script><div id="xsjhitokoto" style="margin-top: 100px;"><script>xsjhitokoto()</script></div>
         
   </footer>
-
-<!--<div class="aplayer-footer">
-            <div class="ap-f" id="ap-f"></div>
-            <script>
-                $(function(){
-                    $.ajax({
-                        url:"https://api.fczbl.vip/163/?type=playlist&id=3778678",
-                        success:function(e){
-                            var a = new APlayer({
-                                element:document.getElementById("ap-f"),
-                                autoplay:false,
-                                fixed:true,
-                                loop:"all",
-                                order:"list",
-                                listFolded:true,
-                                showlrc:3,
-                                theme:"#e6d0b2",
-                                listmaxheight:"200px",
-                                music:eval(e)
-                            });
-                            window.aplayers || (window.aplayers = []),
-                            window.aplayers.push(a)
-                        }
-                    })
-                })
-            </script>
-        </div>-->
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-         <script id="ilt" src="https://player.ilt.me/player/js/player.js" key="2e086053d2f44e79a489e38085e9edb6"></script>
+<!-- 音乐播放器 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <div class="aplayer" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"
+        data-volume="0.6" ></div>
+<script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+<script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+
+<script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>       
 </body>
 </html>
