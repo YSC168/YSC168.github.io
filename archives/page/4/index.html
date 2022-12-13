@@ -209,7 +209,18 @@
       pointer-events: none;
     }
    
-
+.back-to-top{
+  cursor: pointer;
+    position: fixed;
+    right: 80px;
+    top: -900px;
+    z-index: 2;
+    width: 70px;
+    height: 900px;
+    background: url(/images/scroll.png);
+    transition: all .5s ease-in-out;
+    opacity: 1;
+}
   .colorfulline { position: fixed;  
               top: 0;  
               left: 0;  
@@ -239,6 +250,10 @@
 
 
   <script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+
+    <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;"></div>
+    <script type="text/javascript" src="/js/src/gotop.js"></script>
+    <script type="text/javascript" src="/js/src/szgotop.js"></script>
 
   <!--点击爆炸效果-->
 <script type="text/javascript" src="/js/src/fireworks.min.js"></script><!--点击爆炸效果-->
@@ -415,7 +430,7 @@
 
 
 
-<!--  心知天气   -->
+<!--  心知天气   
 <div id="tp-weather-widget"></div>
 <script>
   (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
@@ -430,7 +445,7 @@
     hover: "enabled",
     container: "tp-weather-widget"
   })
-</script>            <!--  心知天气   -->
+</script>             心知天气   -->
 
 
     <main id="main" class="main">
@@ -1171,7 +1186,7 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="1643671159@qq.com" target="_blank" title="E-Mail">
+                    <a href="mailto:1643671159@qq.com" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
@@ -1193,10 +1208,6 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="https://yscblog.top/aNavigation/" title="网页导航" target="_blank">网页导航</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://tool.c7sky.com/webcolor/" title="网页配色" target="_blank">网页配色</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
