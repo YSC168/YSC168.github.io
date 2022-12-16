@@ -55,7 +55,7 @@
     				};
     				for (var i = 0; i < 10; i++) {
     				    mockData.data[i] = {
-    				        src: 'https://cdn.jsdelivr.net/gh/ysc168/beautiful_girl@1.06/img/' + Math.ceil(Math.random() * 327) + '.jpg',   
+    				        src: 'https://beautiful-girl.pages.dev/img/' + Math.ceil(Math.random() * 327) + '.jpg',   
     				        title: '爱你的第' + Math.ceil(Math.random() * 327)+'张'
     				    }
     				}
@@ -65,6 +65,7 @@
                         var data = mockData.data[i];
                         arr.push('<div class="pin"><img src="' + data.src + '" class="img" alt="'+ data.title +'"> <p class="description">'+ data.title +'</p></div>')
                     }
+                    //https://cdn.jsdelivr.net/gh/ysc168/beautiful_girl@1.06/img/1.jpg
 
     				// 调用 append 方法 检验是否所有的图片都具有高度后才会 append 进文档树中
     				waterfall.append(arr.join(''), '.img')
