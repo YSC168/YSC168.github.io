@@ -230,17 +230,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[追剧神器Neets]]></title>
-    <url>%2F%E8%BF%BD%E5%89%A7%E7%A5%9E%E5%99%A8Neets%2F</url>
-    <content type="text"><![CDATA[Neets——你的私人追剧专家思古影视磁力猫片哈网被窝电影网 追剧一直是各位上班族，学生党，社会人士的一大生活需求，有时候你可能都会自己忘记你看到哪一集了，那一段了，或者还需要重新找资源，花时间去记住今天看了几集，或者是因为工作今天没看，明天又忘记了，这里推荐给大家一个追剧的网站Neets——你的私人追剧专家！网站极力推荐给各位喜欢看电视剧的朋友们。网站Neets上收集美剧、日剧、韩剧、泰剧、动漫等多个分类，比如：《人民的名义》、《权利的游戏》、《越狱》、《西部世界》、《进击的巨人》、《春风十里不如你》这些比较热播的电视剧都有。网站会自动收集电视剧的播放地址或下载地址，同时提示播放网站中是否有广告。因为Neets只是搜集的播放地址，所以不会不涉及版权问题。比如《权利的游戏》，现在可观看到第七季第二集，而且是中文字幕。登陆账号后可以在下方分级列表总标记观看进度，最重要的是完美支持手机。]]></content>
-      <categories>
-        <category>抄录</category>
-      </categories>
-      <tags>
-        <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[学习HTML]]></title>
     <url>%2F%E5%AD%A6%E4%B9%A0HTML%2F</url>
     <content type="text"><![CDATA[function clickCounter() { if(typeof(Storage)!=="undefined") { if (localStorage.clickcount) { localStorage.clickcount=Number(localStorage.clickcount)+1; } else { localStorage.clickcount=1; } document.getElementById("result").innerHTML=" 你已经点击了按钮 " + localStorage.clickcount + " 次 "; } else { document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。"; } } document.write("Hello World!") W3C_school随时随地学编程 学习阶段 HTML CSS Javascript jQuery 我的车是红色的。 你的浏览器不支持 HTML5 canvas 标签。 var c=document.getElementById('myCanvas'); var ctx=c.getContext('2d'); ctx.fillStyle='#000000'; ctx.fillRect(0,0,100,100); 您的浏览器不支持 HTML5 canvas 标签。 var c=document.getElementById("myCanva"); var ctx=c.getContext("2d"); ctx.beginPath(); ctx.arc(100,100,50,0,10*Math.PI); ctx.stroke(); 个人信息: 姓名: 邮箱: 生日: if(typeof(Storage)!==”undefined”){ localStorage.sitename=”微博客”; document.getElementById(“resul”).innerHTML=”网站名：” + localStorage.sitename;}else{ document.getElementById(“resul”).innerHTML=”对不起，您的浏览器不支持 web 存储。”;}点我！点击该按钮查看计数器的增加。关闭浏览器选项卡(或窗口),重新打开此页面,计数器将继续计数(不是重置)。 咖啡 茶 牛奶 选择你喜欢的颜色: 点击按钮获取您当前坐标（可能需要比较长的时间获取）： 点我 var x=document.getElementById("demo"); function getLocation() { if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition,showError); } else{x.innerHTML="该浏览器不支持获取地理位置。";} } function showPosition(position) { var latlon=position.coords.latitude+","+position.coords.longitude; var img_url="http://maps.googleapis.com/maps/api/staticmap?center=" +latlon+"&zoom=14&size=400x300&sensor=false"; document.getElementById("mapholder").innerHTML=""; } function showError(error) { switch(error.code) { case error.PERMISSION_DENIED: x.innerHTML="用户拒绝对获取地理位置的请求。" break; case error.POSITION_UNAVAILABLE: x.innerHTML="位置信息是不可用的。" break; case error.TIMEOUT: x.innerHTML="请求用户地理位置超时。" break; case error.UNKNOWN_ERROR: x.innerHTML="未知错误。" break; } } Pic.1 - 必应每日一图今天别忘了买牛奶。展示给定的数据范围: 2 out of 1060%100% Copyright 1997-2020-查看详细信息男，96后摩羯座，不追热点，不关时政，不要喧哗，不惹纷争。爱好：代码如诗，热爱生活以及喜欢思考有意义的东西。 我在每天早上8:30开始上班。 我是一个文本框。 浏览器不支持 audio 元素。 Posted by: Yan Shengchao L2Dwidget.init({"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/"});]]></content>

@@ -4,7 +4,21 @@
 
 
 <html class="theme-next gemini" lang="zh-Hans">
-
+<script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0; 
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        alert('你真坏，请关闭控制台！')
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script>
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -452,50 +466,8 @@
         
          
         
-        OK! 目前共计 48 篇日志。 继续努力。
+        OK! 目前共计 47 篇日志。 继续努力。
       </span>
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h2 class="archive-year" id="archive-year-2019">2019</h2>
-          </div>
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/学习HTML/" itemprop="url">
-              
-                <span itemprop="name">学习HTML</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-01-16T11:51:15+08:00"
-              content="2019-01-16" >
-          01-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
 
       
 
@@ -837,6 +809,43 @@
 
       
 
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+            <a class="post-title-link" href="/“积极废人”是什么？如何避免成为“积极废人”？/" itemprop="url">
+              
+                <span itemprop="name">“积极废人”是什么？如何避免成为“积极废人”？</span>
+              
+            </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-08-28T15:09:29+08:00"
+              content="2018-08-28" >
+          08-28
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
     </div>
   </div>
   
@@ -898,7 +907,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">48</span>
+                  <span class="site-state-item-count">47</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
