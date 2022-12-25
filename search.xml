@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[“感冒”记录]]></title>
+    <url>%2F%E2%80%9C%E6%84%9F%E5%86%92%E2%80%9D%E8%AE%B0%E5%BD%95%2F</url>
+    <content type="text"><![CDATA[12月18号去做了员工体检，测出高胆固醇，过重 得注意健康问题了 跟上班必然有很大的联系 肯定是这样的感觉是从这里阳了的，周一第一天照常上班，第二天起床就发现不对劲，直到下午5点左右烧得不行了，然后就居家隔离，周三测体温就是39度左右，最高测得有39.6，然后开始发热出汗，午休出汗之后要好一些，体温还是烧起的，等到第4天就是咳嗽，出痰。确实有放屁多的症状有橘子开水（网传为电解质水），开水（非常重要），瘦肉粥，红糖姜茶，一顿照料之下，现在还有一些咳 应该很快就好了。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[公共静态播放器]]></title>
     <url>%2F%E5%85%AC%E5%85%B1%E9%9D%99%E6%80%81%E6%92%AD%E6%94%BE%E5%99%A8%2F</url>
     <content type="text"><![CDATA[本项目的用途是提供一个尽可能全面的播放器来用开发者测试和日常使用。 主要支持格式为 m3u8 和 mp4 官网 https://player.icodeq.com M3u8接口1 (原生)1https://player.icodeq.com/v1/?url= 接口2 (Dplayer)1https://player.icodeq.com/v2/?url= 接口3 (Plyr)1https://player.icodeq.com/v3/?url= 接口4 (video.js)1https://player.icodeq.com/v4/?url= MP4Dplayer1https://player.icodeq.com/mp4/?url=]]></content>
