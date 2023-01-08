@@ -8,6 +8,14 @@
 
     <url>
         <loc>http://yscblog.top/111/</loc>
+        <lastmod>2023-01-08T11:35:03.258Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yscblog.top/%E6%9C%80%E8%BF%91%E5%BF%99%E7%9A%84%E4%BA%8B/</loc>
         <lastmod>2023-01-01T14:49:08.794Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

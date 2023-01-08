@@ -18,8 +18,8 @@
   
   <entry>
     <title>111</title>
-    <link href="http://yscblog.top/111/"/>
-    <id>http://yscblog.top/111/</id>
+    <link href="http://yscblog.top/%E6%9C%80%E8%BF%91%E5%BF%99%E7%9A%84%E4%BA%8B/"/>
+    <id>http://yscblog.top/最近忙的事/</id>
     <published>2022-12-25T04:56:45.000Z</published>
     <updated>2023-01-01T14:49:08.794Z</updated>
     
@@ -31,6 +31,27 @@
       
         &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;null&lt;/p&gt;
 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>最近忙的事</title>
+    <link href="http://yscblog.top/111/"/>
+    <id>http://yscblog.top/111/</id>
+    <published>2022-12-25T04:56:45.000Z</published>
+    <updated>2023-01-08T11:35:03.258Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>   将网站部署到<a href="https://vercel.com/" target="_blank" rel="noopener">vercel</a>和<a href="https://netlify.app/" target="_blank" rel="noopener">netlify</a>，以及<a href="https:cloudflare.com/" target="_blank" rel="noopener">cloudflare</a>（目前用作图床）都是免费的。vercel国内访问速度够快，其次是netlify，也可以试一下gitee。感觉cloudflare的加载速度和github差不多都比较慢，当然有梯子另说也可以用<a href="https://ping.chinaz.com/" target="_blank" rel="noopener">ping ip</a>得到访问速度</p><p>github和cloudflare在微信都是停止访问的，而netlify可以放心打开<br>部署方面：先简单注册一下，3个部署都比较简单的，直接从github上直接复制的，只需要首次上传到github就好。注意：使用vercel需要有购买的域名<br>可以猜想一下先注册个低价域名 上传github部署vercel作为图床。</p><p>扒网站：已经是最精简的了，可以直接看拿走</p><p><a href="https://yscblog.top/picall/">图片瀑布</a>，<a href="https://yscblog.top/pyq/">朋友圈</a>，<a href="https://yscblog.top/news/">每日早报</a>，<a href="https://yscblog.top/funny/">好玩特辑</a>，<a href="https://funnyweb.netlify.app/" target="_blank" rel="noopener">好玩特辑微信版</a> </p><p><a href="https://yscblog.top/music/">网易云音乐，QQ音乐</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div  class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4895239160&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;true&quot; data-mutex=&quot;true&quot; data-listfolded=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;none&quot; data-theme=&quot;#ad7a86&quot;&gt;&lt;/div&gt;&lt;!-- 网易平铺 --&gt;</span><br><span class="line"></span><br><span class="line">&lt;div class=&quot;aplayer no-destroy&quot; data-id=&quot;3778678&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-fixed=&quot;true&quot; data-mini=&quot;true&quot; data-listFolded=&quot;false&quot; data-order=&quot;random&quot; data-lrctype=&quot;1&quot; data-preload=&quot;none&quot; data-autoplay=&quot;true&quot; muted&gt;&lt;/div&gt;&lt;!-- 网易左下吸附 --&gt;</span><br><span class="line"></span><br><span class="line">&lt;div class=&quot;aplayer no-destroy&quot; data-id=&quot;8436325903&quot; data-server=&quot;tencent&quot; data-type=&quot;playlist&quot; data-fixed=&quot;true&quot; data-mini=&quot;true&quot; data-listfolded=&quot;false&quot; data-order=&quot;random&quot; data-preload=&quot;none&quot; data-autoplay=&quot;true&quot; muted&gt;&lt;/div&gt;&lt;!-- QQ音乐左下吸附 --&gt;</span><br><span class="line"></span><br><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js&quot;&gt;&lt;/script&gt;&lt;/script&gt;&lt;!-- 原作者 --&gt;</span><br></pre></td></tr></table></figure><p>很多有版权的歌会跳过，听不到，可以自建完成</p><p>既然网上能轻而易举拿到，说明就是已经开源了的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;   将网站部署到&lt;a href=&quot;https://vercel.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;vercel&lt;/a&gt;和&lt;a hre
       
     
     </summary>
@@ -408,31 +429,6 @@
     
     
       <category term="hexo" scheme="http://yscblog.top/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何“克服”自卑？</title>
-    <link href="http://yscblog.top/%E5%A6%82%E4%BD%95%E2%80%9C%E5%85%8B%E6%9C%8D%E2%80%9D%E8%87%AA%E5%8D%91%EF%BC%9F/"/>
-    <id>http://yscblog.top/如何“克服”自卑？/</id>
-    <published>2019-09-06T23:23:24.000Z</published>
-    <updated>2020-03-14T04:31:06.635Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>我们该如何“克服”自卑？</p><hr><p>我有过一段很糟糕的恋爱经历。</p><p>跟喜欢的男孩在一起之后，才发现，他跟我在一起，是因为被喜欢的女孩拒绝了。他因为心里难过，打算找个喜欢他的女孩疗伤，于是找到了我；<a id="more"></a></p><p>我们交往了很长一段时间，他依旧不公开这段关系，假装自己还是单身；</p><p>还有，和我“名义上”在一起的这段时间，他在QQ空间、微博，以及他的QQ小号上，都在追另一个女孩。</p><p>更可怕的是，这些我都知道，但当时的我依旧没敢跟他提出那句分手。</p><p>可能有人会觉得很搞笑，怎么真的有女孩这么傻，但是啊，一个十几岁的普通女孩，连被班上的女生议论几句，都会难过很久，怀疑自己是不是哪里做得不好，更何况是一个很自卑的女孩，她又怎么会明白<strong>原来在成人世界中，在任何一段关系里，就算你没被认真对待，问题也不一定出在你身上。也许是那个对你不好的人做错了。</strong></p><p>那时的我很普通，我曾经还暗挫挫在心里对班上的女孩进行了一个打分，有的女孩长得好看，长得普通点的好歹身材好，或者再普通一点的人家也有特长，比如头发黑长直很好看、唱歌很好听、字写得很好，再不济人家性格生得主动大方，说起话来很讨喜。一圈对比下来，同为女生，我一直很自卑。</p><p>所以即便后来在知道所有这些事情后，我第一想法不是责怪男孩，而是反省自己，是不是因为自己长得不够好看，还是哪里没做好，所以他不喜欢我。</p><p>年少时我们爱的第一个人太重要了。如果说，我之前只是因为自己是个普通女孩而自卑，那么从我捧着百分之百不掺水的真心站在他面前，只换得他的浓度百分之十都不到的劣质真心那刻起，在我青春时光的很长一段时间里，我都觉得自己连“普通女孩”的及格线都达不到，我因为自己的不够好，深深自卑着。</p><p>他让我无数次的怀疑是因为自己不够好，所以不值得被爱，不值得被好好对待。</p><p><strong>他也让我因为自己的自卑，而变得更加自卑。</strong></p><p>后来，为了与青春期的“自卑感”抗争，我做了很多努力。</p><p>我运动减肥，我学习打扮自己，我看了很多书，试图让自己变成一个有趣的人，我学习很多东西，补自己的短板。终于，我活成了十八岁的小文最想要成为的样子，我会打扮自己了，我跟不同的人不同的话题都聊得来，我很有趣，开口都能说一个让大家哈哈哈大笑的段子，也能很认真很严肃的走个心，我找到了自己的热爱。在别人眼中，我有点小厉害了。</p><p>我一直以为，只要我变优秀了，我就能自发性的消除我的自卑，可是后来有一天，我发现，就算变优秀了，那又怎么样？</p><p>你一样会自卑。</p><p>可能很多人不太理解这句话。作为一个不是从小优秀到大，更不是从小听着父母老师夸奖长大的孩子，而是在二十岁之后，通过自己的努力，才开始尝到生活一点甜头的人，我们太清楚在我们之前什么都不是时，世界是什么样的，别人给我们的脸色是怎么样的。我们太有自知之明了，也太明白现在所得到的夸奖鼓励，只是因为我们那所谓的优秀，别人爱的是被包装过的我们，而不是原来的我们。这份所谓的“爱”并不能消除我们内心的自卑感。</p><p><strong>因为真的很自卑，自卑到相信只有越变越好，越来越厉害，才值得被爱。自卑到你会觉得，别人爱你仅仅只是因为你身上附加的那个“好”字，而不是你这个人。</strong>所以很长一段时间，就算享受着世界对我们的和颜悦色，也会忍不住想，如果有一天，我又什么都没有了，那他们还会在吗，他们还会继续爱我们吗？</p><p>你以为你变优秀了，你就能不自卑了吗？</p><p>不，你依旧会。就算你变优秀了，你还是会怕自己不够好，怕没人喜欢你，你更怕有一天自己不能变更好了怎么办。</p><p><strong>说到底，你的自卑感不是因为你真的很差，而是源于你对“自己值不值得被爱”这件事的不确定性。</strong></p><p>所谓自卑的真正本质是：你从来没去接纳过现在的自己，总觉得以后那个更好更优秀的自己，才值得被好好对待。 </p><p>直到有一天我无意间看到武志红老师写的一段话，他说：</p><p>“无论一个人看上去是多么的优秀，他们的自卑与惶恐和别人实质上都无两样。甚至，优秀本身就是惶恐的结果，他们惶恐自己不优秀就没有人爱，所以才拼命把自己变得如此优秀。然而，这种逼出来的优秀，并不能让一个人彻底化解自卑。彻底化解自卑，只有一个做法——自己相信自己是值得爱。”</p><p>看到这段话的瞬间，我有种被点醒的感觉，原来努力没错，变得更优秀也没错，错的只是我们不懂得去接纳那个不够完美，身上带着点小缺点的自己。</p><p><strong>我们错误的以为，只有完美的人，才配得到这个世界的爱，才配抬头挺胸理直气壮的在这个世界上活着。</strong></p><p>但其实不是的，我们这辈子很难成为一个百分之百完美的人，就算现在的我终于活成了十八岁的自卑小文喜欢的样子，但还是依旧会碰壁，会搞砸很多事，会遇到不喜欢我的男孩，会遇到很多崩溃的瞬间，会因为不够好继续怀疑自己。</p><p><strong>就算你变成再厉害的大人，也依旧会遇到搞不定的事，这就是真实且残酷的成人世界。</strong></p><p>在与生活的一路交手过程中，我也开始慢慢明白，在社会丛林法则里，要努力活成一个很厉害的人，这一点很重要，但不论何时，学会接纳自己，学会看到自己的优点，相信自己也是一个很不错的大人，也是你必须记住的一条。</p><p>说句很丧气的话，带着不完美行走人间的我们，可能这辈子都没办法彻底消除那些让我们自卑的东西，因为人世间的努力也在遵循一个循环法：你因为一件事自卑，解决了这件事，你会有更高的目标，在更努力向前的过程中，你还会遇到另一件让你受挫怀疑的事，再次自卑。</p><p>每个人的内心多多少少都是有点自卑的，每个人生来也都是带着些不完美的，<strong>但这些好的，坏的，加在一起，才是真正的我们啊。</strong></p><p>所以你问，如何克服自卑？</p><p>我的回答是：可能我们这辈子没办法彻底消除自卑，我们只能在成为更好的大人的过程中，学着和自己的“自卑”和解，让自己现阶段的“自卑“不成为干扰我们的因素。</p><p>和自卑和解，有三个步骤：</p><ol><li><p><strong>缺哪补哪</strong>。什么让你感到自卑就去做什么，觉得自己长得不好看，就去健身学着打扮自己；觉得自己不够优秀，那就努力提升自己；觉得自己不够有趣，那就多看书多学习多思考。补上的这些至少会增加你的底气和自信。</p></li><li><p><strong>时刻给自己积极的心理暗示</strong>。当你觉得自己很怂，或者不行的时候，试着告诉自己：单独看，每个个体都是自信满满，但其实每个人内心都是自卑胆怯的，我们都一样，一边怂，一边告诉自己要坚强要勇敢。所以不要怕，你可以内心不确定，但表现出来给别人看到的，也一定要是你很自信的一面。</p></li><li><p><strong>相信自己是值得被爱的，哪怕你并不完美，这也是最根本的</strong>。也许有一天，你逼自己努力变优秀了，这份优秀能给你增加点底气，但最终并不能彻底化解自卑，优秀的你依旧会怀疑，如果接下来做不好，会不会就没人爱。决胜的最终法宝是，你要相信，哪怕你搞砸了一些事，没成为最好的人，此刻的你也是值得被爱的。也总有人在这个世界上偷偷爱着你。</p></li></ol><p>接纳自己的不完美，并且要相信这样的自己，也是最值得被爱的。这才是行走人间的我们所必须掌握的一项技能。</p><p><strong>毕竟，你被爱、被接受，不是因为完美，而是因为充满勇气。</strong></p><p>抬起头，骄傲的往前走吧。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们该如何“克服”自卑？&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我有过一段很糟糕的恋爱经历。&lt;/p&gt;
-&lt;p&gt;跟喜欢的男孩在一起之后，才发现，他跟我在一起，是因为被喜欢的女孩拒绝了。他因为心里难过，打算找个喜欢他的女孩疗伤，于是找到了我；
-    
-    </summary>
-    
-      <category term="抄录" scheme="http://yscblog.top/categories/%E6%8A%84%E5%BD%95/"/>
-    
-    
-      <category term="一个" scheme="http://yscblog.top/tags/%E4%B8%80%E4%B8%AA/"/>
     
   </entry>
   
