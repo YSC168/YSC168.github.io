@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2023-01-15T13:45:04.697Z</updated>
+  <updated>2023-01-19T13:05:40.289Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>YesPlayMusic部署</title>
+    <link href="http://yscblog.top/YesPlayMusic%E9%83%A8%E7%BD%B2/"/>
+    <id>http://yscblog.top/YesPlayMusic部署/</id>
+    <published>2023-01-19T12:43:04.000Z</published>
+    <updated>2023-01-19T13:05:40.289Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>话不多说  直接看成品 <a href="https://yesplayer.yscblog.top/" target="_blank" rel="noopener">YesPlayMusic</a><br>都是开源项目  按照步骤来部署就好  <a href="https://github.com/qier222/YesPlayMusic" target="_blank" rel="noopener">项目地址</a></p><h2 id="二级域名的创建"><a href="#二级域名的创建" class="headerlink" title="二级域名的创建"></a>二级域名的创建</h2><p> 类型：CNAME     名称：前缀(例abc)     目标：填写域名<br>网易云API和YesPlayerMusic都采用vercel部署 自动生成的域名是不行的<br>需要二级域名来跳转</p><h2 id="YesPlayerMusic部署会失败"><a href="#YesPlayerMusic部署会失败" class="headerlink" title="YesPlayerMusic部署会失败"></a>YesPlayerMusic部署会失败</h2><a id="more"></a><p>因为vercel的Node.js默认为18.x  要改为14.x或是16.x进行重新部署<br>项目设置 &gt; general &gt; NodeJS version<br><img src="https://user-images.githubusercontent.com/46253950/213182800-28e3111d-7fab-4184-97c5-78a836ef672c.png" alt="图示"></p><h2 id="⚙️-部署至-Vercel"><a href="#⚙️-部署至-Vercel" class="headerlink" title="⚙️ 部署至 Vercel"></a>⚙️ 部署至 Vercel</h2><p>除了下载安装包使用，你还可以将本项目部署到 Vercel 或你的服务器上。下面是部署到 Vercel 的方法。</p><p><a href="https://vercel.com/?utm_source=ohmusic&amp;utm_campaign=oss" target="_blank" rel="noopener"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel"></a></p><ol><li>部署网易云 API，详情参见 <a href="https://neteasecloudmusicapi.vercel.app/#/?id=%e5%ae%89%e8%a3%85" target="_blank" rel="noopener">Binaryify/NeteaseCloudMusicApi</a><br>。你也可以将 API 部署到 Vercel。</li><li>点击本仓库右上角的 Fork，复制本仓库到你的 GitHub 账号。</li><li>点击仓库的 Add File，选择 Create new file，输入 <code>vercel.json</code>，将下面的内容复制粘贴到文件中，并将 <code>https://your-netease-api.example.com</code> 替换为你刚刚部署的网易云 API 地址：</li></ol><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"rewrites"</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">"source"</span>: <span class="string">"/api/:match*"</span>,</span><br><span class="line">      <span class="attr">"destination"</span>: <span class="string">"https://your-netease-api.example.com/:match*"</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="4"><li>打开 <a href="https://vercel.com" target="_blank" rel="noopener">Vercel.com</a>，使用 GitHub 登录。</li><li>点击 Import Git Repository 并选择你刚刚复制的仓库并点击 Import。</li><li>点击 PERSONAL ACCOUNT 旁边的 Select。</li><li>点击 Environment Variables，填写 Name 为 <code>VUE_APP_NETEASE_API_URL</code>，Value 为 <code>/api</code>，点击 Add。最后点击底部的 Deploy 就可以部署到<br>Vercel 了。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;话不多说  直接看成品 &lt;a href=&quot;https://yesplayer.yscblog.top/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;YesPlayMusic&lt;/a&gt;&lt;br&gt;都是开源项目  按照步骤来部署就好  &lt;a href=&quot;https://github.com/qier222/YesPlayMusic&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;项目地址&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;二级域名的创建&quot;&gt;&lt;a href=&quot;#二级域名的创建&quot; class=&quot;headerlink&quot; title=&quot;二级域名的创建&quot;&gt;&lt;/a&gt;二级域名的创建&lt;/h2&gt;&lt;p&gt; 类型：CNAME     名称：前缀(例abc)     目标：填写域名&lt;br&gt;网易云API和YesPlayerMusic都采用vercel部署 自动生成的域名是不行的&lt;br&gt;需要二级域名来跳转&lt;/p&gt;
+&lt;h2 id=&quot;YesPlayerMusic部署会失败&quot;&gt;&lt;a href=&quot;#YesPlayerMusic部署会失败&quot; class=&quot;headerlink&quot; title=&quot;YesPlayerMusic部署会失败&quot;&gt;&lt;/a&gt;YesPlayerMusic部署会失败&lt;/h2&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>成都极地海洋公园</title>
@@ -394,28 +414,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>写给不懂拒绝的你</title>
-    <link href="http://yscblog.top/%E5%86%99%E7%BB%99%E4%B8%8D%E6%87%82%E6%8B%92%E7%BB%9D%E7%9A%84%E4%BD%A0/"/>
-    <id>http://yscblog.top/写给不懂拒绝的你/</id>
-    <published>2020-03-29T07:06:46.000Z</published>
-    <updated>2020-03-29T16:34:13.940Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>写给不懂拒绝的你<br><a href="https://mp.weixin.qq.com/s/oTB8x23RJAMgtSf7oKYC6A" target="一禅小和尚">原文链接</a><br><a id="more"></a></p><p style="text-align:center;"><br>师父说<br>世上活得最累的人<br>是不懂拒绝的人<br>因为害怕拒绝别人<br>最后让自己伤痕累累<br>舍不得伤害别人<br>一个人扛下所有<br><br><b>心太软的人，很累<br>对别人心太软<br>就是对自己心狠</b><br><br>你总是把笑容挂脸上<br>受了伤也不会喊疼<br>习惯了为每个人着想<br>却宁可让自己受委屈<br><br><b>别人有要求，你毫无保留<br>别人有困难，你倾尽全力</b><br><br>时间过去久了<br>所有人都以为你刀枪不入<br>所有问题第一时间想到你<br>却忘了你也会疲惫<br>你付出的最多<br>却总吃力不讨好<br><br><b>付出的心力，不是都有回报<br>有多少人大半辈子<br>都是在为别人而活</b><br><br>但生活已是不易<br>何必要为了别人<br>弄丢了自己<br>不要把自己当超人<br>奋力去解决每个人的事<br>你的好别人未必感激<br>你累倒了却没人心疼<br><br><b>这世上欺负你善良的<br>永远比心疼你牺牲的人多</b><br><br>人性的浅薄经不起探测<br>别人习惯了索取<br>便忘了对你感恩<br><br><b>给你的善良一些锋芒</b><br><br>做不到的事，别承诺<br>不该帮的忙，别答应<br><br><b>别被道德绑架，被迫接受<br>不用碍于面子，不敢拒绝</b><br><br>真正在乎你的人<br>只会关心你累不累<br>不会因为你的一次拒绝<br>就真的离你而去<br>你付出的价值<br>应该是被视为珍宝的<br>不珍惜你付出的人<br>没资格得到你的援手<br><br><b>不委屈自己，才能求全<br>不看轻自己，才能不被看轻</b><br><br>付出，要看是谁<br>帮助，要看能力<br><br><b>往后余生<br>愿你有能付出的温度<br>也有敢拒绝的洒脱<br>愿你能及时行乐<br>快意人生</b><br><br><b>最大的勇敢<br>是说“不”的时候</b><br></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;写给不懂拒绝的你&lt;br&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/oTB8x23RJAMgtSf7oKYC6A&quot; target=&quot;一禅小和尚&quot;&gt;原文链接&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="抄录" scheme="http://yscblog.top/categories/%E6%8A%84%E5%BD%95/"/>
-    
-    
-      <category term="分享" scheme="http://yscblog.top/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
