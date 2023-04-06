@@ -1,0 +1,390 @@
+<html lang="zh-cn"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>动态时钟</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+<!--
+    <audio src="sound/an.mp3" controls="" autoplay="autoplay"></audio>
+-->
+    <div class="main-content"  style="color: #F5F4F6;">
+        <div class="year"><span class="current">2022年</span></div>
+        <div class="month"><span class="current" style="animation: 3s linear 0s 1 normal forwards running month0;">4月</span><span style="animation: 3s linear 0s 1 normal forwards running month1;">5月</span><span style="animation: 3s linear 0s 1 normal forwards running month2;">6月</span><span style="animation: 3s linear 0s 1 normal forwards running month3;">7月</span><span style="animation: 3s linear 0s 1 normal forwards running month4;">8月</span><span style="animation: 3s linear 0s 1 normal forwards running month5;">9月</span><span style="animation: 3s linear 0s 1 normal forwards running month6;">10月</span><span style="animation: 3s linear 0s 1 normal forwards running month7;">11月</span><span style="animation: 3s linear 0s 1 normal forwards running month8;">12月</span><span style="animation: 3s linear 0s 1 normal forwards running month9;">1月</span><span style="animation: 3s linear 0s 1 normal forwards running month10;">2月</span><span style="animation: 3s linear 0s 1 normal forwards running month11;">3月</span></div>
+        <div class="day"><span class="current" style="animation: 3s linear 0s 1 normal forwards running day0;">6日</span><span style="animation: 3s linear 0s 1 normal forwards running day1;">7日</span><span style="animation: 3s linear 0s 1 normal forwards running day2;">8日</span><span style="animation: 3s linear 0s 1 normal forwards running day3;">9日</span><span style="animation: 3s linear 0s 1 normal forwards running day4;">10日</span><span style="animation: 3s linear 0s 1 normal forwards running day5;">11日</span><span style="animation: 3s linear 0s 1 normal forwards running day6;">12日</span><span style="animation: 3s linear 0s 1 normal forwards running day7;">13日</span><span style="animation: 3s linear 0s 1 normal forwards running day8;">14日</span><span style="animation: 3s linear 0s 1 normal forwards running day9;">15日</span><span style="animation: 3s linear 0s 1 normal forwards running day10;">16日</span><span style="animation: 3s linear 0s 1 normal forwards running day11;">17日</span><span style="animation: 3s linear 0s 1 normal forwards running day12;">18日</span><span style="animation: 3s linear 0s 1 normal forwards running day13;">19日</span><span style="animation: 3s linear 0s 1 normal forwards running day14;">20日</span><span style="animation: 3s linear 0s 1 normal forwards running day15;">21日</span><span style="animation: 3s linear 0s 1 normal forwards running day16;">22日</span><span style="animation: 3s linear 0s 1 normal forwards running day17;">23日</span><span style="animation: 3s linear 0s 1 normal forwards running day18;">24日</span><span style="animation: 3s linear 0s 1 normal forwards running day19;">25日</span><span style="animation: 3s linear 0s 1 normal forwards running day20;">26日</span><span style="animation: 3s linear 0s 1 normal forwards running day21;">27日</span><span style="animation: 3s linear 0s 1 normal forwards running day22;">28日</span><span style="animation: 3s linear 0s 1 normal forwards running day23;">29日</span><span style="animation: 3s linear 0s 1 normal forwards running day24;">30日</span><span style="animation: 3s linear 0s 1 normal forwards running day25;">1日</span><span style="animation: 3s linear 0s 1 normal forwards running day26;">2日</span><span style="animation: 3s linear 0s 1 normal forwards running day27;">3日</span><span style="animation: 3s linear 0s 1 normal forwards running day28;">4日</span><span style="animation: 3s linear 0s 1 normal forwards running day29;">5日</span></div>
+        <div class="week"><span class="current" style="animation: 3s linear 0s 1 normal forwards running week0;">星期四</span><span style="animation: 3s linear 0s 1 normal forwards running week1;">星期日</span><span style="animation: 3s linear 0s 1 normal forwards running week2;">星期一</span><span style="animation: 3s linear 0s 1 normal forwards running week3;">星期二</span><span style="animation: 3s linear 0s 1 normal forwards running week4;">星期三</span><span style="animation: 3s linear 0s 1 normal forwards running week5;">星期五</span><span style="animation: 3s linear 0s 1 normal forwards running week6;">星期六</span></div>
+        <div class="hour"><span class="current" style="animation: 3s linear 0s 1 normal forwards running hour0;">22时</span><span style="animation: 3s linear 0s 1 normal forwards running hour1;">23时</span><span style="animation: 3s linear 0s 1 normal forwards running hour2;">0时</span><span style="animation: 3s linear 0s 1 normal forwards running hour3;">1时</span><span style="animation: 3s linear 0s 1 normal forwards running hour4;">2时</span><span style="animation: 3s linear 0s 1 normal forwards running hour5;">3时</span><span style="animation: 3s linear 0s 1 normal forwards running hour6;">4时</span><span style="animation: 3s linear 0s 1 normal forwards running hour7;">5时</span><span style="animation: 3s linear 0s 1 normal forwards running hour8;">6时</span><span style="animation: 3s linear 0s 1 normal forwards running hour9;">7时</span><span style="animation: 3s linear 0s 1 normal forwards running hour10;">8时</span><span style="animation: 3s linear 0s 1 normal forwards running hour11;">9时</span><span style="animation: 3s linear 0s 1 normal forwards running hour12;">10时</span><span style="animation: 3s linear 0s 1 normal forwards running hour13;">11时</span><span style="animation: 3s linear 0s 1 normal forwards running hour14;">12时</span><span style="animation: 3s linear 0s 1 normal forwards running hour15;">13时</span><span style="animation: 3s linear 0s 1 normal forwards running hour16;">14时</span><span style="animation: 3s linear 0s 1 normal forwards running hour17;">15时</span><span style="animation: 3s linear 0s 1 normal forwards running hour18;">16时</span><span style="animation: 3s linear 0s 1 normal forwards running hour19;">17时</span><span style="animation: 3s linear 0s 1 normal forwards running hour20;">18时</span><span style="animation: 3s linear 0s 1 normal forwards running hour21;">19时</span><span style="animation: 3s linear 0s 1 normal forwards running hour22;">20时</span><span style="animation: 3s linear 0s 1 normal forwards running hour23;">21时</span></div>
+        <div class="minute" style="animation: 0.5s ease-in-out 0s 1 normal forwards running minuteRun11;"><span class="" style="animation: 3s linear 0s 1 normal forwards running minute0;">4分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute1;">5分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute2;">6分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute3;">7分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute4;">8分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute5;">9分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute6;">10分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute7;">11分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute8;">12分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute9;">13分</span><span class="" style="animation: 3s linear 0s 1 normal forwards running minute10;">14分</span><span class="current" style="animation: 3s linear 0s 1 normal forwards running minute11;">15分</span><span style="animation: 3s linear 0s 1 normal forwards running minute12;">16分</span><span style="animation: 3s linear 0s 1 normal forwards running minute13;">17分</span><span style="animation: 3s linear 0s 1 normal forwards running minute14;">18分</span><span style="animation: 3s linear 0s 1 normal forwards running minute15;">19分</span><span style="animation: 3s linear 0s 1 normal forwards running minute16;">20分</span><span style="animation: 3s linear 0s 1 normal forwards running minute17;">21分</span><span style="animation: 3s linear 0s 1 normal forwards running minute18;">22分</span><span style="animation: 3s linear 0s 1 normal forwards running minute19;">23分</span><span style="animation: 3s linear 0s 1 normal forwards running minute20;">24分</span><span style="animation: 3s linear 0s 1 normal forwards running minute21;">25分</span><span style="animation: 3s linear 0s 1 normal forwards running minute22;">26分</span><span style="animation: 3s linear 0s 1 normal forwards running minute23;">27分</span><span style="animation: 3s linear 0s 1 normal forwards running minute24;">28分</span><span style="animation: 3s linear 0s 1 normal forwards running minute25;">29分</span><span style="animation: 3s linear 0s 1 normal forwards running minute26;">30分</span><span style="animation: 3s linear 0s 1 normal forwards running minute27;">31分</span><span style="animation: 3s linear 0s 1 normal forwards running minute28;">32分</span><span style="animation: 3s linear 0s 1 normal forwards running minute29;">33分</span><span style="animation: 3s linear 0s 1 normal forwards running minute30;">34分</span><span style="animation: 3s linear 0s 1 normal forwards running minute31;">35分</span><span style="animation: 3s linear 0s 1 normal forwards running minute32;">36分</span><span style="animation: 3s linear 0s 1 normal forwards running minute33;">37分</span><span style="animation: 3s linear 0s 1 normal forwards running minute34;">38分</span><span style="animation: 3s linear 0s 1 normal forwards running minute35;">39分</span><span style="animation: 3s linear 0s 1 normal forwards running minute36;">40分</span><span style="animation: 3s linear 0s 1 normal forwards running minute37;">41分</span><span style="animation: 3s linear 0s 1 normal forwards running minute38;">42分</span><span style="animation: 3s linear 0s 1 normal forwards running minute39;">43分</span><span style="animation: 3s linear 0s 1 normal forwards running minute40;">44分</span><span style="animation: 3s linear 0s 1 normal forwards running minute41;">45分</span><span style="animation: 3s linear 0s 1 normal forwards running minute42;">46分</span><span style="animation: 3s linear 0s 1 normal forwards running minute43;">47分</span><span style="animation: 3s linear 0s 1 normal forwards running minute44;">48分</span><span style="animation: 3s linear 0s 1 normal forwards running minute45;">49分</span><span style="animation: 3s linear 0s 1 normal forwards running minute46;">50分</span><span style="animation: 3s linear 0s 1 normal forwards running minute47;">51分</span><span style="animation: 3s linear 0s 1 normal forwards running minute48;">52分</span><span style="animation: 3s linear 0s 1 normal forwards running minute49;">53分</span><span style="animation: 3s linear 0s 1 normal forwards running minute50;">54分</span><span style="animation: 3s linear 0s 1 normal forwards running minute51;">55分</span><span style="animation: 3s linear 0s 1 normal forwards running minute52;">56分</span><span style="animation: 3s linear 0s 1 normal forwards running minute53;">57分</span><span style="animation: 3s linear 0s 1 normal forwards running minute54;">58分</span><span style="animation: 3s linear 0s 1 normal forwards running minute55;">59分</span><span style="animation: 3s linear 0s 1 normal forwards running minute56;">0分</span><span style="animation: 3s linear 0s 1 normal forwards running minute57;">1分</span><span style="animation: 3s linear 0s 1 normal forwards running minute58;">2分</span><span style="animation: 3s linear 0s 1 normal forwards running minute59;">3分</span></div>
+        <div class="second" style="animation: 0.5s ease-in-out 0s 1 normal forwards running secondRun39;"><span class="" style="animation: 3s linear 0s 1 normal forwards running second0;">28秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second1;">29秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second2;">30秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second3;">31秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second4;">32秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second5;">33秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second6;">34秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second7;">35秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second8;">36秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second9;">37秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second10;">38秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second11;">39秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second12;">40秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second13;">41秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second14;">42秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second15;">43秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second16;">44秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second17;">45秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second18;">46秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second19;">47秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second20;">48秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second21;">49秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second22;">50秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second23;">51秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second24;">52秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second25;">53秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second26;">54秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second27;">55秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second28;">56秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second29;">57秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second30;">58秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second31;">59秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second32;">0秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second33;">1秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second34;">2秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second35;">3秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second36;">4秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second37;">5秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second38;">6秒</span><span class="current" style="animation: 3s linear 0s 1 normal forwards running second39;">7秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second40;">8秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second41;">9秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second42;">10秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second43;">11秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second44;">12秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second45;">13秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second46;">14秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second47;">15秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second48;">16秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second49;">17秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second50;">18秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second51;">19秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second52;">20秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second53;">21秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second54;">22秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second55;">23秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second56;">24秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second57;">25秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second58;">26秒</span><span class="" style="animation: 3s linear 0s 1 normal forwards running second59;">27秒</span></div>
+    </div>
+    <canvas id="canvas" width="1366" height="695"></canvas>
+
+
+
+
+<style>
+    canvas {
+        cursor: crosshair;
+        display: block;
+    }
+
+    body{
+        user-select: none;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background: url("bg/plief.jpg") no-repeat;
+        background-attachment: fixed;
+        
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        width: 1000px;
+        height: 900px;
+        font-family: "微软雅黑";
+    }
+
+    audio{
+        position: absolute;
+        right: 0;
+        opacity: 0.1;
+        transition: all 1s;
+
+    }
+
+    audio:hover{
+        opacity: 1;
+    }
+
+    .current{
+        color: #F5F466;
+    }
+
+
+    video{
+        z-index: -1;
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+
+    .main-content{
+        position: absolute;
+        top:50%;
+        left: 50%;
+    }
+
+
+    .main-content .year{
+        position: relative;
+        top: -13px;
+        left: -38px;
+        text-align: center;
+        perspective:800px;
+    }
+
+    .year span{
+        position: absolute;
+        width: 80px;
+    }
+
+    .main-content .month{
+        position: relative;
+        top: -13px;
+        left: 45px;
+        perspective:800px;
+    }
+
+    .month span{
+        position: absolute;
+        width: 60px;
+    }
+
+    .main-content .day{
+        position: relative;
+        top: -13px;
+        left: 90px;
+        perspective:800px;
+    }
+
+    .day span{
+        position: absolute;
+        width: 65px;
+    }
+
+
+    .main-content .week{
+        position: relative;
+        top: -13px;
+        left: 145px;
+        perspective:800px;
+    }
+    .week span{
+        position: absolute;
+        width: 65px;
+
+    }
+
+    .main-content .hour{
+        position: relative;
+        top: -13px;
+        left: 205px;
+        perspective:800px;
+    }
+    .hour span{
+        position: absolute;
+        width: 60px;
+
+    }
+
+
+    .main-content .minute{
+        position: relative;
+        top: -13px;
+        left: 270px;
+        perspective:800px;
+    }
+    .minute span{
+        position: absolute;
+        width: 60px;
+
+    }
+
+
+    .main-content .second{
+        position: relative;
+        top: -13px;
+        left: 310px;
+        perspective:800px;
+    }
+    .second span{
+        position: absolute;
+        width: 60px;
+
+    }
+</style>
+
+<script>
+    window.requestAnimFrame = ( function() {
+        return window.requestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame ||
+            function( callback ) {
+                window.setTimeout( callback, 1000 / 60 );
+            };
+    })();
+    var canvas = document.getElementById( 'canvas' ),
+        ctx = canvas.getContext( '2d' ),
+        cw = window.innerWidth,
+        ch = window.innerHeight,
+
+        fireworks = [],
+        particles = [],
+        hue = 120,
+
+        limiterTotal = 5,
+        limiterTick = 0,
+        timerTotal = 80,
+        timerTick = 0,
+        mousedown = false,
+
+        mx,
+        my;
+
+    canvas.width = cw;
+    canvas.height = ch;
+
+
+    function random( min, max ) {
+        return Math.random() * ( max - min ) + min;
+    }
+
+    function calculateDistance( p1x, p1y, p2x, p2y ) {
+        var xDistance = p1x - p2x,
+            yDistance = p1y - p2y;
+        return Math.sqrt( Math.pow( xDistance, 2 ) + Math.pow( yDistance, 2 ) );
+    }
+
+    // create firework
+    function Firework( sx, sy, tx, ty ) {
+
+        this.x = sx;
+        this.y = sy;
+        this.sx = sx;
+        this.sy = sy;
+        this.tx = tx;
+        this.ty = ty;
+        this.distanceToTarget = calculateDistance( sx, sy, tx, ty );
+        this.distanceTraveled = 0;
+
+        this.coordinates = [];
+        this.coordinateCount = 3;
+        while( this.coordinateCount-- ) {
+            this.coordinates.push( [ this.x, this.y ] );
+        }
+        this.angle = Math.atan2( ty - sy, tx - sx );
+        this.speed = 2;
+        this.acceleration = 1.05;
+        this.brightness = random( 50, 70 );
+        this.targetRadius = 1;
+    }
+
+    // update firework
+    Firework.prototype.update = function( index ) {
+        this.coordinates.pop();
+        this.coordinates.unshift( [ this.x, this.y ] );
+
+        if( this.targetRadius < 8 ) {
+            this.targetRadius += 0.3;
+        } else {
+            this.targetRadius = 1;
+        }
+        this.speed *= this.acceleration;
+        var vx = Math.cos( this.angle ) * this.speed,
+            vy = Math.sin( this.angle ) * this.speed;
+        this.distanceTraveled = calculateDistance( this.sx, this.sy, this.x + vx, this.y + vy );
+
+        if( this.distanceTraveled >= this.distanceToTarget ) {
+            createParticles( this.tx, this.ty );
+            fireworks.splice( index, 1 );
+        } else {
+            this.x += vx;
+            this.y += vy;
+        }
+    }
+
+    // draw firework
+    Firework.prototype.draw = function() {
+        ctx.beginPath();
+
+        ctx.moveTo( this.coordinates[ this.coordinates.length - 1][ 0 ], this.coordinates[ this.coordinates.length - 1][ 1 ] );
+        ctx.lineTo( this.x, this.y );
+        ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc( this.tx, this.ty, this.targetRadius, 0, Math.PI * 2 );
+        ctx.stroke();
+    }
+
+    // create particle
+    function Particle( x, y ) {
+        this.x = x;
+        this.y = y;
+        this.coordinates = [];
+        this.coordinateCount = 5;
+        while( this.coordinateCount-- ) {
+            this.coordinates.push( [ this.x, this.y ] );
+        }
+        this.angle = random( 0, Math.PI * 2 );
+        this.speed = random( 1, 10 );
+        this.friction = 0.95;
+        this.gravity = 1;
+        this.hue = random( hue - 20, hue + 20 );
+        this.brightness = random( 50, 80 );
+        this.alpha = 1;
+        this.decay = random( 0.015, 0.03 );
+    }
+
+    // update particle
+    Particle.prototype.update = function( index ) {
+
+        this.coordinates.pop();
+        this.coordinates.unshift( [ this.x, this.y ] );
+        this.speed *= this.friction;
+        this.x += Math.cos( this.angle ) * this.speed;
+        this.y += Math.sin( this.angle ) * this.speed + this.gravity;
+        this.alpha -= this.decay;
+        if( this.alpha <= this.decay ) {
+            particles.splice( index, 1 );
+        }
+    }
+
+    // draw particle
+    Particle.prototype.draw = function() {
+        ctx. beginPath();
+        ctx.moveTo( this.coordinates[ this.coordinates.length - 1 ][ 0 ], this.coordinates[ this.coordinates.length - 1 ][ 1 ] );
+        ctx.lineTo( this.x, this.y );
+        ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
+        ctx.stroke();
+    }
+
+
+    function createParticles( x, y ) {
+        var particleCount = 30;
+        while( particleCount-- ) {
+            particles.push( new Particle( x, y ) );
+        }
+    }
+
+    // main demo loop
+    function loop() {
+        requestAnimFrame( loop );
+
+        hue += 0.5;
+
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+        ctx.fillRect( 0, 0, cw, ch );
+        ctx.globalCompositeOperation = 'lighter';
+
+        var i = fireworks.length;
+        while( i-- ) {
+            fireworks[ i ].draw();
+            fireworks[ i ].update( i );
+        }
+        var i = particles.length;
+        while( i-- ) {
+            particles[ i ].draw();
+            particles[ i ].update( i );
+        }
+        if( timerTick >= timerTotal ) {
+            if( !mousedown ) {
+                fireworks.push( new Firework( cw / 2, ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                timerTick = 0;
+            }
+        } else {
+            timerTick++;
+        }
+
+        if( limiterTick >= limiterTotal ) {
+            if( mousedown ) {
+                fireworks.push( new Firework( cw / 2, ch, mx, my ) );
+                limiterTick = 0;
+            }
+        } else {
+            limiterTick++;
+        }
+    }
+
+    canvas.addEventListener( 'mousemove', function( e ) {
+        mx = e.pageX - canvas.offsetLeft;
+        my = e.pageY - canvas.offsetTop;
+    });
+
+    canvas.addEventListener( 'mousedown', function( e ) {
+        e.preventDefault();
+        mousedown = true;
+    });
+
+    canvas.addEventListener( 'mouseup', function( e ) {
+        e.preventDefault();
+        mousedown = false;
+    });
+
+    window.onload = loop;
+
+</script>
+</body>
+     <!-- 音乐播放器 -->   
+<div class="aplayer no-destroy" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-lrctype="1" data-preload="none" data-autoplay="true" muted></div>
+<link rel="stylesheet" href="https://npm.elemecdn.com/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://npm.elemecdn.com/aplayer/dist/APlayer.min.js"></script><script src="https://npm.elemecdn.com/ethan4116-blog/lib/js/theme/meting.min.js"></script>
+</html></html>
