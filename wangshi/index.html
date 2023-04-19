@@ -69,7 +69,7 @@ toDevtools();</script>
     				};
     				for (var i = 0; i < 10; i++) {
     				    mockData.data[i] = {
-    				        src: 'https://cdn-f1a.pages.dev/pic/1%20(' + Math.ceil(Math.random() * 280) + ').jpg',   
+    				        src: 'https://cdn.yscblog.top/pic/1%20(' + Math.ceil(Math.random() * 280) + ').jpg',   
     				        title: '往事—第' + Math.ceil(Math.random() * 280)+'张'
     				    }
     				}
@@ -79,7 +79,7 @@ toDevtools();</script>
                         var data = mockData.data[i];
                         arr.push('<div class="pin"><img src="' + data.src + '" class="img" alt="'+ data.title +'"> <p class="description">'+ data.title +'</p></div>')
                     }
-
+                    //https://cdn-f1a.pages.dev/pic/1%20(1).jgg
     				// 调用 append 方法 检验是否所有的图片都具有高度后才会 append 进文档树中
     				waterfall.append(arr.join(''), '.img')
     			}, 1000)
