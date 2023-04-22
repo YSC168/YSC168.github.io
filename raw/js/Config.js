@@ -45,7 +45,7 @@ LIGHTS.Config = {
 		font:               'images/fonts/standard_07_55.png',
 		spectrumData:       'images/data/spectrumData.png',
 
-		tweetButton:        'images/home/tweetButton.png',
+		//tweetButton:        'images/home/tweetButton.png',
 		replayButton:       'images/home/replayButton.png',
 
 							// Resolution: 22 x 22 pixels
