@@ -79,15 +79,7 @@ LIGHTS.Config = {
 
 	defaultTweets: [
 
-		'1643671159',
-		'oq',
-		'26',
-		'3.1415926',
-		'cd',
-		'cq',
-		'000000000000',
-		'123456789',
-		'ysc'
+		
 	],
 
 	defaultAvatars: [
