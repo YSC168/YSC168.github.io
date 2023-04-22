@@ -70,7 +70,7 @@ LIGHTS.Config = {
 	avatarHandler:          '',
 
 	// tweetThis:              'http://twitter.com/share?text=Lose%20yourself%20in%20@EllieGoulding%E2%80%99s%20#Lights%20v2%20an%20interactive%20&%20colorful%20music%20experience%20using%20#webgl&url=http://lights.elliegoulding.com',
-	tweetThis:              'https://blog.4t.pw',
+	//tweetThis:              'https://blog.4t.pw',
 	// tweetThis:              'sharing_disabled.html',
 	// tweetThis:              'http://twitter.com',
 
@@ -79,15 +79,15 @@ LIGHTS.Config = {
 
 	defaultTweets: [
 
-		'https://blog.4t.pw',
-		'https://blog.4t.pw',
-		'QQ1400000222',
-		'QQ1400000222',
-		'QQ1400000222',
-		'https://blog.4t.pw',
-		'QQ1400000222',
-		'https://blog.4t.pw',
-		'QQ1400000222'
+		'1643671159',
+		'oq',
+		'26',
+		'3.1415926',
+		'cd',
+		'cq',
+		'000000000000',
+		'123456789',
+		'ysc'
 	],
 
 	defaultAvatars: [
