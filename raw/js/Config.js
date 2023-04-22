@@ -45,7 +45,7 @@ LIGHTS.Config = {
 		font:               'images/fonts/standard_07_55.png',
 		spectrumData:       'images/data/spectrumData.png',
 
-		//tweetButton:        'images/home/tweetButton.png',
+		tweetButton:        'images/home/tweetButton.png',
 		replayButton:       'images/home/replayButton.png',
 
 							// Resolution: 22 x 22 pixels
@@ -70,7 +70,7 @@ LIGHTS.Config = {
 	avatarHandler:          '',
 
 	// tweetThis:              'http://twitter.com/share?text=Lose%20yourself%20in%20@EllieGoulding%E2%80%99s%20#Lights%20v2%20an%20interactive%20&%20colorful%20music%20experience%20using%20#webgl&url=http://lights.elliegoulding.com',
-	//tweetThis:              'https://blog.4t.pw',
+	tweetThis:              '',
 	// tweetThis:              'sharing_disabled.html',
 	// tweetThis:              'http://twitter.com',
 
