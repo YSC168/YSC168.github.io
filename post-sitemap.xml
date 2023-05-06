@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yscblog.top/%E6%9C%80%E8%BF%91%E5%BF%99%E7%9A%84%E4%BA%8B/</loc>
+        <lastmod>2023-05-06T03:56:29.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yscblog.top/%E6%B8%B8%E7%8E%A9%E4%B9%90%E5%B1%B1%E5%A4%A7%E4%BD%9B/</loc>
         <lastmod>2023-04-27T11:48:55.468Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,14 +73,6 @@
     <url>
         <loc>http://yscblog.top/CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F/</loc>
         <lastmod>2023-01-13T14:30:39.661Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yscblog.top/%E6%9C%80%E8%BF%91%E5%BF%99%E7%9A%84%E4%BA%8B/</loc>
-        <lastmod>2023-01-08T15:25:39.571Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
