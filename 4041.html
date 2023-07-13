@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0; 
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        alert('你真坏，请关闭控制台！')
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script>
+<head>
+    <meta charset="UTF-8">
+    <title>404 页面 | 微博客</title>
+    <style>
+    *{padding:0;margin:0}body{background-color:#eee;}#catch-the-cat{width:100%;margin-top:32px;text-align:center}#Copyright{text-align:center;font-size:15px;color:#000;margin:30px}#Copyright a{color:#000}#Copyright a:hover{color:#f00}
+
+           #catch-the-cat {width: 100%;text-align: center;}
+        #footer{position:relative;clear:both;padding:10px 20px 40px 0;padding:10px 0;width:100%;text-align:center}#footer address{display:inline-block;padding:2px 10px;color:rgba(0,0,0,.5);font-style:normal}
+        #footer a{color:rgba(0,0,0,.5);cursor:grab}#footer a:hover{border-bottom:1px dotted #00387d;color:#00387d}
+    </style>
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.0/more/cat/translateelement.css">
+</head>    <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.1/more/jquery.min1.js"></script>
+<body>
+   <br>
+    <h3 style="text-align:center">OOPS！访问的页面不存在，可能是输入地址有误或该地址已被删除</h3>
+  <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.0/more/cat/phaser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.0/more/cat/catch-the-cat.js"></script>
+    <div id="catch-the-cat"></div>
+    <script>
+      window.game = new CatchTheCatGame({
+        w: 11,
+        h: 11,
+        r: 20,
+        backgroundColor: 0xffffff,
+        parent: 'catch-the-cat',
+        statusBarAlign: 'center',
+        credit: 'www.yscblog.top'
+      });
+    </script>
+      <footer id="footer" role="contentinfo" style="top:10px;">
+        <address>      
+            <p id="jinrishici-sentence"  style="color: black;">正在加载今日诗词....</p>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+            <hr color="black" height="0.5px">
+             
+              <div class="copyright" style="color: black;">
+                Copyright&nbsp;©&nbsp;2022-2023&nbsp;<a  style="color: black;" href="https://yscblog.top/" target="_blank">微博客</a>&nbsp;&nbsp;|&nbsp;
+
+                素材来源于网络<br>
+            </div>
+        </address>
+      <main></main>
+    </footer>
+       <script src="https://cdn.jsdelivr.net/gh/YSC168/CDN-for-blog@1.0.2/more/main.js"></script>
+</body>
+</html>
