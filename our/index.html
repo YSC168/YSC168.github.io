@@ -1469,10 +1469,9 @@ if (!isOnPc) {
 
 <link rel="stylesheet" href="https://npm.elemecdn.com/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://npm.elemecdn.com/aplayer/dist/APlayer.min.js"></script><script src="https://npm.elemecdn.com/ethan4116-blog/lib/js/theme/meting.min.js"></script> --><!-- 个人 -->
 
-<!-- <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://fastly.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script></script> --><!-- 原作者 -->
-<!-- 音乐播放器 --> -->
+<!-- <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://fastly.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script></script> -->     <!-- 原作者 -->
+<!-- 音乐播放器 --> 
 
-<!-- 输入框打字特效 -->
 <!-- 输入框打字特效 -->
 
   <script src="/js/src/activate-power-mode.js"></script>
@@ -1483,6 +1482,26 @@ if (!isOnPc) {
   </script>
 
 
-            <div id="music" key="62c6977a7d8ac" api="https://music.xfyun.club"></div><script defer id="xplayer" src="https://music.xfyun.club/Static/player8/js/player.js" ></script>
+  <!-- 渲染左下角音乐播放器 -->
+<link rel="stylesheet" type="text/css" href="/css/meting.css">   
+<meting-js  
+  class=""
+  server="netease"
+  type="playlist"
+  id="3778678"
+  fixed='true'
+  autoplay='false'
+  theme='#42b983'
+  loop='all'
+  order='random'
+  preload='auto'
+  volume='0.7'
+  list-folded='true'
+>
+</meting-js>
+<script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://unpkg.com/meting@2/dist/Meting.min.js"></script>
+
+
         
             
