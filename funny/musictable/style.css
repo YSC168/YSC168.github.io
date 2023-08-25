@@ -1,0 +1,13 @@
+body {
+  background-color: #000;    
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+#scw {
+	position: absolute;
+	top: -150px;
+	width: 60px;
+	height: 90px;	
+	opacity: 0%;
+}

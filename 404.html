@@ -330,9 +330,8 @@ html, body {
   <div class="box__description">
     <div class="box__description-container">
       <div class="box__description-title">404错误！</div>
-      <div class="box__description-text">看来我们找不到你要找的那一页</div>
-      <p  class="box__description-text"><span id="jinrishici-sentence">今日诗词~</span></p>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+      <div class="box__description-text">看来我们找不到你要找的那一页~</div>
+   
 
     </div>
     
@@ -404,5 +403,94 @@ $(document).mousemove(function( event ) {
     <div class="content">
         <img src="https://api.dzzui.com/api/ip" class="lazyload placeholder loaded" srcset="https://api.dzzui.com/api/ip" style="width:100%" data-ll-status="loaded">
       </div> -->
+
+
+
+  <canvas id="header_canvas" style="position:fixed;bottom:0;z-index: -1;"></canvas>
+
+
+<script>
+    (function() {
+      var canvas, ctx, width, height, bubbles, animateHeader = true;
+      initHeader();
+      function initHeader() {
+        canvas = document.getElementById('header_canvas');
+        window_resize();
+        ctx = canvas.getContext('2d');
+        //建立泡泡
+        bubbles = [];
+        var num = width * 0.15;//气泡数量
+        for (var i = 0; i < num; i++) {
+          var c = new Bubble();
+          bubbles.push(c);
+        }
+        animate();
+      }
+      function animate() {
+        if ($(document).height()-($(window).scrollTop() + $(window).height())<1200) {
+          ctx.clearRect(0, 0, width, height);
+          for (var i in bubbles) {
+            bubbles[i].draw();
+          }
+          
+        }
+        requestAnimationFrame(animate);
+        
+      }
+      function window_resize() {
+        //canvas铺满窗口
+        //width = window.innerWidth;
+        //height = window.innerHeight;
+
+        // //如果需要铺满内容可以换下面这个
+        width = window.innerWidth-5;
+        height = window.innerHeight;
+
+        canvas.width = width;
+        canvas.height = height;
+      }
+      window.onresize = function(){
+        window_resize();
+      }
+      function Bubble() {
+        var _this = this;
+        (function() {
+          _this.pos = {};
+          init();
+        })();
+        function init() {
+          _this.pos.x = Math.random() * width;
+          _this.pos.y = height + Math.random() * 100;
+          _this.alpha = 0.1 + Math.random() * 0.5;//气泡透明度
+          _this.alpha_change = 0.0002 + Math.random() * 0.0005;//气泡透明度变化速度
+          _this.scale = 0.2 + Math.random() * 0.1;//气泡大小
+          _this.scale_change = Math.random() * 0.001;//气泡大小变化速度
+          _this.speed = 0.1 + Math.random() * 0.9;//气泡上升速度
+        }
+        //气泡
+        this.draw = function() {
+          if (_this.alpha <= 0) {
+            init();
+          }
+          _this.pos.y -= _this.speed;
+          _this.alpha -= _this.alpha_change;
+          _this.scale += _this.scale_change;
+          ctx.beginPath();
+          ctx.arc(_this.pos.x, _this.pos.y, _this.scale * 10, 0, 2 * Math.PI, false);
+          ctx.fillStyle = 'rgba(255,255,255,' + _this.alpha + ')';
+          ctx.fill();
+        };
+      }
+    })();
+  </script>
+
+
+<!-- 音乐播放器 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <div class="aplayer" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"
+        data-volume="0.6" ></div>
+<script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+<script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </body>
 </html>
