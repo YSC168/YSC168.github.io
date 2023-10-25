@@ -1,4 +1,4 @@
-﻿<html lang="en">
+﻿<html lang="zh-CN">
 <script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
 function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
   let num = 0; 
@@ -142,7 +142,13 @@ toDevtools();</script>
          <span>画花花</span> 
         </div> 
        </div></a> 
-       
+        <a href="./particlewave/index.html" target="_blank">
+       <div class="item"> 
+        <div class="bg" style="background-color: #206864"></div> 
+        <div class="inner"> 
+         <span>粒子旋涡</span> 
+        </div> 
+       </div></a> 
       <a href="./snow/index.html" target="_blank">
        <div class="item"> 
         <div class="bg" style="background-color: #8AABCC"></div> 
@@ -183,7 +189,13 @@ toDevtools();</script>
         </div> 
        </div></a>
 
-
+<a href="./time/index.html" target="_blank">
+       <div class="item"> 
+        <div class="bg" style="background-color: #C35C6A"></div> 
+        <div class="inner"> 
+         <span>动态时钟</span> 
+        </div> 
+       </div></a> 
       <a href="./lizi/index.html" target="_blank">
        <div class="item"> 
         <div class="bg" style="background-color: #D77F66"></div> 
