@@ -22,6 +22,8 @@ toDevtools();</script>
     <link rel="stylesheet" type="text/css" href="flipclock.css">
     <link rel="stylesheet" type="text/css" href="z_clock.css">
     <script src="solarlunar.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js" ></script>
+    <script type="text/javascript" src="js/spirits.js" ></script>
     <style>
         * {
             margin: 0px;
@@ -134,7 +136,7 @@ toDevtools();</script>
         <h1 id="NowTime_sfm" style=" line-height: 80px; font-size: 60px; font-weight: 800;"></h1>
         <h1 id="NowTime" style=" line-height: 80px; font-size: 42px;"></h1>
         <h1 id="NowTime_NonLi" style=" line-height: 50px; font-size: 42px;"></h1>
-        <h1 id="NowTime1" style=" line-height:80px; font-weight: 600;">距离 2023 春节还剩：</h1>
+        <h1 id="NowTime1" style=" line-height:80px; font-weight: 600;">距离 2024 春节还剩：</h1>
         <div id="downTime1" class="downTime1" style=" font-size: 49px; ">
             <span>--</span>
             <span>天</span>
@@ -168,7 +170,7 @@ toDevtools();</script>
         // 获取当前时间
         var dateTime = function() {
             var date = new Date();
-            var date1 = new Date('2023-1-22 0:0:0');
+            var date1 = new Date('2024-2-10 0:0:0');
             var date2 = (+date1 - +date) / 1000;
             return [date, date1, date2];
         }
@@ -314,6 +316,8 @@ toDevtools();</script>
         //     body.appendChild(create);
         // };
     </script>
+    <script type="text/javascript" src="js/jquery.js" ></script>
+    <script type="text/javascript" src="js/spirits.js" ></script>
 </body>
 
 </html>

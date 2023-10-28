@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN" >
+<script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0; 
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        alert('你真坏，请关闭控制台！')
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script>
+<head>
+  <meta charset="UTF-8">
+  <title>Tower Blocks</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<div id="container">
+	<div id="game"></div>
+	<div id="score">0</div>
+	<div id="instructions">Click to place the block</div>
+	<div class="game-over">
+		<h2>Game Over</h2>
+		<p>Click to start again</p>
+	</div>
+	<div class="game-ready">
+		<div id="start-button">Click to Start</div>
+		<div></div>
+	</div>
+</div>
+  <script src="./js/three.min.js"></script>
+  <script src="./js/TweenMax.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
