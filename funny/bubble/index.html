@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bubble特效</title>
+		<style type="text/css">
+			*{
+				margin:0;
+				background: #FDFFDF;
+			}
+			#bubble{
+				display: :block;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="bubble"></canvas>
+	</body>
+	<script type="text/javascript">
+		var canvas= document.getElementById("bubble");
+		var w=window.innerWidth;
+		var h=window.innerHeight;
+		canvas.width=w;
+		canvas.height=h;
+		window.onresize=function(){
+			w= (document.documentElement.clientHeight || document.body.clientHeight) - 4;
+			h= (document.documentElement.clientHeight || document.body.clientHeight) - 4;
+			canvas.width=w;
+			canvas.height=h;
+		}
+		/*画圆
+		var canCon=canvas.getContext("2d");//获取画纸
+		canCon.fillStyle="red";//选择画笔
+		canCon.arc(200,200,100,0,Math.PI*2);//构思
+		canCon.fill();
+		*/
+		/*动画
+		var canCon=canvas.getContext("2d");//获取画纸
+		var y = 200,x=100;
+		setInterval(function(){//动画原理
+					canCon.clearRect(0,0,w,h);//清除
+					canCon.beginPath();//重画
+					canCon.fillStyle="red";//选择画笔
+					canCon.arc(x++,y++,100,0,Math.PI*2);//构思
+					canCon.fill();
+		},1000/60)
+		*/
+		/*生成泡泡：创建泡泡类*/
+		var canCon=canvas.getContext("2d");//获取画纸
+		var colorArry=["#e08031","#c7ceb2","#199475","#0b6e48","#044d22","#b31800","#eb3f2f"]
+		var bubbleArry=[];//定义泡泡数组
+		function random(min,max){
+			return Math.random()*(max-min)+min;
+		}
+		function Bubble(){};//创建Bubble类
+		//var bubble=new Bubble();//新建对象
+		Bubble.prototype={//定义Bubble原型
+			init:function(){//初始化
+				this.x=random(0,w);
+				this.y=random(0,h);//随机位置
+				this.r=random(1,5);//泡泡大小
+				this.color=colorArry[Math.floor(random(0,7))]
+				this.xr=random(-1,1);
+				this.yr=random(-1,1);
+				this.D=30;//鼠标周围30px变大
+			},
+			draw:function(){//绘制
+					canCon.beginPath();
+					canCon.fillStyle=this.color;//选择画笔
+					canCon.arc(this.x,this.y,this.r,0,Math.PI*2);//构思
+					canCon.fill();
+			},
+			update:function(){
+				this.x+=this.xr;
+				this.y+=this.yr;
+				if(this.x-this.r<0||this.x+this.r>w){//x轴碰撞检测
+					this.xr=-this.xr;
+				}
+				if(this.y-this.r<0||this.y+this.r>h){//y轴碰撞检测
+					this.yr=-this.yr;
+				}
+				this.xD=(positionX-this.x)<0?-(positionX-this.x):(positionX-this.x);
+				this.yD=(positionY-this.y)<0?-(positionY-this.y):(positionY-this.y);
+				if(this.xD<this.D&&this.yD<this.D&&this.r<30){//变大
+					this.r+=1;				
+				}else if(this.r>5&&this.xD>this.D&&this.yD>this.D){
+					this.r-=1;
+				}
+				this.draw();
+			}
+		}
+		
+		function create() {//创建泡泡
+			var bubble = new Bubble();
+			bubble.init();
+			bubble.draw();
+			bubbleArry.push(bubble);//放入数组
+		}
+		
+		for(var i=0;i<1000;i++){
+				create();
+		}
+		setInterval(function(){
+			canCon.clearRect(0,0,w,h);//清除
+			for(var b of bubbleArry){//直接可使用 ES6语法
+				b.update();
+			}
+		},1000/60);
+		var positionX,positionY;//获取鼠标当前位置
+		canvas.onmousemove=function(){
+			var ev=ev||window.event;
+			
+			positionX=ev.clientX;
+			positionY=ev.clientY;
+		}
+	</script>
+</html>
