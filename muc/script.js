@@ -6,7 +6,7 @@
 */
 
 var media = [
-    "http://music.163.com/song/media/outer/url?id=865632948.mp3"
+    "https://music.yscblog.top/117.mp3"
   ],
   fftSize = 1024,
   // [32, 64, 128, 256, 512, 1024, 2048]
