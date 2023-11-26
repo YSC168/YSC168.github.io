@@ -1,5 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+<script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0; 
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        alert('你真坏，请关闭控制台！')
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script>
     <head>
         <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +39,7 @@
             <div class="ch about"> <div class="container"> 
             <h2 class="chtitle">Who is <span>YSC</span>？</h2> 
             <div class="clear"> <div class="introduct"> 
-            <img class="avatar" src="images/zhaoxi.jpg"> <P>当你征服了一座山峰时，它已经在你脚下了，你必须再找一座山峰去征服，否则，你只有下山，走下坡路！<br>我从我薄弱的青春里打马而过，穿过紫堇，穿过木棉，穿过时隐时现的悲喜跟无常... ...</p> 
+            <img class="avatar" src="css/f.jpg"> <P>当你征服了一座山峰时，它已经在你脚下了，你必须再找一座山峰去征服，否则，你只有下山，走下坡路！<br>我从我薄弱的青春里打马而过，穿过紫堇，穿过木棉，穿过时隐时现的悲喜跟无常... ...</p> 
             <p style="padding-bottom:1em;">How lucky to meet you!</p> 
             <p>你好，我是 <sup>ysc</sup> 对有趣的世界和可能有趣的你充满好奇，热爱折腾~</p> 
             <p>希望能与你在比特之海的繁星之下相见！</p> 
