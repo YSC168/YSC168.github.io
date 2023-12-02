@@ -12,7 +12,9 @@
   font-size: 15px;
   color: #F2346B;
 }
-
+.aplayer-list-title{
+	color: #000;
+}
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
