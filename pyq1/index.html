@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0; 
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        alert('你真坏，请关闭控制台！')
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+   <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 强制移动设备以app模式打开页面(即在移动设备下全屏，仅支持部分浏览器) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="full-screen" content="yes"><!--UC强制全屏-->
+    <meta name="browsermode" content="application"><!--UC应用模式-->
+    <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
+    <meta name="x5-page-mode" content="app"><!--QQ应用模式-->
+    <title>木木木木木朋友圈</title>
+</head>
+<body bgcolor="#222222">
+<div id="hexo-circle-of-friends-root"></div>
+<!-- <script>
+    var UserConfig = {
+        // 填写你的api地址
+        private_api_url: 'https://fr-articles.tzy1997.com/',
+        // 点击加载更多时，一次最多加载几篇文章，默认10
+        page_turning_number: 12,
+        // 头像加载失败时，默认头像地址
+        error_img: 'https://bu.dusays.com/2022/05/02/626f92e193879.jpg',
+        // 进入页面时第一次的排序规则
+        sort_rule: 'created'
+    }
+</script> -->
+<script>
+  let UserConfig = {
+      
+      private_api_url: 'https://cf.edui.fun/',
+      
+      page_turning_number: 10,
+      
+      error_img: 'https://gravatar.loli.net/avatar/57d8260dfb55501c37dde588e7c3852c',
+      
+      sort_rule: 'created',
+      
+      expire_days: 1,
+  }
+</script>
+<link rel="stylesheet" href="https://npm.elemecdn.com/ethan4116-blog/lib/frdcenter/frd.css">
+<script type="text/javascript" src="https://npm.elemecdn.com/ethan4116-blog/lib/frdcenter/app.min.js"></script>
+<script type="text/javascript" src="https://npm.elemecdn.com/ethan4116-blog/lib/frdcenter/bundle.js"></script>
+</body>
+</html>
