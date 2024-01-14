@@ -1,8 +1,23 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 	<head>
 		<meta charset="utf-8">
+		<script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('你真坏，请关闭控制台！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0; 
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        alert('你真坏，请关闭控制台！')
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script>
 		<title>Bouncy Balls – 用弹跳球管理教室噪音!</title>
 		<meta name="description" content="一个免费的教室噪音水平仪表，监视器和管理工具。如果你学校的孩子太吵，那就再好不过了!弹跳的球对麦克风的声音有反应。">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
@@ -70,7 +85,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:none;-ms-text-size-adjust:n
 						<input type="radio" name="mode" id="emoji"><label for="emoji">表情</label>
 						<input type="radio" name="mode" id="numbers"><label for="numbers">数字</label>
 						<input type="radio" name="mode" id="bubbles"><label for="bubbles">泡沫</label>
-						<input type="radio" name="mode" id="eyes"><label for="eyes">眼球</label>
+						<!-- <input type="radio" name="mode" id="eyes"><label for="eyes">眼球</label> -->
 					</div>
 				</div>
 				<div class="item noise">
@@ -81,7 +96,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:none;-ms-text-size-adjust:n
 					<div class="list">
 						<input type="radio" name="sound" id="none"><label for="none">无声音</label>
 						<input type="radio" name="sound" id="beep"><label for="beep">嘟嘟响</label>
-						<input type="radio" name="sound" id="shush" checked><label for="shush">嘘嘘响</label>
+	
 					</div>
 				</div>
 			</fieldset>
