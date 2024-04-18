@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[重新hexo博客]]></title>
+    <url>%2F%E9%87%8D%E6%96%B0hexo%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[起因：删除C盘系统文件清理内存 C盘user/用户 全部文件重装电脑系统重win7升级到win10重新提交博客 保存原来的博客文件安装git node.js软件 版本要合适遇到问题 原来的版本太低，都升级到了最高版本。但node版本高了不行退回到合适版本，最后填写git相关的用户名和邮箱以及到github更新ssh以后保存好文件就可以了]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[贵阳]]></title>
     <url>%2F%E8%B4%B5%E9%98%B3%2F</url>
-    <content type="text"><![CDATA[测试]]></content>
+    <content type="text"><![CDATA[清明节假期到贵州贵阳游玩，想好了很多种游览方式，最后只在贵阳市进行打卡了白宫，黔灵山公园，甲秀楼，青岩古镇餐饮有豆米火锅，酸汤火锅，糍粑团，各种小吃花费每人1000]]></content>
   </entry>
   <entry>
     <title><![CDATA[AI网站收藏]]></title>

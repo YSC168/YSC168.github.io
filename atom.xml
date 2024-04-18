@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2024-04-11T03:14:27.391Z</updated>
+  <updated>2024-04-18T11:59:04.294Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -17,20 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>贵阳</title>
-    <link href="http://yscblog.top/%E8%B4%B5%E9%98%B3/"/>
-    <id>http://yscblog.top/贵阳/</id>
-    <published>2024-04-11T03:13:39.000Z</published>
-    <updated>2024-04-11T03:14:27.391Z</updated>
+    <title>重新hexo博客</title>
+    <link href="http://yscblog.top/%E9%87%8D%E6%96%B0hexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yscblog.top/重新hexo博客/</id>
+    <published>2024-04-18T11:52:23.000Z</published>
+    <updated>2024-04-18T11:59:04.294Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>测试</p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>起因：删除C盘系统文件清理内存  C盘user/用户  全部文件<br>重装电脑系统重win7升级到win10<br>重新提交博客 保存原来的博客文件<br>安装git node.js软件  版本要合适<br>遇到问题 原来的版本太低，都升级到了最高版本。但node版本高了不行<br>退回到合适版本，最后填写git相关的用户名和邮箱以及到github更新ssh<br>以后保存好文件就可以了</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;测试&lt;/p&gt;
-
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;起因：删除C盘系统文件清理内存  C盘user/用户  全部文件&lt;br&gt;重装电脑系统重win7升级到win10&lt;br&gt;重新提交博客 保存原来的博客文件&lt;br&gt;安装git no
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>贵阳</title>
+    <link href="http://yscblog.top/%E8%B4%B5%E9%98%B3/"/>
+    <id>http://yscblog.top/贵阳/</id>
+    <published>2024-04-11T03:13:39.000Z</published>
+    <updated>2024-04-18T12:02:38.426Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>清明节假期到贵州贵阳游玩，想好了很多种游览方式，最后只在贵阳市进行<br>打卡了白宫，黔灵山公园，甲秀楼，青岩古镇<br>餐饮有豆米火锅，酸汤火锅，糍粑团，各种小吃<br>花费每人1000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;清明节假期到贵州贵阳游玩，想好了很多种游览方式，最后只在贵阳市进行&lt;br&gt;打卡了白宫，黔灵山公园，甲秀楼，青岩古镇&lt;br&gt;餐饮有豆米火锅，酸汤火锅，糍粑团，各种小吃&lt;br&gt;花
       
     
     </summary>
@@ -390,27 +410,6 @@
         &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;从事过3家公司  都有居家办公   离职原因  &lt;/p&gt;
 &lt;p&gt;感觉居家办公实在是不舒服  没有一个合适的工位吧&lt;br&gt;居家后确实不想工作  认为偷懒是正常的&lt;/p&gt;
 &lt;p&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>最近</title>
-    <link href="http://yscblog.top/%E6%9C%80%E8%BF%91/"/>
-    <id>http://yscblog.top/最近/</id>
-    <published>2022-08-15T11:57:58.000Z</published>
-    <updated>2022-08-15T12:45:04.774Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>456789<br>终于SSH能用了  万能的百度  CSDN  gitee端需要实名认证+手持身份证有待考虑<br>还是老老实实用github  新增评论  来必应广告太多了<br>说下最近的事 佩洛西访台目送接机  连续成都 重庆高温 租房安空调觉得不够划算<br>已在高温中待了20多天了 现在买了小米加湿器 希望配合风扇会有效果<br>投影仪真就400以下无好货  试买了2个都退了  条件好些再看 </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;456789&lt;br&gt;终于SSH能用了  万能的百度  CSDN  gitee端需要实名认证+手持身份证有待考虑&lt;br&gt;还是老老实实用github  新增评论  来必应广告太多
       
     
     </summary>
