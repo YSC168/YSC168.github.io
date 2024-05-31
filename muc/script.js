@@ -5,7 +5,10 @@
  * https://soundcloud.com/term-and-conditions-mixes/new-year-dubstep-minimix
 */
 
-var media = ["https://jihulab.com/ysc168/mp3/-/raw/master/"+Math.round( Math.random() * 150 )+".mp3"
+var media = [
+
+"https://music.yscblog.top/"+Math.round( Math.random() * 150 )+".mp3"
+  // "https://jihulab.com/ysc168/mp3/-/raw/master/"+Math.round( Math.random() * 150 )+".mp3"
 
 
     // "https://music.yscblog.top/117.mp3"
