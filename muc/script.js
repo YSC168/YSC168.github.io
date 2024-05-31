@@ -4,9 +4,11 @@
  * Music by Term and Conditions Mixes
  * https://soundcloud.com/term-and-conditions-mixes/new-year-dubstep-minimix
 */
+var randomMusic = 'https://jihulab.com/ysc168/mp3/-/raw/master/'+Math.round( Math.random() * 150 )+'.mp3'; 
+var media = [randomMusic
 
-var media = [
-    "https://music.yscblog.top/117.mp3"
+  
+    // "https://music.yscblog.top/117.mp3"
   ],
   fftSize = 1024,
   // [32, 64, 128, 256, 512, 1024, 2048]
