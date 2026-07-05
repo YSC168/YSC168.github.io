@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yscblog.top/"/>
-  <updated>2025-10-28T12:25:14.083Z</updated>
+  <updated>2026-07-05T13:06:43.054Z</updated>
   <id>http://yscblog.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>影视仓安装--安卓TV</title>
+    <link href="http://yscblog.top/%E5%BD%B1%E8%A7%86%E4%BB%93%E5%AE%89%E8%A3%85-%E5%AE%89%E5%8D%93TV/"/>
+    <id>http://yscblog.top/影视仓安装-安卓TV/</id>
+    <published>2026-07-05T12:47:35.000Z</published>
+    <updated>2026-07-05T13:06:43.054Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>影视仓是一款基于 TVBox 开源代码修改的优秀APP软件，在Tvbox魔改的软件中知名度很高，而且配置方法、直播源等与Tvbox基本一致，除了TV电视盒子外，也同样支持手机APP的使用。</p><p>影视仓APP接口配置地址</p><p>下载并安装完成后进行接口配置，由于接口较多，请前往 影视仓接口配置地址 页面获取接口地址和配置方法。</p><a class="btn" href="https://pan.baidu.com/share/init?surl=uFBUyT8Js2KBsuAVV23PvQ&pwd=j2c6/" target="_blank" rel="noopener">百度网盘</a> <a class="btn" href="https://pan.quark.cn/s/83a931b5d7ac#/list/share/" target="_blank" rel="noopener">夸克网盘</a><a class="btn" href="https://pan.xunlei.com/s/VORGY_5mC9Lmz8gCynFkTbYTA1?pwd=iupb" target="_blank" rel="noopener">迅雷网盘</a><a id="more"></a><p>影视仓安装常见问题</p><p>安装时提示「显示安装包解压失败」<br>两个可能性，第一是安装包本身有问题，第二个是电视盒子系统的配置低原因，影视仓仅支持安卓5.0及以上版本系统。第二种是遇到比较多的情况。</p><p>提示</p><p>无论是影视仓还是tvbox，都需要通过自己动手配置，更有乐趣，并且可自由配置线路，不用担心APP突然无法打开和使用。</p><p>影视仓是一款非常优秀的开源影视播放器，目前主要支持安卓手机和电视盒子。影视仓软件可以通过简单的接口配置即可实现私人影院，不但内容覆盖全面，更有许多4K高清的内容源。</p><p>如果你已经安装了影视仓APP，直接复制下面配置接口地址进行配置即可。如果还没有下载和安装影视仓，可以前往 影视仓 软件页面选择需要安装的版本。</p><p>配置接口线路分为 单仓 和 多仓，单仓是指单独维护的一条线路，而多仓包含了多个单仓的地址，添加方法一样，请根据情况选择合适自己的线路。</p><p>以下配置接口地址可能会存在失效的情况，如果失效请及时反馈，青禾会更新最新的配置接口地址。</p><p>影视仓最新配置接口地址：</p><p>王二小</p><p><a href="http://tvbox.xn--4kq62z5rby2qupq9ub.top/" target="_blank" rel="noopener">http://tvbox.xn--4kq62z5rby2qupq9ub.top/</a><br>一键复制<br>饭太硬</p><p><a href="http://www.饭太硬.com/tv" target="_blank" rel="noopener">http://www.饭太硬.com/tv</a><br>一键复制<br>OK吊炸天</p><p><a href="http://ok321.top/tv" target="_blank" rel="noopener">http://ok321.top/tv</a><br>一键复制<br>4k云盘接口</p><p><a href="https://9xi4o.tk/0725.json" target="_blank" rel="noopener">https://9xi4o.tk/0725.json</a><br>一键复制<br>OK线路</p><p><a href="http://ok321.top/ok" target="_blank" rel="noopener">http://ok321.top/ok</a><br>一键复制<br>肥猫</p><p>http://肥猫.com/<br>一键复制<br>玩偶</p><p><a href="https://gitee.com/blssss/jk/raw/api/bls.json" target="_blank" rel="noopener">https://gitee.com/blssss/jk/raw/api/bls.json</a><br>一键复制<br>吃猫的鱼</p><p><a href="https://d.kstore.dev/download/7213/吃猫的鱼" target="_blank" rel="noopener">https://d.kstore.dev/download/7213/吃猫的鱼</a><br>一键复制<br>菜妮丝</p><p><a href="https://tv.xn--yhqu5zs87a.top" target="_blank" rel="noopener">https://tv.xn--yhqu5zs87a.top</a><br>一键复制<br>巧儿</p><p><a href="http://pandown.pro/tvbox/tvbox.json" target="_blank" rel="noopener">http://pandown.pro/tvbox/tvbox.json</a><br>一键复制<br>俊哥</p><p><a href="http://home.jundie.top:81/top98.json" target="_blank" rel="noopener">http://home.jundie.top:81/top98.json</a><br>一键复制<br>小盒子</p><p><a href="http://xhztv.top/xhz" target="_blank" rel="noopener">http://xhztv.top/xhz</a><br>一键复制<br>影视仓多仓配置接口地址：<br>天路多仓<br><a href="https://gitee.com/stbang/live-streaming-source/raw/master/dxaz.json" target="_blank" rel="noopener">https://gitee.com/stbang/live-streaming-source/raw/master/dxaz.json</a><br>一键复制<br>宝盒多仓<br><a href="https://bhapp.top/DC" target="_blank" rel="noopener">https://bhapp.top/DC</a><br>一键复制<br>欧歌多仓<br><a href="https://xn-dkwoc.v.nxog.top/" target="_blank" rel="noopener">https://xn-dkwoc.v.nxog.top/</a><br>一键复制<br>配置方法<br>影视仓手机版：<br>打开APP ▶ 点击右上角“+”号 ▶ 点击弹窗右上角“添加” ▶ 填写名称、粘贴上面接口地址 ▶ 确定，然后等待加载即可。</p><p>影视仓TV版：<br>打开APP ▶ 设置 ▶ 配置地址 ▶ 手动输入上面接口地址 ▶ 确定，然后等待加载即可。</p><p>配置方法</p><p>影视仓手机版：<br>打开APP ▶ 点击右上角“+”号 ▶ 点击弹窗右上角“添加” ▶ 填写名称、粘贴上面接口地址 ▶ 确定，然后等待加载即可。</p><p>影视仓TV版：<br>打开APP ▶ 设置 ▶ 配置地址 ▶ 手动输入上面接口地址 ▶ 确定，然后等待加载即可。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;影视仓是一款基于 TVBox 开源代码修改的优秀APP软件，在Tvbox魔改的软件中知名度很高，而且配置方法、直播源等与Tvbox基本一致，除了TV电视盒子外，也同样支持手机APP的使用。&lt;/p&gt;
+&lt;p&gt;影视仓APP接口配置地址&lt;/p&gt;
+&lt;p&gt;下载并安装完成后进行接口配置，由于接口较多，请前往 影视仓接口配置地址 页面获取接口地址和配置方法。&lt;/p&gt;
+&lt;a class=&quot;btn&quot; href=&quot;https://pan.baidu.com/share/init?surl=uFBUyT8Js2KBsuAVV23PvQ&amp;pwd=j2c6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度网盘&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;https://pan.quark.cn/s/83a931b5d7ac#/list/share/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;夸克网盘&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;https://pan.xunlei.com/s/VORGY_5mC9Lmz8gCynFkTbYTA1?pwd=iupb&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;迅雷网盘&lt;/a&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>甄嬛传</title>
@@ -383,29 +405,6 @@
 &lt;p&gt;本项目的用途是提供一个尽可能全面的播放器来用开发者测试和日常使用。&lt;/p&gt;
 &lt;p&gt;主要支持格式为 &lt;code&gt;m3u8&lt;/code&gt; 和 &lt;code&gt;mp4&lt;/code&gt;  官网  &lt;a href=&quot;https://player.icodeq.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://player.icodeq.com&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>好用的网站合集，强烈建议收藏</title>
-    <link href="http://yscblog.top/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86%EF%BC%8C%E5%BC%BA%E7%83%88%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/"/>
-    <id>http://yscblog.top/好用的网站合集，强烈建议收藏/</id>
-    <published>2022-12-16T14:48:17.000Z</published>
-    <updated>2022-12-17T00:55:13.048Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><div class="note info"><p>网上有非常非常多的优质网站，它们可以为我们提供许多便利。<br>个人认为好的网站应该被大家所熟知，所以写此文章来记录一些好用的网站<br></p></div><h2 id="日常通用"><a href="#日常通用" class="headerlink" title="日常通用"></a>日常通用</h2><h3 id="壁纸头像"><a href="#壁纸头像" class="headerlink" title="壁纸头像"></a>壁纸头像</h3><ul><li><p><strong><a href="https://www.woyaogexing.com/" target="_blank" rel="noopener">我要个性网</a></strong><br>专注分享图片、文字等素材（头像,图片,网名,个性签名等）</p></li><li><p><strong><a href="https://pic.netbian.com/" target="_blank" rel="noopener">彼岸图网</a></strong><br>4K壁纸_4K电脑壁纸_4K高清壁纸下载_4K,5K,6K,7K,8K壁纸图片素材</p><a id="more"></a></li><li><p><strong><a href="https://bz.zzzmh.cn/" target="_blank" rel="noopener">极简壁纸</a></strong><br>海量电脑桌面壁纸美图<em>4K超高清</em>最潮壁纸网站</p></li><li><p><strong><a href="https://wallhaven.cc/" target="_blank" rel="noopener">wallhaven</a></strong><br>The best wallpapers on the Net!</p></li><li><p><strong><a href="https://alphacoders.com/" target="_blank" rel="noopener">Alpha Coders</a></strong><br>Your Source For Wallpapers, Art, Photography, Gifs and More!</p></li><li><p><strong><a href="https://www.ggac.com/v2/home" target="_blank" rel="noopener">GGAC</a></strong><br>CG艺术创作分享平台-专业权威CG创作大赛-全球游戏动漫美术概念大赛</p></li></ul><h3 id="导航网站"><a href="#导航网站" class="headerlink" title="导航网站"></a>导航网站</h3><ul><li><strong><a href="https://edui123.com/" target="_blank" rel="noopener">Edui123 - 教学工具导航</a></strong><br>Edui123.com | 让教学简单一点点</li></ul><h3 id="实用工具"><a href="#实用工具" class="headerlink" title="实用工具"></a>实用工具</h3><ul><li><p><strong><a href="https://www.gaituya.com/" target="_blank" rel="noopener">改图鸭</a></strong><br>在线图片压缩、图片编辑、图片格式转换工具</p></li><li><p><strong><a href="https://wantwords.net/" target="_blank" rel="noopener">WantWords 反向词典</a></strong><br>唯一支持中文及中英跨语言查询的反向词典系统，可以通过描述意思来查找词语。WantWords基于最先进的人工智能和自然语言处理算法实现，由清华大学自然语言处理实验室出品</p></li><li><p><strong><a href="https://bigjpg.com/" target="_blank" rel="noopener">Bigjpg</a></strong><br>C使用人工智能深度卷积神经网络（CNN）智能无损免费放大图片，可放大4K级超高清分辨率（4000x4000）图片，最大32倍放大,效果秒杀PhotoZoom放大</p></li><li><p><strong><a href="https://123apps.com/cn/" target="_blank" rel="noopener">Web Apps by 123apps - 编辑、转换、创建</a></strong><br>一个 音频，视频，PDF 在线工具</p></li><li><p><strong><a href="https://tinyjpg.com/" target="_blank" rel="noopener">TinyJPGC</a></strong><br>一款好用的图片压缩工具</p></li><li><p><strong><a href="https://squoosh.app/" target="_blank" rel="noopener">Squoosh</a></strong><br>图片压缩</p></li><li><p><strong><a href="https://www.aconvert.com/cn/" target="_blank" rel="noopener">在线转换文档，图像，视频，音频文件</a></strong><br>在线转换PDF，在线转换文档，在线转换电子书，在线转换图像，在线转换视频，在线转换音频</p></li><li><p><strong><a href="https://www.polebrief.com/" target="_blank" rel="noopener">极简简历</a></strong><br>极简简历，polebrief简历，极简polebrief，简历模板，在线简历制作，个人简历模板，免费简历模板，简历模板下载word格式<br>缩</p></li></ul><h2 id="编程开发"><a href="#编程开发" class="headerlink" title="编程开发"></a>编程开发</h2><h3 id="编程文档"><a href="#编程文档" class="headerlink" title="编程文档"></a>编程文档</h3><ul><li><p><strong><a href="https://jquery.cuishifeng.cn/" target="_blank" rel="noopener">jQuery API 中文文档</a></strong><br>jQuery API 1.x - 3.x 中文在线版，jQuery API 中文最新版，jQuery 是一个兼容多浏览器的 JavasSript 框架，核心理念是 - write less, do more。jQuery API 中文文档(适用jQuery 1.0 - jQuery 3.x)</p></li><li><p><strong><a href="https://jquery.cuishifeng.cn/regexp.html" target="_blank" rel="noopener">正则表达式速查表Squoosh</a></strong><br>上面网站带的，单独拿出来放在这方便进行查看</p></li><li><p><strong><a href="https://jquery.cuishifeng.cn/regexp.html" target="_blank" rel="noopener">HTML5速查表</a></strong><br>同上</p></li></ul><h3 id="API接口"><a href="#API接口" class="headerlink" title="API接口"></a>API接口</h3><ul><li><p><strong><a href="https://hitokoto.cn/" target="_blank" rel="noopener">Hitokoto - 一言</a></strong></p></li><li><p><strong><a href="https://tuapi.eees.cc/" target="_blank" rel="noopener">自适应随机图片API</a></strong></p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;网上有非常非常多的优质网站，它们可以为我们提供许多便利。&lt;br&gt;个人认为好的网站应该被大家所熟知，所以写此文章来记录一些好用的网站&lt;br&gt;&lt;/p&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;日常通用&quot;&gt;&lt;a href=&quot;#日常通用&quot; class=&quot;headerlink&quot; title=&quot;日常通用&quot;&gt;&lt;/a&gt;日常通用&lt;/h2&gt;&lt;h3 id=&quot;壁纸头像&quot;&gt;&lt;a href=&quot;#壁纸头像&quot; class=&quot;headerlink&quot; title=&quot;壁纸头像&quot;&gt;&lt;/a&gt;壁纸头像&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.woyaogexing.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;我要个性网&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;专注分享图片、文字等素材（头像,图片,网名,个性签名等）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pic.netbian.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;彼岸图网&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;4K壁纸_4K电脑壁纸_4K高清壁纸下载_4K,5K,6K,7K,8K壁纸图片素材&lt;/p&gt;
     
     </summary>
     
